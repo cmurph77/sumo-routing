@@ -238,7 +238,7 @@ if __name__ == "__main__":
     network = args.arg1
 
     if network == 'grid_10':     trips_array = [500,1000,1500,2000]
-    if network == 'rand_20':     trips_array = [500,1000,1250,1500]
+    if network == 'rand_20':     trips_array = [1000]
     if network == 'net_001':     trips_array = [1000,2000,3000,4000]
 
     f1_exp = '1'
@@ -262,7 +262,7 @@ if __name__ == "__main__":
 
 
 
-    graph_results(t1_average_tt,t2_average_tt,"Average Travel Time on Netowrk: " + network, "Travel Time (seconds)",trips_array,file1_name,file2_name)
+    # graph_results(t1_average_tt,t2_average_tt,"Average Travel Time on Netowrk: " + network, "Travel Time (seconds)",trips_array,file1_name,file2_name)
 
 
 

@@ -13,3 +13,12 @@
 [2024-03-04 15:53:53.570846] , Network: net_001, Trip Size: 1000, Average Time: 692.3792, Algo: astar, Congestion T: 5
 [2024-03-04 16:02:11.431686] , Network: net_001, Trip Size: 2000, Average Time: 1492.4714, Algo: astar, Congestion T: 5
 [2024-03-04 16:21:24.645394] , Network: net_001, Trip Size: 3000, Average Time: 3921.3964, Algo: astar, Congestion T: 5
+[2024-03-04 16:48:23.742171] , Network: net_001, Trip Size: 4000, Average Time: 5715.9773, Algo: astar, Congestion T: 5
+[2024-03-04 16:48:40.188063] , Network: rand_20, Trip Size: 500, Average Time: 200.088, Algo: cr, Congestion T: 5
+[2024-03-04 16:49:05.901696] , Network: rand_20, Trip Size: 1000, Average Time: 189.671, Algo: cr, Congestion T: 5
+[2024-03-04 16:49:40.692702] , Network: rand_20, Trip Size: 1250, Average Time: 222.0368, Algo: cr, Congestion T: 5
+[2024-03-04 16:50:27.648083] , Network: rand_20, Trip Size: 1500, Average Time: 265.2606666666667, Algo: cr, Congestion T: 5
+[2024-03-04 16:50:34.050463] , Network: rand_20, Trip Size: 500, Average Time: 144.248, Algo: astar, Congestion T: 5
+[2024-03-04 16:50:50.182426] , Network: rand_20, Trip Size: 1000, Average Time: 356.76, Algo: astar, Congestion T: 5
+[2024-03-04 16:51:09.883603] , Network: rand_20, Trip Size: 1250, Average Time: 503.1816, Algo: astar, Congestion T: 5
+[2024-03-04 16:51:40.205752] , Network: rand_20, Trip Size: 1500, Average Time: 742.012, Algo: astar, Congestion T: 5
