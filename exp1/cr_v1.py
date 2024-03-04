@@ -278,7 +278,7 @@ if __name__ == "__main__":
 
     run_sim(congestion_threshold)
     avg_time = average_time.get_avg(rel_path_output_file)
-    log_results('simulation_log.txt',network,algorithm,trip_count, congestion_threshold,avg_time)
+    log_results('exp1sim_log.txt',network,algorithm,trip_count, congestion_threshold,avg_time)
 
 
     # ------------------ RUN WITH MULTIPLE TRIPS --------------------------

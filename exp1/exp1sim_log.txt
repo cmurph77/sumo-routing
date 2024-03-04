@@ -1,0 +1,4 @@
+[2024-03-04 13:26:28.275682] , Network: grid_10, Trip Size: 500, Average Time: 76.934, Algo: cr, Congestion T: 5
+[2024-03-04 13:27:27.657705] , Network: grid_10, Trip Size: 1000, Average Time: 77.378, Algo: cr, Congestion T: 5
+[2024-03-04 13:29:20.017756] , Network: grid_10, Trip Size: 2000, Average Time: 78.4745, Algo: cr, Congestion T: 5
+[2024-03-04 13:30:48.084151] , Network: grid_10, Trip Size: 1500, Average Time: 78.038, Algo: cr, Congestion T: 5
