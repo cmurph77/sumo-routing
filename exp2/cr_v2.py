@@ -118,7 +118,7 @@ def update_live_congestion(current_congestion, congestion_threshold):
 
 # this function checks if there is congestion on any of the edges on the routs
 def congestion_on_route(route, live_congestion):
-    if(len(route) < 2):
+    if(len(route) > 2):
         for edge_id in route:
             congestion = live_congestion[edge_id]
             # print(congestion)

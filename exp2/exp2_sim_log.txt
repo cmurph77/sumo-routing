@@ -9,3 +9,11 @@
 [2024-03-04 16:49:16.276601] , Network: rand_20, Trip Size: 500, Average Time: 214.238, Algo: cr, Congestion T: 10
 [2024-03-04 16:51:45.588869] , Network: rand_20, Trip Size: 1000, Average Time: 199.491, Algo: cr, Congestion T: 10
 [2024-03-04 16:59:15.023131] , Network: rand_20, Trip Size: 1000, Average Time: 189.671, Algo: cr, Congestion T: 5
+[2024-03-04 17:01:18.380797] , Network: rand_20, Trip Size: 1000, Average Time: 345.699, Algo: cr, Congestion T: 5
+[2024-03-04 17:02:19.757906] , Network: rand_20, Trip Size: 1000, Average Time: 189.671, Algo: cr, Congestion T: 5
+[2024-03-04 17:03:20.151352] , Network: rand_20, Trip Size: 1000, Average Time: 197.821, Algo: cr, Congestion T: 5
+[2024-03-04 17:04:47.432890] , Network: rand_20, Trip Size: 1500, Average Time: 252.96733333333333, Algo: cr, Congestion T: 5
+[2024-03-04 17:10:10.547820] , Network: rand_20, Trip Size: 500, Average Time: 200.088, Algo: cr, Congestion T: 5
+[2024-03-04 17:10:33.160700] , Network: rand_20, Trip Size: 1000, Average Time: 197.821, Algo: cr, Congestion T: 5
+[2024-03-04 17:11:04.945394] , Network: rand_20, Trip Size: 1250, Average Time: 226.4448, Algo: cr, Congestion T: 5
+[2024-03-04 17:11:47.732936] , Network: rand_20, Trip Size: 1500, Average Time: 252.96733333333333, Algo: cr, Congestion T: 5

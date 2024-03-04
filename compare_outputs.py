@@ -34,8 +34,8 @@ def graph_results(data1, data2,title,ylabel,labels,file1_name,file2_name):
     values2 = [list(entry.values())[0] for entry in data2]
 
 
-    rects1 = ax.bar(x - width/2, values1, width, label="Individual Routing with A*")
-    rects2 = ax.bar(x + width/2, values2, width, label="Centrally Routed (CR)")
+    rects1 = ax.bar(x - width/2, values1, width, label=file1_name)
+    rects2 = ax.bar(x + width/2, values2, width, label=file2_name)
 
     ax.set_xlabel('Trips')
     ax.set_ylabel(ylabel)
@@ -238,7 +238,7 @@ if __name__ == "__main__":
     network = args.arg1
 
     if network == 'grid_10':     trips_array = [500,1000,1500,2000]
-    if network == 'rand_20':     trips_array = [1000]
+    if network == 'rand_20':     trips_array = [500,1000,1250,1500]
     if network == 'net_001':     trips_array = [1000,2000,3000,4000]
 
     f1_exp = '1'
@@ -250,10 +250,10 @@ if __name__ == "__main__":
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")
 
     for trip_count in trips_array:
-        file1_name = f1+"_" + str(trip_count) + "tr_reg"
+        file1_name = "Exp:"+f1_exp+", Trip Count: " + str(trip_count) + ", Algo: " + f1
         file1 = "exp"+f1_exp+"/"+network+"_output_files/"+f1+"_" + str(trip_count) + "tr.out.xml"
         xml1 = parse_xml(file1)
-        file2_name = f2+"_" + str(trip_count) + "tr"
+        file2_name = "Exp:"+f2_exp+", Trip Count: " + str(trip_count) + ", Algo: " + f2
         file2 = "exp"+f2_exp+"/"+network+"_output_files/"+f2+"_" + str(trip_count) + "tr.out.xml"
         xml2 = parse_xml(file2)
         output_file_loc = "exp"+f1_exp+"/"+network+"_output_files/" + str(trip_count) + "tr_crVa.csv"
@@ -262,7 +262,7 @@ if __name__ == "__main__":
 
 
 
-    # graph_results(t1_average_tt,t2_average_tt,"Average Travel Time on Netowrk: " + network, "Travel Time (seconds)",trips_array,file1_name,file2_name)
+    graph_results(t1_average_tt,t2_average_tt,"Average Travel Time on Netowrk: " + network, "Travel Time (seconds)",trips_array,file1_name,file2_name)
 
 
 
