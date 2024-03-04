@@ -7,3 +7,5 @@
 [2024-03-04 13:34:10.746816] , Network: grid_10, Trip Size: 2000, Average Time: 78.7805, Algo: astar, Congestion T: 5
 [2024-03-04 13:35:28.561934] , Network: grid_10, Trip Size: 1500, Average Time: 78.47, Algo: astar, Congestion T: 5
 [2024-03-04 13:39:44.872546] , Network: net_001, Trip Size: 1000, Average Time: 414.778, Algo: cr, Congestion T: 5
+[2024-03-04 13:54:44.759479] , Network: net_001, Trip Size: 2000, Average Time: 665.887, Algo: cr, Congestion T: 5
+[2024-03-04 14:24:39.271671] , Network: net_001, Trip Size: 3000, Average Time: 1039.0345333333332, Algo: cr, Congestion T: 5

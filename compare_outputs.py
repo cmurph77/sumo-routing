@@ -235,26 +235,31 @@ if __name__ == "__main__":
 
     # Parse arguments
     args = parser.parse_args()
-
-    # Access parsed arguments
     network = args.arg1
 
-    #  ------ SINGLE FILE COMPARRISION
-    # trips_array = [500,1000,1500,2000]
-    trips_array = [500,1000,1250,1500]
+    if network == 'grid_10':     trips_array = [500,1000,1500,2000]
+    if network == 'rand_20':     trips_array = [500,1000,1250,1500]
+    if network == 'net_001':     trips_array = [1000,2000,3000,4000]
 
-    experiment = '1'
+    f1_exp = '1'
+    f2_exp = '2'
+    f1 = 'cr'
+    f2 = 'cr'
 
     # network = "rand_20"
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")
 
     for trip_count in trips_array:
-        file1_name = "astar_" + str(trip_count) + "tr_reg"
-        xml1 = parse_xml("exp"+experiment+"/"+network+"_output_files/astar_" + str(trip_count) + "tr.out.xml")
-        file2_name = "cr_" + str(trip_count) + "tr"
-        xml2 = parse_xml("exp"+experiment+"/"+network+"_output_files/cr_" + str(trip_count) + "tr.out.xml")
-        output_file_loc = "exp"+experiment+"/"+network+"_output_files/" + str(trip_count) + "tr_crVa.csv"
+        file1_name = f1+"_" + str(trip_count) + "tr_reg"
+        file1 = "exp"+f1_exp+"/"+network+"_output_files/"+f1+"_" + str(trip_count) + "tr.out.xml"
+        xml1 = parse_xml(file1)
+        file2_name = f2+"_" + str(trip_count) + "tr"
+        file2 = "exp"+f2_exp+"/"+network+"_output_files/"+f2+"_" + str(trip_count) + "tr.out.xml"
+        xml2 = parse_xml(file2)
+        output_file_loc = "exp"+f1_exp+"/"+network+"_output_files/" + str(trip_count) + "tr_crVa.csv"
         compare_output_files(output_file_loc,xml1, xml2,file1_name,file2_name,str(trip_count))
+
+
 
 
     graph_results(t1_average_tt,t2_average_tt,"Average Travel Time on Netowrk: " + network, "Travel Time (seconds)",trips_array,file1_name,file2_name)

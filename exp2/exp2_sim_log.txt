@@ -1,0 +1,8 @@
+[2024-03-04 13:45:34.364011] , Network: grid_10, Trip Size: 500, Average Time: 76.934, Algo: cr, Congestion T: 5
+[2024-03-04 13:46:45.707602] , Network: grid_10, Trip Size: 1000, Average Time: 77.378, Algo: cr, Congestion T: 5
+[2024-03-04 13:49:00.096533] , Network: grid_10, Trip Size: 2000, Average Time: 78.4745, Algo: cr, Congestion T: 5
+[2024-03-04 13:50:38.470537] , Network: grid_10, Trip Size: 1500, Average Time: 78.038, Algo: cr, Congestion T: 5
+[2024-03-04 13:51:13.727219] , Network: grid_10, Trip Size: 500, Average Time: 77.724, Algo: astar, Congestion T: 5
+[2024-03-04 13:52:19.330798] , Network: grid_10, Trip Size: 1000, Average Time: 77.626, Algo: astar, Congestion T: 5
+[2024-03-04 13:54:29.450554] , Network: grid_10, Trip Size: 2000, Average Time: 78.7805, Algo: astar, Congestion T: 5
+[2024-03-04 13:56:07.456676] , Network: grid_10, Trip Size: 1500, Average Time: 78.47, Algo: astar, Congestion T: 5
