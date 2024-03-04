@@ -240,17 +240,20 @@ if __name__ == "__main__":
     network = args.arg1
 
     #  ------ SINGLE FILE COMPARRISION
-    trips_array = [500,1000,1500,2000]
+    # trips_array = [500,1000,1500,2000]
+    trips_array = [500,1000,1250,1500]
+
+    experiment = '1'
 
     # network = "rand_20"
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")
 
     for trip_count in trips_array:
         file1_name = "astar_" + str(trip_count) + "tr_reg"
-        xml1 = parse_xml("/Users/cianmurphy/code_directories/final_year_project/experiments/central_routing/cr_exp1/"+network+"_output_files/astar_" + str(trip_count) + "tr.out.xml")
+        xml1 = parse_xml("exp"+experiment+"/"+network+"_output_files/astar_" + str(trip_count) + "tr.out.xml")
         file2_name = "cr_" + str(trip_count) + "tr"
-        xml2 = parse_xml("/Users/cianmurphy/code_directories/final_year_project/experiments/central_routing/cr_exp1/"+network+"_output_files/cr_" + str(trip_count) + "tr.out.xml")
-        output_file_loc = "/Users/cianmurphy/code_directories/final_year_project/experiments/central_routing/cr_exp1/"+network+"_output_files/" + str(trip_count) + "tr_crVa.csv"
+        xml2 = parse_xml("exp"+experiment+"/"+network+"_output_files/cr_" + str(trip_count) + "tr.out.xml")
+        output_file_loc = "exp"+experiment+"/"+network+"_output_files/" + str(trip_count) + "tr_crVa.csv"
         compare_output_files(output_file_loc,xml1, xml2,file1_name,file2_name,str(trip_count))
 
 
