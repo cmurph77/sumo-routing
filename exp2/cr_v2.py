@@ -31,21 +31,21 @@ def get_network_edges(net_file):
     return traci.edge.getIDList()   # gets a list of edges in the network
 
 # creates a dict with { edge_id : edge_length }
-def set_edge_length_dict():
-    edge_lengths = {}
-    for edge_id in network_edges:
-        edge_lengths[edge_id] = traci.lane.getLength(edge_id)
+# def set_edge_length_dict():
+#     edge_lengths = {}
+#     for edge_id in network_edges:
+#         edge_lengths[edge_id] = traci.lane.getLength(edge_id)
 
-    return edge_lengths
+#     return edge_lengths
 
 # creates a dict with { edge_id : current_vehicles_on_edge }
-def create_edges_current_vehicles(active_vehicles, step):
-    edges_current_vehicles = {}
-    for edge in network_edges:
-        vehicles_on_edge = traci.edge.getLastStepVehicleIDs(edge)
-        edges_current_vehicles[edge] = vehicles_on_edge
+# def create_edges_current_vehicles(active_vehicles, step):
+#     edges_current_vehicles = {}
+#     for edge in network_edges:
+#         vehicles_on_edge = traci.edge.getLastStepVehicleIDs(edge)
+#         edges_current_vehicles[edge] = vehicles_on_edge
 
-        # print ("step: " + str(step)+ " | On edge: " + edge + ", there are " + str(len(vehicles_on_edge)))
+#         # print ("step: " + str(step)+ " | On edge: " + edge + ", there are " + str(len(vehicles_on_edge)))
 
 #  creates a dict with {edge_id : current_traveltime}
 def create_edges_current_traveltime(network_edges):
@@ -200,7 +200,7 @@ def run_sim(congestion_threshold):
     network_edges = get_network_edges(net_file)                                 # gets a list of edges in the network
     baseline_edges_traveltime = create_edges_current_traveltime(network_edges)  # calculates the travel time for each edge at the start as a baseline
     # baseline_congestion = create_congestion_dict(baseline_edges_traveltime)
-    network_distances = get_distances_in_net(path_to_sim_files + net_file)
+    # network_distances = get_distances_in_net(path_to_sim_files + net_file)
 
     # Run the Simulation
     congestion_matrix = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
@@ -248,14 +248,6 @@ def read_args():
 if __name__ == "__main__":
 
     # Sim Constants - ie to be run before the start of each set up
-
-
-    # Simulation Parameters
-    # trip_count = 1000
-    # network = "net_001"
-    # congestion_threshold = 5    
-    # central_route = False
-
     trip_count, network, congestion_threshold, central_route = read_args()
     print("Trip count:", trip_count)
     print("Network:", network)
@@ -268,7 +260,6 @@ if __name__ == "__main__":
     path_to_sim_files = "sim_files/"
     net_file = network + ".net.xml"
 
-    
     # set the config files
     config_file = set_config_file(network,path_to_sim_files,algorithm)
 
@@ -278,26 +269,6 @@ if __name__ == "__main__":
 
     run_sim(congestion_threshold)
     avg_time = average_time.get_avg(rel_path_output_file)
-    log_results('simulation_log.txt',network,algorithm,trip_count, congestion_threshold,avg_time)
+    log_results('exp2_sim_log.txt',network,algorithm,trip_count, congestion_threshold,avg_time)
 
 
-    # ------------------ RUN WITH MULTIPLE TRIPS --------------------------
-    # results = {}
-    # results['TRIPS_NO'] = 'AVG_TIME'
-    # trip_sizes = [1000,2000,3000,400]
-    # # Run Simulation
-    # for trip_no in trip_sizes:
-    #     congestion_matrix_output_file = network+"_output_files/congestion_matrices/" + str(trip_count) + "tr_" + algorithm + "_cm.csv"
-    #     rel_path_output_file = network+"_output_files/" + algorithm + "_" + str(trip_count) + "tr.out.xml"
-    #     trip_count = trip_no
-    #     congestion_threshold = 5
-    #     run_sim(congestion_threshold)
-    #     avg_time = average_time.get_avg(rel_path_output_file)
-    #     results[str(trip_no)] = str(avg_time)
-    #     print("\n\n\n")
-    #     write_dict_to_file(results, "net_001_avg_tts.txt")
-    #     print(results)
-
-    # print("\n\n\n")
-    # # write_dict_to_file(results, "r20_1to100ct_1000tr_.txt")
-    # print(results)

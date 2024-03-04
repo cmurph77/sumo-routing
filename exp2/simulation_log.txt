@@ -31,3 +31,4 @@
 [2024-03-04 13:17:29.083473] , Network: rand_20, Trip Size: 1000, Average Time: 356.76, Algo: astar, Congestion T: 5
 [2024-03-04 13:17:48.917157] , Network: rand_20, Trip Size: 1250, Average Time: 503.1816, Algo: astar, Congestion T: 5
 [2024-03-04 13:18:15.218694] , Network: rand_20, Trip Size: 1500, Average Time: 742.012, Algo: astar, Congestion T: 5
+[2024-03-04 13:31:37.207591] , Network: grid_10, Trip Size: 500, Average Time: 76.934, Algo: cr, Congestion T: 5
