@@ -90,6 +90,8 @@ def create_csv(trips1,trips2,output_filename,filename_1,filename_2,trips):
         trips2_name = filename_2
 
         if len(trips1) != len(trips2):
+            print(len(trips1))
+            print(len(trips2))
             print("Error: There is not the same number of trips in both files")
 
         num_trips = len(trips1)
@@ -246,6 +248,8 @@ if __name__ == "__main__":
     f1 = 'cr'
     f2 = 'cr'
 
+    # trips_array = [1500]
+
     # network = "rand_20"
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")
 
@@ -255,6 +259,8 @@ if __name__ == "__main__":
         xml1 = parse_xml(file1)
         file2_name = "Exp:"+f2_exp+", Trip Count: " + str(trip_count) + ", Algo: " + f2
         file2 = "exp"+f2_exp+"/"+network+"_output_files/"+f2+"_" + str(trip_count) + "tr.out.xml"
+        print(file2)
+
         xml2 = parse_xml(file2)
         output_file_loc = "exp"+f1_exp+"/"+network+"_output_files/" + str(trip_count) + "tr_crVa.csv"
         compare_output_files(output_file_loc,xml1, xml2,file1_name,file2_name,str(trip_count))

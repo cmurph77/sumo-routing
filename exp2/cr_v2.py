@@ -100,30 +100,29 @@ def output_congestion_matrix(congestion_matrix, filename):
             writer.writerow(congestion_vals)
 
 # This function produces a dict like { edge_id : Boolean of whether congestion exceeds set congestion threshold}
-
-
-def update_live_congestion(current_congestion, congestion_threshold):
+def update_live_congestion(current_congestion, congestion_threshold,thresholds):
     live_congestion = {}
-    for edge_id, congeestion_level in current_congestion.items():
-        # print('congestion level:' , str(congeestion_level))
-        # print('congestion t:' , congestion_threshold)
-
-        if congeestion_level > congestion_threshold:
-            congested = True
-        else:
-            congested = f = False
-        live_congestion[edge_id] = congested
+    red,orange,green = thresholds['red'],thresholds['orange'],thresholds['green']
+    for edge_id, congestion_level in current_congestion.items():
+        if congestion_level >= red: live_congestion[edge_id] = 'red'
+        else: 
+            if congestion_level < red and congestion_level >= orange : live_congestion[edge_id] = 'orange'
+            else:
+                if congestion_level < orange : live_congestion[edge_id] = 'green'
 
     return live_congestion
 
 # this function checks if there is congestion on any of the edges on the routs
-def congestion_on_route(route, live_congestion):
-    if(len(route) > 2):
+def congestion_on_route(route, live_congestion,thresholds):
+    orange_count = 0
+    red_count = 0
+    print("printing live congesiton")
+    # print(live_congestion)
+    if(len(route) > min_route_length):
         for edge_id in route:
-            congestion = live_congestion[edge_id]
-            # print(congestion)
-            if congestion:
-                return True
+            if 'red' == live_congestion[edge_id] : return True
+            if live_congestion[edge_id] == 'orange' : orange_count = orange_count + 1
+            if orange_count >= orange_limit : return True
 
     return False
 
@@ -141,9 +140,8 @@ def get_remaining_route(current_location, routes):
 
     return remaining_route
 
-
 # SUMO simulation
-def simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime):
+def simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,thresholds):
     run = True
     step = 0
     # vehicle_rerouted = [False] * trip_count
@@ -162,7 +160,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         # print(current_congestion)
         # add to congestion matrix
         congestion_matrix.append(current_congestion)
-        live_congestion = update_live_congestion(current_congestion, congestion_threshold)  # get live congestion in boolean
+        live_congestion = update_live_congestion(current_congestion, congestion_threshold,thresholds)  # get live congestion in boolean
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
 
@@ -172,13 +170,12 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
                 # Get Vehcile Details
                 veh_location = traci.vehicle.getRoadID(vehicle_id)
                 veh_route = traci.vehicle.getRoute(vehicle_id)
-                veh_remaing_route = get_remaining_route(
-                    veh_location, veh_route)
+                veh_remaing_route = get_remaining_route(veh_location, veh_route)
                 
                 # print(live_congestion)
 
                 # Check if there is congestion on the route
-                if congestion_on_route(veh_remaing_route, live_congestion):
+                if congestion_on_route(veh_remaing_route, live_congestion,thresholds):
                     # print("rereruoting vehicles")
 
                     rerouted_count = rerouted_count + 1
@@ -194,7 +191,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
     return congestion_matrix
 
 
-def run_sim(congestion_threshold):
+def run_sim(congestion_threshold,thresholds):
     traci.start(["sumo", "-c", config_file])     # Connect to SUMO simulation
 
     #  Set up Code for measuring congestion
@@ -204,7 +201,7 @@ def run_sim(congestion_threshold):
     # network_distances = get_distances_in_net(path_to_sim_files + net_file)
 
     # Run the Simulation
-    congestion_matrix = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
+    congestion_matrix = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,thresholds)
 
     # Print out results
     output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
@@ -260,7 +257,10 @@ if __name__ == "__main__":
     else: algorithm = 'astar'
     path_to_sim_files = "sim_files/"
     net_file = network + ".net.xml"
+    min_route_length = 0
 
+    thresholds = { 'red' : 10, 'orange': 5, 'green': 1.5}
+    orange_limit = 3
     # set the config files
     config_file = set_config_file(network,path_to_sim_files,algorithm)
 
@@ -268,7 +268,7 @@ if __name__ == "__main__":
     congestion_matrix_output_file = network+"_output_files/congestion_matrices/" + str(trip_count) + "tr_" + algorithm + "_cm.csv"
     rel_path_output_file = network+"_output_files/" + algorithm + "_" + str(trip_count) + "tr.out.xml"
 
-    run_sim(congestion_threshold)
+    run_sim(congestion_threshold,thresholds)
     avg_time = average_time.get_avg(rel_path_output_file)
     log_results('exp2_sim_log.txt',network,algorithm,trip_count, congestion_threshold,avg_time)
 
