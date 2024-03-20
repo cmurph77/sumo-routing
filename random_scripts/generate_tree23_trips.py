@@ -13,13 +13,15 @@ def generate_trip_xml(num_trips):
     root = Element("routes")
     root.set("xmlns:xsi", "http://www.w3.org/2001/XMLSchema-instance")
     root.set("xsi:noNamespaceSchemaLocation", "http://sumo.dlr.de/xsd/routes_file.xsd")
-
+    start = 0.0
+    
     for i in range(num_trips):
         trip = SubElement(root, "trip")
         trip.set("id", str(i))
-        trip.set("depart", str(i))
+        trip.set("depart", str(start))
         trip.set("from", "E0")
         trip.set("to", f"F{random.randint(1, 22)}")
+        start = start + 0.25
 
     return prettify(root)
 

@@ -164,7 +164,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
 
-        if central_route:
+        if central_route  and step % 2 == 0:
             for vehicle_id in current_active_vehicles:
 
                 # Get Vehcile Details

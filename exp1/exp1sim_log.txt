@@ -73,3 +73,4 @@
 [2024-03-20 17:06:30.100644] , Network: tree_23, Trip Size: 2000, Average Time: 41.3795, Algo: astar, Congestion T: 5
 [2024-03-20 17:06:59.312421] , Network: tree_23, Trip Size: 2500, Average Time: 41.3732, Algo: astar, Congestion T: 5
 [2024-03-20 17:07:34.441850] , Network: tree_23, Trip Size: 3000, Average Time: 41.318, Algo: astar, Congestion T: 5
+[2024-03-20 17:45:24.232203] , Network: tree_23, Trip Size: 2000, Average Time: 41.3795, Algo: cr, Congestion T: 3
