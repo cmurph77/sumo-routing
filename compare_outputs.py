@@ -246,15 +246,15 @@ if __name__ == "__main__":
     if network == 'rand_20':     trips_array = [500,1000,1250,1500]
     if network == 'net_001':     trips_array = [1000,2000,3000,4000]
     if network == 'tree_23':     trips_array = [250,500,750,1000,1250,1500,2000,2500,3000]
+    if network == 'tree_100':     trips_array = [500,1000,1500,2000,2500,3000]
 
 
-    f1_exp = '1'
-    f2_exp = '2'
-    f1 = 'cr'
+    f1_exp = '3'
+    f2_exp = '3'
+    f1 = 'astar'
     f2 = 'cr'
 
-
-    # network = "rand_20"
+     # network = "rand_20"
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")
 
     for trip_count in trips_array:
