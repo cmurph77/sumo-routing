@@ -116,7 +116,7 @@ def update_live_congestion(current_congestion, congestion_threshold,thresholds):
 def congestion_on_route(route, live_congestion,thresholds):
     orange_count = 0
     red_count = 0
-    print("printing live congesiton")
+    # print("printing live congesiton")
     # print(live_congestion)
     if(len(route) > min_route_length):
         for edge_id in route:
