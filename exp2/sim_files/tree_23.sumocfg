@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../tree_23_output_files/astar_5tr.out.xml" />
+        <vehroute-output value="../tree_23_output_files/cr_5tr.out.xml" />
     </output>
 
 </configuration>
