@@ -30,3 +30,10 @@
 [2024-03-20 17:12:53.457343] , Network: tree_23, Trip Size: 2000, Average Time: 41.3795, Algo: cr, Congestion T: 5
 [2024-03-20 17:13:29.908948] , Network: tree_23, Trip Size: 2500, Average Time: 41.3732, Algo: cr, Congestion T: 5
 [2024-03-20 17:14:13.284084] , Network: tree_23, Trip Size: 3000, Average Time: 41.318, Algo: cr, Congestion T: 5
+
+[2024-03-20 19:27:50.587844] , Network: tree_100, Trip Size: 500, Average Time: 142.036, Algo: cr, Congestion T: 3
+[2024-03-20 19:28:29.403090] , Network: tree_100, Trip Size: 1000, Average Time: 145.573, Algo: cr, Congestion T: 3
+[2024-03-20 19:29:29.951752] , Network: tree_100, Trip Size: 1500, Average Time: 153.09733333333332, Algo: cr, Congestion T: 3
+[2024-03-20 19:30:49.359933] , Network: tree_100, Trip Size: 2000, Average Time: 150.7885, Algo: cr, Congestion T: 3
+[2024-03-20 19:32:31.370453] , Network: tree_100, Trip Size: 2500, Average Time: 155.9364, Algo: cr, Congestion T: 3
+[2024-03-20 19:34:31.462710] , Network: tree_100, Trip Size: 3000, Average Time: 157.024, Algo: cr, Congestion T: 3

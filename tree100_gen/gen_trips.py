@@ -21,7 +21,7 @@ def generate_trip_xml(num_trips):
         trip.set("depart", str(start))
         trip.set("from", "E0")
         trip.set("to", f"E100")
-        start = start + 0.25
+        start = start + 0.1
 
     return prettify(root)
 
