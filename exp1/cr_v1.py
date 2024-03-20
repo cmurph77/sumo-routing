@@ -164,10 +164,11 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         live_congestion = update_live_congestion(current_congestion, congestion_threshold)  # get live congestion in boolean
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
+        for vehicle_id in current_active_vehicles:
+                traci.vehicle.setMaxSpeed(vehicle_id,max_vspeed)
 
         if central_route:
             for vehicle_id in current_active_vehicles:
-                traci.vehicle.setSpeed(vehicle_id,max_vspeed)
                 # Get Vehcile Details
                 veh_location = traci.vehicle.getRoadID(vehicle_id)
                 veh_route = traci.vehicle.getRoute(vehicle_id)
@@ -194,7 +195,8 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
 
 def run_sim(congestion_threshold):
-    traci.start(["sumo-gui", "-c", config_file])     # Connect to SUMO simulation
+    if gui_bool: traci.start(["sumo-gui", "-c", config_file])     # Connect to SUMO simulation
+    else: traci.start(["sumo", "-c", config_file])     # Connect to SUMO simulation
 
     #  Set up Code for measuring congestion
     network_edges = get_network_edges(net_file)                                 # gets a list of edges in the network
@@ -262,6 +264,7 @@ if __name__ == "__main__":
     print("Congestion threshold:", congestion_threshold)
     print("Centrally route:", central_route)    
     max_vspeed = 2
+    gui_bool = True
     # File Details
     if central_route: algorithm = "cr"
     else: algorithm = 'astar'

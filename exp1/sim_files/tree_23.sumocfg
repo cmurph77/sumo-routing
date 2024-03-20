@@ -5,6 +5,9 @@
         <route-files value="../trip_files_tree_23/500tr_tree_23.trips.xml" />
 
     </input>
+    <vehicles>
+        <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" maxSpeed="2.0" />
+    </vehicles>
 
     <routing>
         <routing-algorithm value="astar" />
@@ -12,7 +15,7 @@
 
 
    <output>
-        <vehroute-output value="../tree_23_output_files/cr_500tr.out.xml" />
+        <vehroute-output value="../tree_23_output_files/astar_500tr.out.xml" />
     </output>
 
 </configuration>
