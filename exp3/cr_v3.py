@@ -192,7 +192,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
 
 def run_sim(congestion_threshold,thresholds):
-    traci.start(["sumo", "-c", config_file])     # Connect to SUMO simulation
+    traci.start(["sumo-gui", "-c", config_file])     # Connect to SUMO simulation
 
     #  Set up Code for measuring congestion
     network_edges = get_network_edges(net_file)                                 # gets a list of edges in the network

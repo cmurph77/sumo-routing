@@ -1,0 +1,2 @@
+[2024-03-20 15:41:46.593337] , Network: tree_23, Trip Size: 5, Average Time: 42.166666666666664, Algo: astar, Congestion T: 5
+[2024-03-20 15:42:41.403518] , Network: tree_23, Trip Size: 5, Average Time: 42.166666666666664, Algo: astar, Congestion T: 5

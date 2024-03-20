@@ -8,10 +8,10 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <trip id="0" depart="0.00" from="EO" to="F1"/>
-    <trip id="1" depart="1.00" from="EO" to="F3"/>
-    <trip id="2" depart="2.00" from="EO" to="F4"/>
-    <trip id="3" depart="3.00" from="EO" to="F5"/>
+    <trip id="0" depart="0.00" from="E0" to="F1"/>
+    <trip id="1" depart="1.00" from="E0" to="F3"/>
+    <trip id="2" depart="2.00" from="E0" to="F4"/>
+    <trip id="3" depart="3.00" from="E0" to="F5"/>
     <trip id="4" depart="4.00" from="E0" to="F6"/>
-    <trip id="5" depart="5.00" from="EO" to="F7"/>
+    <trip id="5" depart="5.00" from="E0" to="F7"/>
 </routes>
