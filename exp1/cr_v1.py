@@ -167,7 +167,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
         if central_route:
             for vehicle_id in current_active_vehicles:
-
+                traci.vehicle.setSpeed(vehicle_id,max_vspeed)
                 # Get Vehcile Details
                 veh_location = traci.vehicle.getRoadID(vehicle_id)
                 veh_route = traci.vehicle.getRoute(vehicle_id)
@@ -261,7 +261,7 @@ if __name__ == "__main__":
     print("Network:", network)
     print("Congestion threshold:", congestion_threshold)
     print("Centrally route:", central_route)    
-
+    max_vspeed = 2
     # File Details
     if central_route: algorithm = "cr"
     else: algorithm = 'astar'
