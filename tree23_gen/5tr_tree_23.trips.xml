@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <trip id="0" depart="0.0" from="E0" to="F2"/>
-    <trip id="1" depart="0.25" from="E0" to="F13"/>
-    <trip id="2" depart="0.5" from="E0" to="F3"/>
-    <trip id="3" depart="0.75" from="E0" to="F14"/>
-    <trip id="4" depart="1.0" from="E0" to="F11"/>
-</routes>
