@@ -257,14 +257,15 @@ if __name__ == "__main__":
     # network = "net_001"
     # congestion_threshold = 5    
     # central_route = False
+    max_vspeed = 1.5
+    gui_bool = False
 
     trip_count, network, congestion_threshold, central_route = read_args()
     print("Trip count:", trip_count)
     print("Network:", network)
     print("Congestion threshold:", congestion_threshold)
     print("Centrally route:", central_route)    
-    max_vspeed = 2
-    gui_bool = True
+
     # File Details
     if central_route: algorithm = "cr"
     else: algorithm = 'astar'

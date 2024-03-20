@@ -30,22 +30,6 @@ def write_new_line(filename, network, algorithm, trip_size, ct,avg_tt):
 def get_network_edges(net_file):
     return traci.edge.getIDList()   # gets a list of edges in the network
 
-# creates a dict with { edge_id : edge_length }
-# def set_edge_length_dict():
-#     edge_lengths = {}
-#     for edge_id in network_edges:
-#         edge_lengths[edge_id] = traci.lane.getLength(edge_id)
-
-#     return edge_lengths
-
-# creates a dict with { edge_id : current_vehicles_on_edge }
-# def create_edges_current_vehicles(active_vehicles, step):
-#     edges_current_vehicles = {}
-#     for edge in network_edges:
-#         vehicles_on_edge = traci.edge.getLastStepVehicleIDs(edge)
-#         edges_current_vehicles[edge] = vehicles_on_edge
-
-#         # print ("step: " + str(step)+ " | On edge: " + edge + ", there are " + str(len(vehicles_on_edge)))
 
 #  creates a dict with {edge_id : current_traveltime}
 def create_edges_current_traveltime(network_edges):
@@ -163,6 +147,8 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         live_congestion = update_live_congestion(current_congestion, congestion_threshold,thresholds)  # get live congestion in boolean
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
+        for vehicle_id in current_active_vehicles:
+                traci.vehicle.setMaxSpeed(vehicle_id,max_vspeed)
 
         if central_route:
             for vehicle_id in current_active_vehicles:
@@ -192,7 +178,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
 
 def run_sim(congestion_threshold,thresholds):
-    traci.start(["sumo-gui", "-c", config_file])     # Connect to SUMO simulation
+    traci.start(["sumo", "-c", config_file])     # Connect to SUMO simulation
 
     #  Set up Code for measuring congestion
     network_edges = get_network_edges(net_file)                                 # gets a list of edges in the network
@@ -251,7 +237,7 @@ if __name__ == "__main__":
     print("Network:", network)
     print("Congestion threshold:", congestion_threshold)
     print("Centrally route:", central_route)    
-
+    max_vspeed = 1.5
     # File Details
     if central_route: algorithm = "cr"
     else: algorithm = 'astar'
