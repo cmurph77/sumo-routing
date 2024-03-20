@@ -178,7 +178,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
                 # Check if there is congestion on the route
                 if congestion_on_route(veh_remaing_route, live_congestion):
-                    # print("rereruoting vehicles")
+                    print("rereruoting vehicles")
 
                     rerouted_count = rerouted_count + 1
                     # print("   veh_id: " + str(vehicle_id) + ", location: " + str(veh_location)+ " | route = " + str(veh_route) + " | left = " + str(veh_remaing_route) )

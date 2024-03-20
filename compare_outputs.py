@@ -170,12 +170,15 @@ def create_csv(trips1,trips2,output_filename,filename_1,filename_2,trips):
         t1_average_tt.append({trips:trip1_avg_tt})
         trip2_avg_tt = trip2_tot_tt/num_trips;
         t2_average_tt.append({trips:trip2_avg_tt})
+        diff = trip1_avg_tt - trip2_avg_tt
         # speed_up =  (float(t2_average_tt) / float(t1_average_tt))* 100
         if print_results_to_conole:
             print("    " +filename_1 + ' Average Time: ' +  str(trip1_avg_tt))
             print("    " +filename_2 + ' Average Time: ' +  str(trip2_avg_tt))
+            print("    diff: " + str(diff))
             print("    Same Route Count: " +str(same_route_count) + "/ " + trips)
             print("    Same Time Count:  " + str(same_tt_count) + "/ " + trips)
+            
             # print("    PERECENTAGE AVG SPEED REDUCTION: " + str(t))
 
             print("    CSV file " + output_filename+" has been created.\n")
@@ -242,13 +245,14 @@ if __name__ == "__main__":
     if network == 'grid_10':     trips_array = [500,1000,1500,2000]
     if network == 'rand_20':     trips_array = [500,1000,1250,1500]
     if network == 'net_001':     trips_array = [1000,2000,3000,4000]
+    if network == 'tree_23':     trips_array = [250,500,750,1000,1250,1500,2000,2500,3000]
+
 
     f1_exp = '1'
     f2_exp = '2'
     f1 = 'cr'
     f2 = 'cr'
 
-    # trips_array = [1500]
 
     # network = "rand_20"
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")

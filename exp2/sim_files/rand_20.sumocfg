@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../rand_20_output_files/cr_1500tr.out.xml" />
+        <vehroute-output value="../rand_20_output_files/astar_1500tr.out.xml" />
     </output>
 
 </configuration>

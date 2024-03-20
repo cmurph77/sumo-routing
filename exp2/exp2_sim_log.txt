@@ -39,3 +39,37 @@
 [2024-03-05 09:15:20.757951] , Network: rand_20, Trip Size: 1250, Average Time: 241.2176, Algo: cr, Congestion T: 5
 [2024-03-05 09:16:16.434081] , Network: rand_20, Trip Size: 1500, Average Time: 275.408, Algo: cr, Congestion T: 5
 [2024-03-20 15:53:00.287405] , Network: tree_23, Trip Size: 5, Average Time: 42.166666666666664, Algo: cr, Congestion T: 5
+[2024-03-20 16:15:53.949812] , Network: tree_23, Trip Size: 250, Average Time: 40.832, Algo: cr, Congestion T: 5
+[2024-03-20 16:16:03.074091] , Network: tree_23, Trip Size: 500, Average Time: 41.01, Algo: cr, Congestion T: 5
+[2024-03-20 16:16:15.973844] , Network: tree_23, Trip Size: 750, Average Time: 41.024, Algo: cr, Congestion T: 5
+[2024-03-20 16:16:32.095793] , Network: tree_23, Trip Size: 1000, Average Time: 41.299, Algo: cr, Congestion T: 5
+[2024-03-20 16:16:52.344199] , Network: tree_23, Trip Size: 1250, Average Time: 41.2888, Algo: cr, Congestion T: 5
+[2024-03-20 16:17:17.089225] , Network: tree_23, Trip Size: 1500, Average Time: 41.32533333333333, Algo: cr, Congestion T: 5
+[2024-03-20 16:17:27.569624] , Network: tree_23, Trip Size: 250, Average Time: 40.832, Algo: cr, Congestion T: 5
+[2024-03-20 16:17:35.555322] , Network: tree_23, Trip Size: 500, Average Time: 41.01, Algo: cr, Congestion T: 5
+[2024-03-20 16:17:46.762063] , Network: tree_23, Trip Size: 750, Average Time: 41.024, Algo: cr, Congestion T: 5
+[2024-03-20 16:18:01.283107] , Network: tree_23, Trip Size: 1000, Average Time: 41.299, Algo: cr, Congestion T: 5
+[2024-03-20 16:18:20.010831] , Network: tree_23, Trip Size: 1250, Average Time: 41.2888, Algo: cr, Congestion T: 5
+[2024-03-20 16:18:41.946557] , Network: tree_23, Trip Size: 1500, Average Time: 41.32533333333333, Algo: cr, Congestion T: 5
+
+[2024-03-20 16:23:11.218496] , Network: tree_23, Trip Size: 250, Average Time: 40.832, Algo: cr, Congestion T: 5
+[2024-03-20 16:23:19.522843] , Network: tree_23, Trip Size: 500, Average Time: 41.01, Algo: cr, Congestion T: 5
+[2024-03-20 16:23:31.403230] , Network: tree_23, Trip Size: 750, Average Time: 41.024, Algo: cr, Congestion T: 5
+[2024-03-20 16:23:47.631904] , Network: tree_23, Trip Size: 1000, Average Time: 41.299, Algo: cr, Congestion T: 5
+[2024-03-20 16:24:06.164115] , Network: tree_23, Trip Size: 1250, Average Time: 41.2888, Algo: cr, Congestion T: 5
+[2024-03-20 16:24:28.588740] , Network: tree_23, Trip Size: 1500, Average Time: 41.32533333333333, Algo: cr, Congestion T: 5
+
+[2024-03-20 16:24:33.017098] , Network: tree_23, Trip Size: 250, Average Time: 40.832, Algo: astar, Congestion T: 5
+[2024-03-20 16:24:40.158556] , Network: tree_23, Trip Size: 500, Average Time: 41.01, Algo: astar, Congestion T: 5
+[2024-03-20 16:24:49.853307] , Network: tree_23, Trip Size: 750, Average Time: 41.024, Algo: astar, Congestion T: 5
+[2024-03-20 16:25:02.399191] , Network: tree_23, Trip Size: 1000, Average Time: 41.299, Algo: astar, Congestion T: 5
+[2024-03-20 16:25:17.923291] , Network: tree_23, Trip Size: 1250, Average Time: 41.2888, Algo: astar, Congestion T: 5
+[2024-03-20 16:25:36.428285] , Network: tree_23, Trip Size: 1500, Average Time: 41.32533333333333, Algo: astar, Congestion T: 5
+[2024-03-20 16:31:19.399127] , Network: rand_20, Trip Size: 500, Average Time: 214.238, Algo: cr, Congestion T: 5
+[2024-03-20 16:31:51.237674] , Network: rand_20, Trip Size: 1000, Average Time: 199.491, Algo: cr, Congestion T: 5
+[2024-03-20 16:32:38.351054] , Network: rand_20, Trip Size: 1250, Average Time: 241.2176, Algo: cr, Congestion T: 5
+[2024-03-20 16:33:32.131320] , Network: rand_20, Trip Size: 1500, Average Time: 275.408, Algo: cr, Congestion T: 5
+[2024-03-20 16:33:38.668615] , Network: rand_20, Trip Size: 500, Average Time: 144.248, Algo: astar, Congestion T: 5
+[2024-03-20 16:33:56.685785] , Network: rand_20, Trip Size: 1000, Average Time: 356.76, Algo: astar, Congestion T: 5
+[2024-03-20 16:34:17.617909] , Network: rand_20, Trip Size: 1250, Average Time: 503.1816, Algo: astar, Congestion T: 5
+[2024-03-20 16:34:44.182400] , Network: rand_20, Trip Size: 1500, Average Time: 742.012, Algo: astar, Congestion T: 5

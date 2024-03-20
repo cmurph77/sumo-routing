@@ -1,4 +1,5 @@
 import random
+import sys
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
 
@@ -23,10 +24,15 @@ def generate_trip_xml(num_trips):
     return prettify(root)
 
 if __name__ == "__main__":
-    num_trips = 50
-    xml_content = generate_trip_xml(num_trips)
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <num_trips>")
+        sys.exit(1)
 
-    with open(str(num_trips) + "tr_tree_23.trips.xml", "w") as xml_file:
+    num_trips = int(sys.argv[1])
+    xml_content = generate_trip_xml(num_trips)
+    out_fname = str(num_trips) + "tr_tree_23.trips.xml"
+    
+    with open(out_fname, "w") as xml_file:
         xml_file.write(xml_content)
 
-    print("XML file 'trips.xml' has been generated successfully.")
+    print("XML file " + out_fname + " has been generated successfully.")

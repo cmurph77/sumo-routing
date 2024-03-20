@@ -116,7 +116,7 @@ def update_live_congestion(current_congestion, congestion_threshold,thresholds):
 def congestion_on_route(route, live_congestion,thresholds):
     orange_count = 0
     red_count = 0
-    print("printing live congesiton")
+    # print("printing live congesiton")
     # print(live_congestion)
     if(len(route) > min_route_length):
         for edge_id in route:
@@ -176,7 +176,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
                 # Check if there is congestion on the route
                 if congestion_on_route(veh_remaing_route, live_congestion,thresholds):
-                    # print("rereruoting vehicles")
+                    print("rereruoting vehicles")
 
                     rerouted_count = rerouted_count + 1
                     # print("   veh_id: " + str(vehicle_id) + ", location: " + str(veh_location)+ " | route = " + str(veh_route) + " | left = " + str(veh_remaing_route) )
