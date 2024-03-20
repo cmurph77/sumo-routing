@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     num_trips = int(sys.argv[1])
     xml_content = generate_trip_xml(num_trips)
-    out_fname = str(num_trips) + "tr_tree_100.trips.xml"
+    out_fname = str(num_trips) + "tr_tree_23.trips.xml"
     
     with open(out_fname, "w") as xml_file:
         xml_file.write(xml_content)
