@@ -236,11 +236,22 @@ if __name__ == "__main__":
 
     # Add arguments
     parser.add_argument('arg1', type=str, help='Description of argument 1')
+    parser.add_argument('arg2', type=str, help='Description of argument 1')
+    parser.add_argument('arg3', type=str, help='Description of argument 1')
+    parser.add_argument('arg4', type=str, help='Description of argument 1')
+    parser.add_argument('arg5', type=str, help='Description of argument 1')
+
     # parser.add_argument('arg2', type=str, help='Description of argument 2')
 
     # Parse arguments
     args = parser.parse_args()
     network = args.arg1
+    f1_exp = args.arg2
+    f1 = args.arg3
+    f2_exp = args.arg4
+    f2 = args.arg5
+
+
 
     if network == 'grid_10':     trips_array = [500,1000,1500,2000]
     if network == 'rand_20':     trips_array = [500,1000,1250,1500]
@@ -249,10 +260,6 @@ if __name__ == "__main__":
     if network == 'tree_100':     trips_array = [500,1000,1500,2000,2500,3000,4000,5000,6000]
 
 
-    f1_exp = '1'
-    f2_exp = '3'
-    f1 = 'cr'
-    f2 = 'cr'
 
      # network = "rand_20"
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")
