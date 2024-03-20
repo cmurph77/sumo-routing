@@ -40,3 +40,4 @@
 [2024-03-20 19:43:09.883632] , Network: tree_100, Trip Size: 4000, Average Time: 161.07825, Algo: cr, Congestion T: 3
 [2024-03-20 19:47:23.329787] , Network: tree_100, Trip Size: 5000, Average Time: 159.6102, Algo: cr, Congestion T: 3
 [2024-03-20 19:52:29.348621] , Network: tree_100, Trip Size: 6000, Average Time: 163.38633333333334, Algo: cr, Congestion T: 3
+[2024-03-20 20:06:34.616958] , Network: tree_100, Trip Size: 5000, Average Time: 159.6102, Algo: cr, Congestion T: 3

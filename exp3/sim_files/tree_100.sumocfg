@@ -2,7 +2,7 @@
 
     <input>
         <net-file value="tree_100.net.xml" />
-        <route-files value="../trip_files_tree_100/6000tr_tree_100.trips.xml" />
+        <route-files value="../trip_files_tree_100/5000tr_tree_100.trips.xml" />
 
     </input>
 
@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../tree_100_output_files/cr_6000tr.out.xml" />
+        <vehroute-output value="../tree_100_output_files/cr_5000tr.out.xml" />
     </output>
 
 </configuration>
