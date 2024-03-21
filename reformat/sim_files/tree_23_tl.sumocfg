@@ -1,0 +1,21 @@
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="tree_23_tl.net.xml" />
+        <route-files value="trip_files/trip_files_tree_23_tl/500tr_tree_23_tl.trips.xml" />
+
+    </input>
+    <vehicles>
+        <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" maxSpeed="2.0" />
+    </vehicles>
+
+    <routing>
+        <routing-algorithm value="astar" />
+    </routing>
+
+
+   <output>
+        <vehroute-output value="../out/so_v1_out/tree_23_tl_output_files/cr_500tr.out.xml" />
+    </output>
+
+</configuration>
