@@ -149,6 +149,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
     rerouted_count = 0
     congestion_matrix = []
     live_congestion = {}
+    route_allocation_count = 1
 
     while run:
         t.simulationStep()
@@ -168,14 +169,19 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
                 
         # ----- Analyse Each Vehicle  ------------------------------------------------
 
-        tree_tl_left_route =  ['E0','E1','E3','E8','E30' ,'E38','E42','E100']
-        tree_tl_right_route = ['E0','E2','E6','E13','E37','E41','E43','E100']
-        for vehicle_id in current_active_vehicles:
-                if traci.vehicle.getRoadID(vehicle_id) == 'E0' :
-                    if int(vehicle_id) % 2 == 0:
-                        traci.vehicle.setRoute(vehicle_id,tree_tl_right_route)
-                    else: traci.vehicle.setRoute(vehicle_id,tree_tl_left_route)
+        routes = {
+            '1' : ['E0','E1','E3','E8','E30' ,'E38','E42','E100'],
+            '2' : ['E0','E2','E6','E13','E37','E41','E43','E100'] ,       
+            '3' : ['E0','E1','E26','E27','E32' ,'E39','E42','E100'],
+            '4' : ['E0','E2','E7','E29','E34','E40','E43','E100']
+        }    
 
+
+        new_vehs = traci.simulation.getDepartedIDList()
+        for vehicle in new_vehs :
+            traci.vehicle.setRoute(vehicle,routes[str(route_allocation_count)])
+            route_allocation_count = route_allocation_count + 1
+            if route_allocation_count == len(routes) + 1 : route_allocation_count = 1 # reset 
 
         # -----------------------------------------------------------------------------
         step += 1
