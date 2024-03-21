@@ -2,7 +2,7 @@
 
     <input>
         <net-file value="tree_23_tl.net.xml" />
-        <route-files value="trip_files/trip_files_tree_23_tl/500tr_tree_23_tl.trips.xml" />
+        <route-files value="trip_files/trip_files_tree_23_tl/1000tr_tree_23_tl.trips.xml" />
 
     </input>
     <vehicles>
@@ -15,7 +15,7 @@
 
 
    <output>
-        <vehroute-output value="../out/so_v1_out/tree_23_tl_output_files/cr_500tr.out.xml" />
+        <vehroute-output value="../out/so_v1_out/tree_23_tl_output_files/cr_1000tr.out.xml" />
     </output>
 
 </configuration>
