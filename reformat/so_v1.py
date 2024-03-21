@@ -10,8 +10,6 @@ import numpy as np
 
 import datetime
 
-tree_tl_left_route =  ['E1','E3','E8','E30' ,'E38','E42','E100']
-tree_tl_right_route = ['E2','E6','E13','E37','E41','E43','E100']
 
 
 def log_results(filename, network, algorithm, trip_size, ct,avg_tt):
@@ -170,24 +168,14 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
                 
         # ----- Analyse Each Vehicle  ------------------------------------------------
 
-        if central_route:
-            for vehicle_id in current_active_vehicles:
-                # Get Vehcile Details
-                veh_location = traci.vehicle.getRoadID(vehicle_id)
-                veh_route = traci.vehicle.getRoute(vehicle_id)
-                veh_remaing_route = get_remaining_route(
-                    veh_location, veh_route)
-                
-                # print(live_congestion)
+        tree_tl_left_route =  ['E0','E1','E3','E8','E30' ,'E38','E42','E100']
+        tree_tl_right_route = ['E0','E2','E6','E13','E37','E41','E43','E100']
+        for vehicle_id in current_active_vehicles:
+                if traci.vehicle.getRoadID(vehicle_id) == 'E0' :
+                    if int(vehicle_id) % 2 == 0:
+                        traci.vehicle.setRoute(vehicle_id,tree_tl_right_route)
+                    else: traci.vehicle.setRoute(vehicle_id,tree_tl_left_route)
 
-                # Check if there is congestion on the route
-                if congestion_on_route(veh_remaing_route, live_congestion):
-                    # print("rereruoting vehicles")
-
-                    rerouted_count = rerouted_count + 1
-                    # print("   veh_id: " + str(vehicle_id) + ", location: " + str(veh_location)+ " | route = " + str(veh_route) + " | left = " + str(veh_remaing_route) )
-                    traci.vehicle.rerouteTraveltime(vehicle_id)
-                    # vehicle_rerouted[int(vehicle_id)] = True
 
         # -----------------------------------------------------------------------------
         step += 1
