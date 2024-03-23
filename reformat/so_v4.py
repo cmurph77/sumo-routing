@@ -138,35 +138,40 @@ def get_remaining_route(current_location, routes):
 
     return remaining_route
 
-# this function sorts actuve vehicles by running time and halfs the list by running time
-def find_vehicles_to_reroute(current_active_vehicles):
-    sim_time = traci.simulation.getTime()
-    veh_running_times = {}
-    sorted_veh_running_times = {}
+def calculate_route_distance(veh_id,network_distances):
+    distance = 0
+    route = traci.vehicle.getRoute(veh_id)
+    # edges = traci.route.getEdges(route)
+    for edge in route:
+        edge_length = network_distances[edge]
+        distance = distance + edge_length
+    
+    distance_traveled = traci.vehicle.getDistance(veh_id)
+    distance = distance = distance_traveled
+    return distance
+
+# this function sorts actuve vehicles by distance left and returns a vehicles with longest distances to travel
+def find_vehicles_to_reroute(current_active_vehicles,network_distances):
+    veh_distances_left = {}
+    sorted_veh_distances_left = {}
 
     for veh in current_active_vehicles:
-            # Calculate time vehicle has been running
-            running_time = sim_time - traci.vehicle.getDeparture(veh)
-            veh_running_times[veh] = running_time
-            sorted_veh_running_times = dict(sorted(veh_running_times.items(), key=lambda item: item[1], reverse = True)) # sort the list of vehicels by running times
-            
+            distance_left = calculate_route_distance(veh,network_distances)
+            veh_distances_left[veh] = distance_left
+            sorted_veh_distances_left = dict(sorted(veh_distances_left.items(), key=lambda item: item[1], reverse = False)) # sort the list of vehicels by running times
+            # print("regular")
+            # print(veh_distances_left)
+            # print("sorted")
+            # print(sorted_veh_distances_left)
 
     # split dictionary in half
-    items_list = list(sorted_veh_running_times.items())
-    midpoint = len(sorted_veh_running_times) // 2
+    items_list = list(sorted_veh_distances_left.items())
+    midpoint = len(sorted_veh_distances_left) // 2
     vehicles_to_reroute = dict(items_list[:midpoint])
-
-    # print("regular")
-    # print(veh_running_times)
-    # print("sorted")
-    # print(sorted_veh_running_times)
-    # print('vehicles to reroute')
-    # print(vehicles_to_reroute)
-    
     return vehicles_to_reroute
 
 # SUMO simulation
-def simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime):
+def simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,network_distances):
     run = True
     step = 0
     # vehicle_rerouted = [False] * trip_count
@@ -192,7 +197,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
                 traci.vehicle.setMaxSpeed(vehicle_id,max_vspeed)
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
-        vehicles_to_reroute = find_vehicles_to_reroute(current_active_vehicles)
+        vehicles_to_reroute = find_vehicles_to_reroute(current_active_vehicles,network_distances)
         for vehicle_id in vehicles_to_reroute:
             # Get Vehcile Details
             veh_location = traci.vehicle.getRoadID(vehicle_id)
@@ -227,9 +232,10 @@ def run_sim(congestion_threshold):
     baseline_edges_traveltime = create_edges_current_traveltime(network_edges)  # calculates the travel time for each edge at the start as a baseline
     # baseline_congestion = create_congestion_dict(baseline_edges_traveltime)
     network_distances = get_distances_in_net(path_to_sim_files + net_file)
+    # print(network_distances)
 
     # Run the Simulation
-    congestion_matrix = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
+    congestion_matrix = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,network_distances)
 
     # Print out results
     output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
@@ -277,7 +283,7 @@ if __name__ == "__main__":
     # Sim Constants - ie to be run before the start of each set up
 
     gui_bool = False
-    alg_name = 'so_v3'
+    alg_name = 'so_v4'
     out_directory = 'out/'+alg_name+'_out'
 
     trip_count, network, congestion_threshold, central_route,max_vspeed = read_args()
