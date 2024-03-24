@@ -274,7 +274,7 @@ if __name__ == "__main__":
 
     if network == 'grid_10':     trips_array = [500,1000,1500,2000]
     # if network == 'rand_20':     trips_array = [500,1000,1250]
-    if network == 'rand_20':     trips_array = [1000,1001,1002,1003,1004]
+    if network == 'rand_20':     trips_array = [1000,1001,1002,1003,1004,1005]
     if network == 'net_001':     trips_array = [1000,2000]
     if network == 'tree_23':     trips_array = [500,1000,1500,2000]
     if network == 'tree_23_tl':  trips_array = [1500,2000]
