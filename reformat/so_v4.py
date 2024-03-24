@@ -158,7 +158,7 @@ def find_vehicles_to_reroute(current_active_vehicles,network_distances):
     for veh in current_active_vehicles:
             distance_left = calculate_route_distance(veh,network_distances)
             veh_distances_left[veh] = distance_left
-            sorted_veh_distances_left = dict(sorted(veh_distances_left.items(), key=lambda item: item[1], reverse = False)) # sort the list of vehicels by running times
+            sorted_veh_distances_left = dict(sorted(veh_distances_left.items(), key=lambda item: item[1], reverse = True)) # sort the list of vehicels by running times
             # print("regular")
             # print(veh_distances_left)
             # print("sorted")

@@ -1,0 +1,1 @@
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n rand_20.net.xml -e 1000 --random

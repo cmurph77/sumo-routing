@@ -141,13 +141,14 @@ def get_remaining_route(current_location, routes):
 def calculate_route_distance(veh_id,network_distances):
     distance = 0
     route = traci.vehicle.getRoute(veh_id)
+    route_left = get_remaining_route(traci.vehicle.getRoadID(veh_id),route)
     # edges = traci.route.getEdges(route)
-    for edge in route:
+    for edge in route_left:
         edge_length = network_distances[edge]
         distance = distance + edge_length
     
-    distance_traveled = traci.vehicle.getDistance(veh_id)
-    distance = distance = distance_traveled
+    # distance_traveled = traci.vehicle.getDistance(veh_id)
+    # distance = distance = distance_traveled
     return distance
 
 # this function sorts actuve vehicles by distance left and returns a vehicles with longest distances to travel

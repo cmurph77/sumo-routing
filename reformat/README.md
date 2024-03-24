@@ -11,5 +11,5 @@ this was copied from og_cr, it only allows vehicele to reroute if they ar ein th
 so_v4.py:
 this was copied from so_v3. it sorts active vehicles by distanct left and gives priority to shortest paths left - ie letteing the bottom half of vehicles reroute
 
-so_v4.py:
+so_v5.py:
 this was copied from so_v3. it sorts active vehicles by distanct left and gives priority to longest paths left - ie letteing the top half of vehicles reroute. similar to v4 but used a longest first approach
