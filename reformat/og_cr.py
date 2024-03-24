@@ -10,13 +10,19 @@ import numpy as np
 
 import datetime
 
+last_step = 0
+
 def log_results(filename, network, algorithm, trip_size, ct,avg_tt):
     """Append a new line to a text file."""
     current_time = datetime.datetime.now()
     current_time = '[' + str(current_time) + '] , '
-    line = str(current_time) + "Network: " + network + ", Trip Size: " + str(trip_size)+ ", Average Time: " + str(avg_tt)  + ", Algo: "  +algorithm+ ", Congestion T: " + str(ct) +', Maxspeed: ' + str(max_vspeed)
+    line = str(current_time) + "Network: " + network + ", Trip Size: " + str(trip_size)+ ", Average Time: " + str(avg_tt)  + ", Algo: "  +algorithm+ ", Congestion T: " + str(ct) +', Maxspeed: ' + str(max_vspeed) + ', sim_time: ' + str(last_step)
     with open(filename, 'a') as file:
         file.write(line + '\n')
+    with open('log.txt', 'a') as file:
+        file.write(alg_name + "--" +line + '\n')
+
+
 
 # write a dictionary to a txt file
 def write_new_line(filename, network, algorithm, trip_size, ct,avg_tt):
@@ -185,10 +191,13 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
         # -----------------------------------------------------------------------------
         step += 1
+        # print(step)
+        last_step = step
+
         if t.vehicle.getIDCount() == 0:
             run = False
 
-    return congestion_matrix
+    return congestion_matrix, last_step
 
 
 def run_sim(congestion_threshold):
@@ -202,13 +211,15 @@ def run_sim(congestion_threshold):
     network_distances = get_distances_in_net(path_to_sim_files + net_file)
 
     # Run the Simulation
-    congestion_matrix = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
+    congestion_matrix,last_step = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
 
     # Print out results
     output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
 
+
     # Close TraCI connection - End Simulation
     traci.close()
+    return last_step
 
 def set_config_file(network,path_to_sim_files,algorithm):
     # Sim input files Files
@@ -248,6 +259,7 @@ def read_args():
 if __name__ == "__main__":
 
     # Sim Constants - ie to be run before the start of each set up
+    # last_step = 0
 
     gui_bool = False
     alg_name = 'og_cr'
@@ -274,7 +286,10 @@ if __name__ == "__main__":
     rel_path_output_file = out_directory+"/"+network+"_output_files/" + algorithm + "_" + str(trip_count) + "tr.out.xml"
 
     print("congifg file:" + config_file)
-    run_sim(congestion_threshold)
+    last_step = run_sim(congestion_threshold)
+    print("printing last ste from main() " + str(last_step))
+
+
     avg_time = average_time.get_avg(rel_path_output_file)
     log_file = out_directory+"/"+alg_name+'_sim_log.txt'
     log_results(log_file,network,algorithm,trip_count, congestion_threshold,avg_time)

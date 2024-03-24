@@ -10,13 +10,20 @@ import numpy as np
 
 import datetime
 
+last_step = 0
+
+
 def log_results(filename, network, file_key, trip_size, ct,avg_tt):
     """Append a new line to a text file."""
     current_time = datetime.datetime.now()
     current_time = '[' + str(current_time) + '] , '
-    line = str(current_time) + "Network: " + network + ", Trip Size: " + str(trip_size)+ ", Average Time: " + str(avg_tt)  + ", Algo: "  +file_key+ ", Congestion T: " + str(ct) +',MaxSpeed:' + str(max_vspeed)
+    line = str(current_time) + "Network: " + network + ", Trip Size: " + str(trip_size)+ ", Average Time: " + str(avg_tt)  + ", Algo: "  +'cr' + ", Congestion T: " + str(ct) +', Maxspeed: ' + str(max_vspeed) + ', sim_time: ' + str(last_step)
     with open(filename, 'a') as file:
         file.write(line + '\n')
+    with open('log.txt', 'a') as file:
+        file.write(alg_name + "--" +line + '\n')
+
+
 
 # write a dictionary to a txt file
 def write_new_line(filename, network, file_key, trip_size, ct,avg_tt):
@@ -171,6 +178,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         # -----------------------------------------------------------------------------
         step += 1
         if t.vehicle.getIDCount() == 0:
+            last_step = step
             run = False
 
     return congestion_matrix
