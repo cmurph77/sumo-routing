@@ -1,0 +1,71 @@
+> Executing step 0
+>> Running router on sim_files/trip_files/trip_files_rand_20/1000tr_rand_20.trips.xml
+>>> Begin time: 2024-03-26 11:29:47.316082
+>>> End time: 2024-03-26 11:29:47.397334
+>>> Duration: 0:00:00.081252
+<<
+>> Running simulation
+>>> Begin time: 2024-03-26 11:29:47.397409
+>>> End time: 2024-03-26 11:29:49.217554
+>>> Duration: 0:00:01.820145
+<<
+< Step 0 ended (duration: 0:00:01.901607)
+------------------
+
+> Executing step 1
+>> Running router on 000/1000tr_rand_20_000.rou.alt.xml
+>>> Begin time: 2024-03-26 11:29:49.217998
+>>> End time: 2024-03-26 11:29:49.309722
+>>> Duration: 0:00:00.091724
+<<
+>> Running simulation
+>>> Begin time: 2024-03-26 11:29:49.309798
+>>> End time: 2024-03-26 11:29:50.079819
+>>> Duration: 0:00:00.770021
+<<
+< Step 1 ended (duration: 0:00:00.861946)
+------------------
+
+> Executing step 2
+>> Running router on 001/1000tr_rand_20_001.rou.alt.xml
+>>> Begin time: 2024-03-26 11:29:50.080234
+>>> End time: 2024-03-26 11:29:50.176390
+>>> Duration: 0:00:00.096156
+<<
+>> Running simulation
+>>> Begin time: 2024-03-26 11:29:50.176466
+>>> End time: 2024-03-26 11:29:50.584398
+>>> Duration: 0:00:00.407932
+<<
+< Step 2 ended (duration: 0:00:00.504281)
+------------------
+
+> Executing step 3
+>> Running router on 002/1000tr_rand_20_002.rou.alt.xml
+>>> Begin time: 2024-03-26 11:29:50.584956
+>>> End time: 2024-03-26 11:29:50.684339
+>>> Duration: 0:00:00.099383
+<<
+>> Running simulation
+>>> Begin time: 2024-03-26 11:29:50.684427
+>>> End time: 2024-03-26 11:29:51.078136
+>>> Duration: 0:00:00.393709
+<<
+< Step 3 ended (duration: 0:00:00.493282)
+------------------
+
+> Executing step 4
+>> Running router on 003/1000tr_rand_20_003.rou.alt.xml
+>>> Begin time: 2024-03-26 11:29:51.078517
+>>> End time: 2024-03-26 11:29:51.175992
+>>> Duration: 0:00:00.097475
+<<
+>> Running simulation
+>>> Begin time: 2024-03-26 11:29:51.176066
+>>> End time: 2024-03-26 11:29:51.564094
+>>> Duration: 0:00:00.388028
+<<
+< Step 4 ended (duration: 0:00:00.485687)
+------------------
+
+dua-iterate ended (duration: 0:00:04.248430)
