@@ -152,7 +152,7 @@ def find_vehicles_to_reroute(current_active_vehicles):
             # Calculate time vehicle has been running
             running_time = sim_time - traci.vehicle.getDeparture(veh)
             veh_running_times[veh] = running_time
-            sorted_veh_running_times = dict(sorted(veh_running_times.items(), key=lambda item: item[1], reverse = True)) # sort the list of vehicels by running times
+            sorted_veh_running_times = dict(sorted(veh_running_times.items(), key=lambda item: item[1], reverse = False)) # sort the list of vehicels by running times
             
 
     # split dictionary in half
@@ -160,12 +160,12 @@ def find_vehicles_to_reroute(current_active_vehicles):
     midpoint = len(sorted_veh_running_times) // 2
     vehicles_to_reroute = dict(items_list[:midpoint])
 
-    print("regular")
-    print(veh_running_times)
-    print("sorted")
-    print(sorted_veh_running_times)
-    print('vehicles to reroute')
-    print(vehicles_to_reroute)
+    # print("regular")
+    # print(veh_running_times)
+    # print("sorted")
+    # print(sorted_veh_running_times)
+    # print('vehicles to reroute')
+    # print(vehicles_to_reroute)
     
     return vehicles_to_reroute
 
