@@ -153,44 +153,33 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
     rerouted_count = 0
     congestion_matrix = []
     live_congestion = {}
-    route_allocation_count = 1
 
     while run:
         t.simulationStep()
         # Get Current Time Step Variables  -------------------------------------------------
 
         current_active_vehicles = traci.vehicle.getIDList()  # get a list of active vehicles
-        active_veh_count = len(current_active_vehicles)
+        # active_veh_count = len(current_active_vehicles)
         current_travel_times = create_edges_current_traveltime(network_edges)
         current_congestion = create_congestion_dict(current_travel_times,baseline_edges_traveltime)   # get a congestion dict for time step
         # print(current_congestion)
         # add to congestion matrix
         congestion_matrix.append(current_congestion)
-        live_congestion = update_live_congestion(current_congestion, congestion_threshold)  # get live congestion in boolean
+        # live_congestion = update_live_congestion(current_congestion, congestion_threshold)  # get live congestion in boolean
 
+        # ----- Analyse Each Vehicle  ------------------------------------------------
         for vehicle_id in current_active_vehicles:
                 traci.vehicle.setMaxSpeed(vehicle_id,max_vspeed)
-                
-        # ----- Analyse Each Vehicle  ------------------------------------------------
-
-        routes = {
-            '1' : ['E0','E1','E3','E8','E30' ,'E38','E42','E100'],
-            '2' : ['E0','E2','E6','E13','E37','E41','E43','E100'] ,       
-            '3' : ['E0','E1','E26','E27','E32' ,'E39','E42','E100'],
-            '4' : ['E0','E2','E7','E29','E34','E40','E43','E100']
-        }    
+                traci.vehicle.rerouteTraveltime(vehicle_id)
 
 
-        new_vehs = traci.simulation.getDepartedIDList()
-        for vehicle in new_vehs :
-            traci.vehicle.setRoute(vehicle,routes[str(route_allocation_count)])
-            route_allocation_count = route_allocation_count + 1
-            if route_allocation_count == len(routes) + 1 : route_allocation_count = 1 # reset 
 
         # -----------------------------------------------------------------------------
         step += 1
+        # print(step)
+        last_step = step
+
         if t.vehicle.getIDCount() == 0:
-            last_step = step
             run = False
 
     return congestion_matrix, last_step
@@ -207,14 +196,14 @@ def run_sim(congestion_threshold):
     network_distances = get_distances_in_net(path_to_sim_files + net_file)
 
     # Run the Simulation
-    congestion_matrix, last_step = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
+    congestion_matrix,last_step = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
 
     # Print out results
     output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
 
+
     # Close TraCI connection - End Simulation
     traci.close()
-
     return last_step
 
 def set_config_file(network,path_to_sim_files,algorithm):
@@ -234,8 +223,8 @@ def set_config_file(network,path_to_sim_files,algorithm):
 def read_args():
     parser = argparse.ArgumentParser(description="Description of your script.")
     # Define arguments
-    parser.add_argument("trip_count", help="set the trip count")
-    parser.add_argument("set_network", help="set the network")
+    parser.add_argument("arg1", help="set the trip count")
+    parser.add_argument("arg2", help="set the network")
     parser.add_argument("arg3", help="set the congestion threshold")
     parser.add_argument("arg5", help="max v speed")
 
@@ -243,8 +232,8 @@ def read_args():
     args = parser.parse_args()
 
     # Accessing arguments
-    trip_count = args.trip_count
-    network = args.set_network
+    trip_count = args.arg1
+    network = args.arg2
     congestion_threshold = int(args.arg3)
     central_route = True
     max_vspeed = float(args.arg5)
@@ -255,9 +244,10 @@ def read_args():
 if __name__ == "__main__":
 
     # Sim Constants - ie to be run before the start of each set up
+    # last_step = 0
 
     gui_bool = False
-    alg_name = 'so_v1'
+    alg_name = 'ue_simple'
     out_directory = 'out/'+alg_name+'_out'
 
     trip_count, network, congestion_threshold, central_route,max_vspeed = read_args()
@@ -282,6 +272,9 @@ if __name__ == "__main__":
 
     print("congifg file:" + config_file)
     last_step = run_sim(congestion_threshold)
+    print("printing last ste from main() " + str(last_step))
+
+
     avg_time = average_time.get_avg(rel_path_output_file)
     log_file = out_directory+"/"+alg_name+'_sim_log.txt'
     log_results(log_file,network,algorithm,trip_count, congestion_threshold,avg_time)

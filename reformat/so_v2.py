@@ -199,7 +199,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
             last_step = step
             run = False
 
-    return congestion_matrix
+    return congestion_matrix, last_step
 
 
 def run_sim(congestion_threshold):

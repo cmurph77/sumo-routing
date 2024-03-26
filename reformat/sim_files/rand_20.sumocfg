@@ -2,7 +2,7 @@
 
     <input>
         <net-file value="rand_20.net.xml" />
-        <route-files value="trip_files/trip_files_rand_20/1001tr_rand_20.trips.xml" />
+        <route-files value="trip_files/trip_files_rand_20/1005tr_rand_20.trips.xml" />
 
     </input>
 
@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../out/so_v4_out/rand_20_output_files/cr_1001tr.out.xml" />
+        <vehroute-output value="../out/so_v5_out/rand_20_output_files/cr_1005tr.out.xml" />
     </output>
 
 </configuration>

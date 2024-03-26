@@ -22,7 +22,6 @@ def log_results(filename, network, algorithm, trip_size, ct,avg_tt):
         file.write(alg_name + "--" +line + '\n')
 
 
-
 # write a dictionary to a txt file
 def write_new_line(filename, network, algorithm, trip_size, ct,avg_tt):
     """Append a new line to a text file."""
@@ -164,7 +163,7 @@ def find_vehicles_to_reroute(current_active_vehicles,network_distances):
     for veh in current_active_vehicles:
             distance_left = calculate_route_distance(veh,network_distances)
             veh_distances_left[veh] = distance_left
-            sorted_veh_distances_left = dict(sorted(veh_distances_left.items(), key=lambda item: item[1], reverse = False)) # sort the list of vehicels by running times
+            sorted_veh_distances_left = dict(sorted(veh_distances_left.items(), key=lambda item: item[1], reverse = True)) # sort the list of vehicels by running times
             # print("regular")
             # print(veh_distances_left)
             # print("sorted")
@@ -173,6 +172,11 @@ def find_vehicles_to_reroute(current_active_vehicles,network_distances):
     # split dictionary in half
     items_list = list(sorted_veh_distances_left.items())
     midpoint = len(sorted_veh_distances_left) // 2
+    # print('\n\nmidpoint: ' + str(midpoint))
+    # upper_q = len(sorted_veh_distances_left) // 4
+    # print('upper_q: ' + str(upper_q))
+    # print('legnth of dict: ' + str(len(sorted_veh_distances_left)))
+    # index  = midpoint + upper_q
     vehicles_to_reroute = dict(items_list[:midpoint])
     return vehicles_to_reroute
 
@@ -203,7 +207,8 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
                 traci.vehicle.setMaxSpeed(vehicle_id,max_vspeed)
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
-        vehicles_to_reroute = find_vehicles_to_reroute(current_active_vehicles,network_distances)
+        if step > 200 : vehicles_to_reroute = find_vehicles_to_reroute(current_active_vehicles,network_distances)
+        else : vehicles_to_reroute = current_active_vehicles
         for vehicle_id in vehicles_to_reroute:
             # Get Vehcile Details
             veh_location = traci.vehicle.getRoadID(vehicle_id)
@@ -223,11 +228,12 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
 
         # -----------------------------------------------------------------------------
         step += 1
+        last_step = step
         if t.vehicle.getIDCount() == 0:
             last_step = step
             run = False
 
-    return congestion_matrix
+    return congestion_matrix,last_step
 
 
 def run_sim(congestion_threshold):
@@ -242,13 +248,14 @@ def run_sim(congestion_threshold):
     # print(network_distances)
 
     # Run the Simulation
-    congestion_matrix = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,network_distances)
+    congestion_matrix,last_step = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,network_distances)
 
     # Print out results
     output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
 
     # Close TraCI connection - End Simulation
     traci.close()
+    return last_step
 
 def set_config_file(network,path_to_sim_files,algorithm):
     # Sim input files Files
@@ -314,7 +321,7 @@ if __name__ == "__main__":
     rel_path_output_file = out_directory+"/"+network+"_output_files/" + algorithm + "_" + str(trip_count) + "tr.out.xml"
 
     print("congifg file:" + config_file)
-    run_sim(congestion_threshold)
+    last_step = run_sim(congestion_threshold)
     avg_time = average_time.get_avg(rel_path_output_file)
     log_file = out_directory+"/"+alg_name+'_sim_log.txt'
     log_results(log_file,network,algorithm,trip_count, congestion_threshold,avg_time)
