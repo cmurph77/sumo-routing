@@ -247,7 +247,7 @@ if __name__ == "__main__":
     # last_step = 0
 
     gui_bool = False
-    alg_name = 'ue_simple'
+    alg_name = 'so_simple'
     out_directory = 'out/'+alg_name+'_out'
 
     trip_count, network, congestion_threshold, central_route,max_vspeed = read_args()

@@ -71,8 +71,14 @@
 # python3 so_v5.py 1004 rand_20 3 15.00
 # python3 so_v5.py 1005 rand_20 3 15.00
 
-python3 ue_simple.py 1001 rand_20 3 15.00
-python3 ue_simple.py 1002 rand_20 3 15.00
-python3 ue_simple.py 1003 rand_20 3 15.00
-python3 ue_simple.py 1004 rand_20 3 15.00
-python3 ue_simple.py 1005 rand_20 3 15.00
+python3 so_simple.py 1001 rand_20 3 15.00
+python3 so_simple.py 1002 rand_20 3 15.00
+python3 so_simple.py 1003 rand_20 3 15.00
+python3 so_simple.py 1004 rand_20 3 15.00
+python3 so_simple.py 1005 rand_20 3 15.00
+
+# python3 ue_simple.py 1001 rand_20 3 15.00
+# python3 ue_simple.py 1002 rand_20 3 15.00
+# python3 ue_simple.py 1003 rand_20 3 15.00
+# python3 ue_simple.py 1004 rand_20 3 15.00
+# python3 ue_simple.py 1005 rand_20 3 15.00
