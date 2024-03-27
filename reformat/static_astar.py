@@ -241,7 +241,7 @@ if __name__ == "__main__":
 
     # Sim Constants - ie to be run before the start of each set up
 
-    gui_bool = False
+    gui_bool = True
     alg_name = 'static_astar'
     out_directory = 'out/'+alg_name+'_out'
 
@@ -270,6 +270,6 @@ if __name__ == "__main__":
     run_sim(congestion_threshold)
     avg_time = average_time.get_avg(rel_path_output_file)
     log_file = out_directory+"/"+alg_name+'_sim_log.txt'
-    log_results(log_file,network,file_key,trip_count, congestion_threshold,avg_time)
+    # log_results(log_file,network,file_key,trip_count, congestion_threshold,avg_time)
 
 

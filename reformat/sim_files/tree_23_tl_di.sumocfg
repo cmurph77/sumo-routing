@@ -2,12 +2,9 @@
 
     <input>
         <net-file value="tree_23_tl.net.xml" />
-        <route-files value="trip_files/trip_files_tree_23_tl/500tr_tree_23_tl.trips.xml" />
+        <route-files value="routes/tree_23_tl_routes/500tr/014/500tr_tree_23_tl_014.rou.xml" />
 
     </input>
-    <vehicles>
-        <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" maxSpeed="2.0" />
-    </vehicles>
 
     <routing>
         <routing-algorithm value="astar" />
@@ -15,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../out/so_simple_out/tree_23_tl_output_files/cr_500tr.out.xml" />
+        <vehroute-output value="../out/so_v6_out/tree_23_tl_output_files/cr_500tr.out.xml" />
     </output>
 
 </configuration>

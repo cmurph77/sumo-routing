@@ -1,100 +1,50 @@
-python3 so_simple.py     1000 rand_20 3 15.00
-python3 ue_simple.py 1000 rand_20 3 15.00
-python3 so_simple.py     1001 rand_20 3 15.00
-python3 ue_simple.py 1001 rand_20 3 15.00
-python3 so_simple.py     1002 rand_20 3 15.00
-python3 ue_simple.py 1002 rand_20 3 15.00
-python3 so_simple.py     1003 rand_20 3 15.00
-python3 ue_simple.py 1003 rand_20 3 15.00
-python3 so_simple.py     1004 rand_20 3 15.00
-python3 ue_simple.py 1004 rand_20 3 15.00
-python3 so_simple.py     1005 rand_20 3 15.00
-python3 ue_simple.py 1005 rand_20 3 15.00
-python3 so_simple.py     1006 rand_20 3 15.00
-python3 ue_simple.py 1006 rand_20 3 15.00
-python3 so_simple.py     1007 rand_20 3 15.00
-python3 ue_simple.py 1007 rand_20 3 15.00
-python3 so_simple.py     1008 rand_20 3 15.00
-python3 ue_simple.py 1008 rand_20 3 15.00
-python3 so_simple.py     1009 rand_20 3 15.00
-python3 ue_simple.py 1009 rand_20 3 15.00
-python3 so_simple.py     1010 rand_20 3 15.00
-python3 ue_simple.py 1010 rand_20 3 15.00
-python3 so_simple.py     1011 rand_20 3 15.00
-python3 ue_simple.py 1011 rand_20 3 15.00
-python3 so_simple.py     1012 rand_20 3 15.00
-python3 ue_simple.py 1012 rand_20 3 15.00
-python3 so_simple.py     1013 rand_20 3 15.00
-python3 ue_simple.py 1013 rand_20 3 15.00
-python3 so_simple.py     1014 rand_20 3 15.00
-python3 ue_simple.py 1014 rand_20 3 15.00
-python3 so_simple.py     1015 rand_20 3 15.00
-python3 ue_simple.py 1015 rand_20 3 15.00
-python3 so_simple.py     1016 rand_20 3 15.00
-python3 ue_simple.py 1016 rand_20 3 15.00
-python3 so_simple.py     1017 rand_20 3 15.00
-python3 ue_simple.py 1017 rand_20 3 15.00
-python3 so_simple.py     1018 rand_20 3 15.00
-python3 ue_simple.py 1018 rand_20 3 15.00
-python3 so_simple.py     1019 rand_20 3 15.00
-python3 ue_simple.py 1019 rand_20 3 15.00
-python3 so_simple.py     1020 rand_20 3 15.00
-python3 ue_simple.py 1020 rand_20 3 15.00
-python3 so_simple.py     1021 rand_20 3 15.00
-python3 ue_simple.py 1021 rand_20 3 15.00
-python3 so_simple.py     1022 rand_20 3 15.00
-python3 ue_simple.py 1022 rand_20 3 15.00
-python3 so_simple.py     1023 rand_20 3 15.00
-python3 ue_simple.py 1023 rand_20 3 15.00
-python3 so_simple.py     1024 rand_20 3 15.00
-python3 ue_simple.py 1024 rand_20 3 15.00
-python3 so_simple.py     1025 rand_20 3 15.00
-python3 ue_simple.py 1025 rand_20 3 15.00
-python3 so_simple.py     1026 rand_20 3 15.00
-python3 ue_simple.py 1026 rand_20 3 15.00
-python3 so_simple.py     1027 rand_20 3 15.00
-python3 ue_simple.py 1027 rand_20 3 15.00
-python3 so_simple.py     1028 rand_20 3 15.00
-python3 ue_simple.py 1028 rand_20 3 15.00
-python3 so_simple.py     1029 rand_20 3 15.00
-python3 ue_simple.py 1029 rand_20 3 15.00
-python3 so_simple.py     1030 rand_20 3 15.00
-python3 ue_simple.py 1030 rand_20 3 15.00
-python3 so_simple.py     1031 rand_20 3 15.00
-python3 ue_simple.py 1031 rand_20 3 15.00
-python3 so_simple.py     1032 rand_20 3 15.00
-python3 ue_simple.py 1032 rand_20 3 15.00
-python3 so_simple.py     1033 rand_20 3 15.00
-python3 ue_simple.py 1033 rand_20 3 15.00
-python3 so_simple.py     1034 rand_20 3 15.00
-python3 ue_simple.py 1034 rand_20 3 15.00
-python3 so_simple.py     1035 rand_20 3 15.00
-python3 ue_simple.py 1035 rand_20 3 15.00
-python3 so_simple.py     1036 rand_20 3 15.00
-python3 ue_simple.py 1036 rand_20 3 15.00
-python3 so_simple.py     1037 rand_20 3 15.00
-python3 ue_simple.py 1037 rand_20 3 15.00
-python3 so_simple.py     1038 rand_20 3 15.00
-python3 ue_simple.py 1038 rand_20 3 15.00
-python3 so_simple.py     1039 rand_20 3 15.00
-python3 ue_simple.py 1039 rand_20 3 15.00
-python3 so_simple.py     1040 rand_20 3 15.00
-python3 ue_simple.py 1040 rand_20 3 15.00
-python3 so_simple.py     1041 rand_20 3 15.00
-python3 ue_simple.py 1041 rand_20 3 15.00
-python3 so_simple.py     1042 rand_20 3 15.00
-python3 ue_simple.py 1042 rand_20 3 15.00
-python3 so_simple.py     1043 rand_20 3 15.00
-python3 ue_simple.py 1043 rand_20 3 15.00
-python3 so_simple.py     1044 rand_20 3 15.00
-python3 ue_simple.py 1044 rand_20 3 15.00
-python3 so_simple.py     1045 rand_20 3 15.00
-python3 ue_simple.py 1045 rand_20 3 15.00
-python3 so_simple.py     1046 rand_20 3 15.00
-python3 ue_simple.py 1046 rand_20 3 15.00
-python3 so_simple.py     1047 rand_20 3 15.00
-python3 ue_simple.py 1047 rand_20 3 15.00
-python3 so_simple.py     1048 rand_20 3 15.00
-python3 ue_simple.py 1048 rand_20 3 15.00
-python3 so_simple.py     1049 rand_20 3 15.00
-python3 ue_simple.py 1049 rand_20 3 15.00
+python3 so_simple.py 500 tree_23_tl 3 5 1
+python3 so_simple.py 500 tree_23_tl 3 5 1.001
+python3 so_simple.py 500 tree_23_tl 3 5 1.002
+python3 so_simple.py 500 tree_23_tl 3 5 1.003
+python3 so_simple.py 500 tree_23_tl 3 5 1.004
+python3 so_simple.py 500 tree_23_tl 3 5 1.005
+python3 so_simple.py 500 tree_23_tl 3 5 1.006
+python3 so_simple.py 500 tree_23_tl 3 5 1.007
+python3 so_simple.py 500 tree_23_tl 3 5 1.008
+python3 so_simple.py 500 tree_23_tl 3 5 1.009
+python3 so_simple.py 500 tree_23_tl 3 5 1.01
+python3 so_simple.py 500 tree_23_tl 3 5 1.011
+python3 so_simple.py 500 tree_23_tl 3 5 1.012
+python3 so_simple.py 500 tree_23_tl 3 5 1.013
+python3 so_simple.py 500 tree_23_tl 3 5 1.014
+python3 so_simple.py 500 tree_23_tl 3 5 1.015
+python3 so_simple.py 500 tree_23_tl 3 5 1.016
+python3 so_simple.py 500 tree_23_tl 3 5 1.017
+python3 so_simple.py 500 tree_23_tl 3 5 1.018
+python3 so_simple.py 500 tree_23_tl 3 5 1.019
+python3 so_simple.py 500 tree_23_tl 3 5 1.02
+python3 so_simple.py 500 tree_23_tl 3 5 1.021
+python3 so_simple.py 500 tree_23_tl 3 5 1.022
+python3 so_simple.py 500 tree_23_tl 3 5 1.023
+python3 so_simple.py 500 tree_23_tl 3 5 1.024
+python3 so_simple.py 500 tree_23_tl 3 5 1.025
+python3 so_simple.py 500 tree_23_tl 3 5 1.026
+python3 so_simple.py 500 tree_23_tl 3 5 1.027
+python3 so_simple.py 500 tree_23_tl 3 5 1.028
+python3 so_simple.py 500 tree_23_tl 3 5 1.029
+python3 so_simple.py 500 tree_23_tl 3 5 1.03
+python3 so_simple.py 500 tree_23_tl 3 5 1.031
+python3 so_simple.py 500 tree_23_tl 3 5 1.032
+python3 so_simple.py 500 tree_23_tl 3 5 1.033
+python3 so_simple.py 500 tree_23_tl 3 5 1.034
+python3 so_simple.py 500 tree_23_tl 3 5 1.035
+python3 so_simple.py 500 tree_23_tl 3 5 1.036
+python3 so_simple.py 500 tree_23_tl 3 5 1.037
+python3 so_simple.py 500 tree_23_tl 3 5 1.038
+python3 so_simple.py 500 tree_23_tl 3 5 1.039
+python3 so_simple.py 500 tree_23_tl 3 5 1.04
+python3 so_simple.py 500 tree_23_tl 3 5 1.041
+python3 so_simple.py 500 tree_23_tl 3 5 1.042
+python3 so_simple.py 500 tree_23_tl 3 5 1.043
+python3 so_simple.py 500 tree_23_tl 3 5 1.044
+python3 so_simple.py 500 tree_23_tl 3 5 1.045
+python3 so_simple.py 500 tree_23_tl 3 5 1.046
+python3 so_simple.py 500 tree_23_tl 3 5 1.047
+python3 so_simple.py 500 tree_23_tl 3 5 1.048
+python3 so_simple.py 500 tree_23_tl 3 5 1.049

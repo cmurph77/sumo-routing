@@ -292,6 +292,6 @@ if __name__ == "__main__":
 
     avg_time = average_time.get_avg(rel_path_output_file)
     log_file = out_directory+"/"+alg_name+'_sim_log.txt'
-    log_results(log_file,network,algorithm,trip_count, congestion_threshold,avg_time)
+    # log_results(log_file,network,algorithm,trip_count, congestion_threshold,avg_time)
 
 

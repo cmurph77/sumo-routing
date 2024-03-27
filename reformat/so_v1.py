@@ -144,7 +144,6 @@ def get_remaining_route(current_location, routes):
 
     return remaining_route
 
-
 # SUMO simulation
 def simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime):
     run = True
@@ -154,6 +153,12 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
     congestion_matrix = []
     live_congestion = {}
     route_allocation_count = 1
+    route_alloc_count = {
+            '1' : 0,
+            '2' : 0,       
+            '3' : 0,
+            '4' : 0
+        }
 
     while run:
         t.simulationStep()
@@ -184,6 +189,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         new_vehs = traci.simulation.getDepartedIDList()
         for vehicle in new_vehs :
             traci.vehicle.setRoute(vehicle,routes[str(route_allocation_count)])
+            route_alloc_count[str(route_allocation_count)] = route_alloc_count[str(route_allocation_count)] + 1
             route_allocation_count = route_allocation_count + 1
             if route_allocation_count == len(routes) + 1 : route_allocation_count = 1 # reset 
 
@@ -192,6 +198,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         if t.vehicle.getIDCount() == 0:
             last_step = step
             run = False
+            print(route_alloc_count)
 
     return congestion_matrix, last_step
 
@@ -256,7 +263,7 @@ if __name__ == "__main__":
 
     # Sim Constants - ie to be run before the start of each set up
 
-    gui_bool = False
+    gui_bool = True
     alg_name = 'so_v1'
     out_directory = 'out/'+alg_name+'_out'
 

@@ -168,9 +168,13 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         # live_congestion = update_live_congestion(current_congestion, congestion_threshold)  # get live congestion in boolean
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
+        for edge_id in network_edges:
+            traci.edge.setEffort(edge_id,traci.edge.getTraveltime(edge_id))
+
+        # ----- Analyse Each Vehicle  ------------------------------------------------
         for vehicle_id in current_active_vehicles:
                 traci.vehicle.setMaxSpeed(vehicle_id,max_vspeed)
-                traci.vehicle.rerouteTraveltime(vehicle_id)
+                traci.vehicle.rerouteEffort(vehicle_id)
 
 
 
