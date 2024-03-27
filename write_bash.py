@@ -29,7 +29,7 @@ def sim_gen2():
     'python3 so_simple.py 500 tree_23_tl 3 5 1.01'
     with open("write_bash_out.txt", "w") as file:
         # Write "Hello, world!" to the file
-        iterations = 50
+        iterations = 300
         start_iter = 0
         factor = 1
         for i in range(0,iterations):
