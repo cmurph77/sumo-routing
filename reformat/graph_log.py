@@ -15,7 +15,9 @@ def main():
     trip_data = {'so_simple': {}, 'ue_simple': {}}
     total_avg_times = {'so_simple': [], 'ue_simple': []}
 
-    with open('soVue_r20.txt', 'r') as file:
+    # fname = 'soVue_r20.txt'
+    fname = 'net1_log.txt'
+    with open(fname, 'r') as file:
         for line in file:
             algo, trip_size, avg_time = parse_line(line)
             if algo and trip_size and avg_time:

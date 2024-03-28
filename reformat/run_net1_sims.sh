@@ -1,9 +1,9 @@
-python3 so_simple.py     2000 net_001 3 15.00 1.01
-python3 ue_simple.py 2000 net_001 3 15.00
-python3 so_simple.py     2001 net_001 3 15.00 1.01
-python3 ue_simple.py 2001 net_001 3 15.00
-python3 so_simple.py     2002 net_001 3 15.00 1.01
-python3 ue_simple.py 2002 net_001 3 15.00
+# python3 so_simple.py     2000 net_001 3 15.00 1.01
+# python3 ue_simple.py 2000 net_001 3 15.00
+# python3 so_simple.py     2001 net_001 3 15.00 1.01
+# python3 ue_simple.py 2001 net_001 3 15.00
+# python3 so_simple.py     2002 net_001 3 15.00 1.01
+# python3 ue_simple.py 2002 net_001 3 15.00
 python3 so_simple.py     2003 net_001 3 15.00 1.01
 python3 ue_simple.py 2003 net_001 3 15.00
 python3 so_simple.py     2004 net_001 3 15.00 1.01
