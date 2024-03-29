@@ -5,7 +5,6 @@ import argparse
 def calculate_column_averages(csv_file):
     # Initialize lists to store column data
     columns = []
-
     # Read the CSV file and extract column data
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
@@ -54,24 +53,24 @@ def plot_column_averages(column_averages, column_labels,trip_count,net,algorithm
 def main():
     
     # Create argument parser
-    parser = argparse.ArgumentParser(description='Description of your script.')
+    # parser = argparse.ArgumentParser(description='Description of your script.')
 
     # Add arguments
-    parser.add_argument('arg1', type=str, help='Description of argument 1')
-    parser.add_argument('arg2', type=int, help='Description of argument 2')
+    # parser.add_argument('arg1', type=str, help='Description of argument 1')
+    # parser.add_argument('arg2', type=int, help='Description of argument 2')
 
     # Parse arguments
-    args = parser.parse_args()
+    # args = parser.parse_args()
 
     # # Access parsed arguments
-    net = args.arg1
-    trip_count = args.arg2
-    algorithm = 'astar'
+    # net = args.arg1
+    # trip_count = args.arg2
+    # algorithm = 'astar'
 
     exp_a = 1
     exp_b = 2
 
-    csv_file = "/Users/cianmurphy/code_directories/final_year_project/experiments/central_routing/cr_exp1/"+net+"_output_files/congestion_matrices/"+str(trip_count)+"tr_"+algorithm+"_cm.csv"
+    csv_file = "old_exps/exp3/grid_10_output_files/congestion_matrices/1000tr_cr_cm.csv"
     column_averages = calculate_column_averages(csv_file)
     
     # Extract column labels from the header row
@@ -80,6 +79,9 @@ def main():
         column_labels = next(reader)
 
     # Plot column averages with column labels
+    trip_count = 1000
+    net = 'grid_10'
+    algorithm = 'cr'
     plot_column_averages(column_averages, column_labels,trip_count,net,algorithm)
 
 if __name__ == "__main__":

@@ -159,13 +159,12 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         # Get Current Time Step Variables  -------------------------------------------------
 
         current_active_vehicles = traci.vehicle.getIDList()  # get a list of active vehicles
-        # active_veh_count = len(current_active_vehicles)
-        # current_travel_times = create_edges_current_traveltime(network_edges)
-        # current_congestion = create_congestion_dict(current_travel_times,baseline_edges_traveltime)   # get a congestion dict for time step
-        # print(current_congestion)
-        # add to congestion matrix
-        # congestion_matrix.append(current_congestion)
-        # live_congestion = update_live_congestion(current_congestion, congestion_threshold)  # get live congestion in boolean
+        active_veh_count = len(current_active_vehicles)
+        current_travel_times = create_edges_current_traveltime(network_edges)
+        current_congestion = create_congestion_dict(current_travel_times,baseline_edges_traveltime)   # get a congestion dict for time step
+        print(current_congestion)
+        congestion_matrix.append(current_congestion)
+        live_congestion = update_live_congestion(current_congestion, congestion_threshold)  # get live congestion in boolean
 
         # ----- Analyse Each Vehicle  ------------------------------------------------
         for edge_id in network_edges:
@@ -203,7 +202,7 @@ def run_sim(congestion_threshold):
     congestion_matrix,last_step = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime)
 
     # Print out results
-    # output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
+    output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
 
 
     # Close TraCI connection - End Simulation
