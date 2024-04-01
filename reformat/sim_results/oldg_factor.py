@@ -14,7 +14,7 @@ def main():
     increase_factors = []
     avg_times = []
 
-    with open('factor_data.txt', 'r') as file:
+    with open('r20_p05_factor.txt', 'r') as file:
         for line in file:
             avg_time, increase_factor = parse_line(line)
             if avg_time is not None and increase_factor is not None:

@@ -1,4 +1,4 @@
-so_simple--[2024-03-27 13:23:01.133178] , Network: rand_20, Trip Size: 1000, Average Time: 320.632, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1686
+so_simple--[2024-03-27 13:23:01.133178] , Network: rand_20, Trip Size: , Average Time: 320.632, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1686
 ue_simple--[2024-03-27 13:23:55.948574] , Network: rand_20, Trip Size: 1000, Average Time: 303.703, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1646
 so_simple--[2024-03-27 13:25:06.296377] , Network: rand_20, Trip Size: 1001, Average Time: 282.194, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1655
 ue_simple--[2024-03-27 13:25:57.379541] , Network: rand_20, Trip Size: 1001, Average Time: 283.733, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1546

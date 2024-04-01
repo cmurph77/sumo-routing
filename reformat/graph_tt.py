@@ -21,8 +21,8 @@ def add_mean_to_plot(travel_times, ax):
     ax.legend()
 
 # Define file paths
-file1 = 'reformat/out/so_simple_out/rand_20_output_files/cr_1002tr.out.xml'
-file2 = 'reformat/out/ue_simple_out/rand_20_output_files/cr_1002tr.out.xml'
+file1 = 'out/so_simple_out/rand_20_output_files/cr_1000tr.out.xml'
+file2 = 'out/ue_simple_out/rand_20_output_files/cr_1000tr.out.xml'
 
 # Extract travel times from both files
 travel_times_file1 = extract_travel_times(file1)
