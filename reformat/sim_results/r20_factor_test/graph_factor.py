@@ -11,7 +11,6 @@ def analyze_csv(csv_file):
             sum_of_averages[str(round(factor,3))] = 0
             factor = factor + 0.005
             i = i+1
-        print(sum_of_averages)
         
         for line_number, line in enumerate(reader, start=2):  # Start at line 2 (since we already read the header)
             # Example analysis: Counting the number of columns in each line
@@ -20,10 +19,10 @@ def analyze_csv(csv_file):
             avg_time = float(line[5])
             trip_size = float(line[4])
             factor = str(line[6])
-            print('line number:' + str(line_number))
-            print('factor:' + str(factor))
             sum_of_averages[factor] = sum_of_averages[factor] + avg_time
 
+
+        print(sum_of_averages)
 
         # print(sum_of_averages)
         for key in sum_of_averages:
@@ -46,12 +45,12 @@ def analyze_csv(csv_file):
 
         # Displaying the graph
         plt.grid(True)
-        plt.savefig('r20_p1_factor.png')  # Saving the plot as a PNG file
+        plt.savefig('r20_p05_factor.png')  # Saving the plot as a PNG file
         plt.show()
 
             
             
 # Usage example
 if __name__ == "__main__":
-    csv_file_path = "r20_p1_factor.csv"  # Provide the path to your CSV file here
+    csv_file_path = "r20_p05_factor.csv"  # Provide the path to your CSV file here
     analyze_csv(csv_file_path)
