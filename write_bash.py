@@ -50,14 +50,14 @@ def sim_gen3():
 def gen_trips():
     with open("write_bash_out.txt", "w") as file:
             # Write "Hello, world!" to the file
-            iterations = 10
+            iterations = 50
             start_iter = 0
-            trip_filecount = 2000
+            trip_filecount = 101
             for i in range(0,iterations):
-                file.write('python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 500 --random --period 2\n')
-                file.write('mv trips.trips.xml '+str(trip_filecount)+'tr_rand20.trips.xml\n')
+                file.write('python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1\n')
+                file.write('mv trips.trips.xml 0'+str(trip_filecount)+'tr_net_001.trips.xml\n')
                 trip_filecount = trip_filecount + 1
 
 if __name__ == "__main__":
     
-    sim_gen3()
+    gen_trips()

@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../out/so_dynamic_out/rand_20_output_files/cr_1000tr.out.xml" />
+        <vehroute-output value="../out/so_simple_out/rand_20_output_files/cr_1000tr.out.xml" />
     </output>
 
 </configuration>

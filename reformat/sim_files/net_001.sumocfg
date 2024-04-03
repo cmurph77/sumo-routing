@@ -2,7 +2,7 @@
 
     <input>
         <net-file value="net_001.net.xml" />
-        <route-files value="trip_files/trip_files_net_001/2044tr_net_001.trips.xml" />
+        <route-files value="trip_files/trip_files_net_001/0101tr_net_001.trips.xml" />
 
     </input>
 
@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../out/ue_simple_out/net_001_output_files/cr_2044tr.out.xml" />
+        <vehroute-output value="../out/ue_simple_out/net_001_output_files/cr_0101tr.out.xml" />
     </output>
 
 </configuration>

@@ -275,7 +275,7 @@ if __name__ == "__main__":
     # Sim Constants - ie to be run before the start of each set up
     # last_step = 0
 
-    gui_bool = False
+    gui_bool = True
     alg_name = 'so_simple'
     out_directory = 'out/'+alg_name+'_out'
 

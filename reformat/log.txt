@@ -2003,3 +2003,6 @@ so_dynamic--[2024-04-03 14:11:52.661334] , Network: rand_20, Trip Size: 1000, Av
 so_dynamic--[2024-04-03 14:15:24.921161] , Network: tree_23_tl, Trip Size: 500, Average Time: 167.492, Increase factor: 0, Congestion T: 3, Maxspeed: 15.0, sim_time: 1698
 so_simple--[2024-04-03 14:18:13.388901] , Network: tree_23_tl, Trip Size: 500, Average Time: 173.864, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1697
 so_dynamic--[2024-04-03 14:54:07.325179] , Network: rand_20, Trip Size: 1000, Average Time: 230.887, Increase factor: 0, Congestion T: 3, Maxspeed: 15.0, sim_time: 1476
+
+ue_simple--[2024-04-03 17:17:42.976039] , Network: net_001, Trip Size: 0101, Average Time: 362.8191808191808, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 869
+so_simple--[2024-04-03 17:18:13.161962] , Network: net_001, Trip Size: 0101, Average Time: 387.43956043956047, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 926

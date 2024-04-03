@@ -1,310 +1,100 @@
-python3 so_simple.py 500 rand_20 3 15 1
-python3 so_simple.py 501 rand_20 3 15 1
-python3 so_simple.py 502 rand_20 3 15 1
-python3 so_simple.py 503 rand_20 3 15 1
-python3 so_simple.py 504 rand_20 3 15 1
-python3 so_simple.py 505 rand_20 3 15 1
-python3 so_simple.py 506 rand_20 3 15 1
-python3 so_simple.py 507 rand_20 3 15 1
-python3 so_simple.py 508 rand_20 3 15 1
-python3 so_simple.py 509 rand_20 3 15 1
-python3 so_simple.py 500 rand_20 3 15 1.005
-python3 so_simple.py 501 rand_20 3 15 1.005
-python3 so_simple.py 502 rand_20 3 15 1.005
-python3 so_simple.py 503 rand_20 3 15 1.005
-python3 so_simple.py 504 rand_20 3 15 1.005
-python3 so_simple.py 505 rand_20 3 15 1.005
-python3 so_simple.py 506 rand_20 3 15 1.005
-python3 so_simple.py 507 rand_20 3 15 1.005
-python3 so_simple.py 508 rand_20 3 15 1.005
-python3 so_simple.py 509 rand_20 3 15 1.005
-python3 so_simple.py 500 rand_20 3 15 1.01
-python3 so_simple.py 501 rand_20 3 15 1.01
-python3 so_simple.py 502 rand_20 3 15 1.01
-python3 so_simple.py 503 rand_20 3 15 1.01
-python3 so_simple.py 504 rand_20 3 15 1.01
-python3 so_simple.py 505 rand_20 3 15 1.01
-python3 so_simple.py 506 rand_20 3 15 1.01
-python3 so_simple.py 507 rand_20 3 15 1.01
-python3 so_simple.py 508 rand_20 3 15 1.01
-python3 so_simple.py 509 rand_20 3 15 1.01
-python3 so_simple.py 500 rand_20 3 15 1.015
-python3 so_simple.py 501 rand_20 3 15 1.015
-python3 so_simple.py 502 rand_20 3 15 1.015
-python3 so_simple.py 503 rand_20 3 15 1.015
-python3 so_simple.py 504 rand_20 3 15 1.015
-python3 so_simple.py 505 rand_20 3 15 1.015
-python3 so_simple.py 506 rand_20 3 15 1.015
-python3 so_simple.py 507 rand_20 3 15 1.015
-python3 so_simple.py 508 rand_20 3 15 1.015
-python3 so_simple.py 509 rand_20 3 15 1.015
-python3 so_simple.py 500 rand_20 3 15 1.02
-python3 so_simple.py 501 rand_20 3 15 1.02
-python3 so_simple.py 502 rand_20 3 15 1.02
-python3 so_simple.py 503 rand_20 3 15 1.02
-python3 so_simple.py 504 rand_20 3 15 1.02
-python3 so_simple.py 505 rand_20 3 15 1.02
-python3 so_simple.py 506 rand_20 3 15 1.02
-python3 so_simple.py 507 rand_20 3 15 1.02
-python3 so_simple.py 508 rand_20 3 15 1.02
-python3 so_simple.py 509 rand_20 3 15 1.02
-python3 so_simple.py 500 rand_20 3 15 1.025
-python3 so_simple.py 501 rand_20 3 15 1.025
-python3 so_simple.py 502 rand_20 3 15 1.025
-python3 so_simple.py 503 rand_20 3 15 1.025
-python3 so_simple.py 504 rand_20 3 15 1.025
-python3 so_simple.py 505 rand_20 3 15 1.025
-python3 so_simple.py 506 rand_20 3 15 1.025
-python3 so_simple.py 507 rand_20 3 15 1.025
-python3 so_simple.py 508 rand_20 3 15 1.025
-python3 so_simple.py 509 rand_20 3 15 1.025
-python3 so_simple.py 500 rand_20 3 15 1.03
-python3 so_simple.py 501 rand_20 3 15 1.03
-python3 so_simple.py 502 rand_20 3 15 1.03
-python3 so_simple.py 503 rand_20 3 15 1.03
-python3 so_simple.py 504 rand_20 3 15 1.03
-python3 so_simple.py 505 rand_20 3 15 1.03
-python3 so_simple.py 506 rand_20 3 15 1.03
-python3 so_simple.py 507 rand_20 3 15 1.03
-python3 so_simple.py 508 rand_20 3 15 1.03
-python3 so_simple.py 509 rand_20 3 15 1.03
-python3 so_simple.py 500 rand_20 3 15 1.035
-python3 so_simple.py 501 rand_20 3 15 1.035
-python3 so_simple.py 502 rand_20 3 15 1.035
-python3 so_simple.py 503 rand_20 3 15 1.035
-python3 so_simple.py 504 rand_20 3 15 1.035
-python3 so_simple.py 505 rand_20 3 15 1.035
-python3 so_simple.py 506 rand_20 3 15 1.035
-python3 so_simple.py 507 rand_20 3 15 1.035
-python3 so_simple.py 508 rand_20 3 15 1.035
-python3 so_simple.py 509 rand_20 3 15 1.035
-python3 so_simple.py 500 rand_20 3 15 1.04
-python3 so_simple.py 501 rand_20 3 15 1.04
-python3 so_simple.py 502 rand_20 3 15 1.04
-python3 so_simple.py 503 rand_20 3 15 1.04
-python3 so_simple.py 504 rand_20 3 15 1.04
-python3 so_simple.py 505 rand_20 3 15 1.04
-python3 so_simple.py 506 rand_20 3 15 1.04
-python3 so_simple.py 507 rand_20 3 15 1.04
-python3 so_simple.py 508 rand_20 3 15 1.04
-python3 so_simple.py 509 rand_20 3 15 1.04
-python3 so_simple.py 500 rand_20 3 15 1.045
-python3 so_simple.py 501 rand_20 3 15 1.045
-python3 so_simple.py 502 rand_20 3 15 1.045
-python3 so_simple.py 503 rand_20 3 15 1.045
-python3 so_simple.py 504 rand_20 3 15 1.045
-python3 so_simple.py 505 rand_20 3 15 1.045
-python3 so_simple.py 506 rand_20 3 15 1.045
-python3 so_simple.py 507 rand_20 3 15 1.045
-python3 so_simple.py 508 rand_20 3 15 1.045
-python3 so_simple.py 509 rand_20 3 15 1.045
-python3 so_simple.py 500 rand_20 3 15 1.05
-python3 so_simple.py 501 rand_20 3 15 1.05
-python3 so_simple.py 502 rand_20 3 15 1.05
-python3 so_simple.py 503 rand_20 3 15 1.05
-python3 so_simple.py 504 rand_20 3 15 1.05
-python3 so_simple.py 505 rand_20 3 15 1.05
-python3 so_simple.py 506 rand_20 3 15 1.05
-python3 so_simple.py 507 rand_20 3 15 1.05
-python3 so_simple.py 508 rand_20 3 15 1.05
-python3 so_simple.py 509 rand_20 3 15 1.05
-python3 so_simple.py 500 rand_20 3 15 1.055
-python3 so_simple.py 501 rand_20 3 15 1.055
-python3 so_simple.py 502 rand_20 3 15 1.055
-python3 so_simple.py 503 rand_20 3 15 1.055
-python3 so_simple.py 504 rand_20 3 15 1.055
-python3 so_simple.py 505 rand_20 3 15 1.055
-python3 so_simple.py 506 rand_20 3 15 1.055
-python3 so_simple.py 507 rand_20 3 15 1.055
-python3 so_simple.py 508 rand_20 3 15 1.055
-python3 so_simple.py 509 rand_20 3 15 1.055
-python3 so_simple.py 500 rand_20 3 15 1.06
-python3 so_simple.py 501 rand_20 3 15 1.06
-python3 so_simple.py 502 rand_20 3 15 1.06
-python3 so_simple.py 503 rand_20 3 15 1.06
-python3 so_simple.py 504 rand_20 3 15 1.06
-python3 so_simple.py 505 rand_20 3 15 1.06
-python3 so_simple.py 506 rand_20 3 15 1.06
-python3 so_simple.py 507 rand_20 3 15 1.06
-python3 so_simple.py 508 rand_20 3 15 1.06
-python3 so_simple.py 509 rand_20 3 15 1.06
-python3 so_simple.py 500 rand_20 3 15 1.065
-python3 so_simple.py 501 rand_20 3 15 1.065
-python3 so_simple.py 502 rand_20 3 15 1.065
-python3 so_simple.py 503 rand_20 3 15 1.065
-python3 so_simple.py 504 rand_20 3 15 1.065
-python3 so_simple.py 505 rand_20 3 15 1.065
-python3 so_simple.py 506 rand_20 3 15 1.065
-python3 so_simple.py 507 rand_20 3 15 1.065
-python3 so_simple.py 508 rand_20 3 15 1.065
-python3 so_simple.py 509 rand_20 3 15 1.065
-python3 so_simple.py 500 rand_20 3 15 1.07
-python3 so_simple.py 501 rand_20 3 15 1.07
-python3 so_simple.py 502 rand_20 3 15 1.07
-python3 so_simple.py 503 rand_20 3 15 1.07
-python3 so_simple.py 504 rand_20 3 15 1.07
-python3 so_simple.py 505 rand_20 3 15 1.07
-python3 so_simple.py 506 rand_20 3 15 1.07
-python3 so_simple.py 507 rand_20 3 15 1.07
-python3 so_simple.py 508 rand_20 3 15 1.07
-python3 so_simple.py 509 rand_20 3 15 1.07
-python3 so_simple.py 500 rand_20 3 15 1.075
-python3 so_simple.py 501 rand_20 3 15 1.075
-python3 so_simple.py 502 rand_20 3 15 1.075
-python3 so_simple.py 503 rand_20 3 15 1.075
-python3 so_simple.py 504 rand_20 3 15 1.075
-python3 so_simple.py 505 rand_20 3 15 1.075
-python3 so_simple.py 506 rand_20 3 15 1.075
-python3 so_simple.py 507 rand_20 3 15 1.075
-python3 so_simple.py 508 rand_20 3 15 1.075
-python3 so_simple.py 509 rand_20 3 15 1.075
-python3 so_simple.py 500 rand_20 3 15 1.08
-python3 so_simple.py 501 rand_20 3 15 1.08
-python3 so_simple.py 502 rand_20 3 15 1.08
-python3 so_simple.py 503 rand_20 3 15 1.08
-python3 so_simple.py 504 rand_20 3 15 1.08
-python3 so_simple.py 505 rand_20 3 15 1.08
-python3 so_simple.py 506 rand_20 3 15 1.08
-python3 so_simple.py 507 rand_20 3 15 1.08
-python3 so_simple.py 508 rand_20 3 15 1.08
-python3 so_simple.py 509 rand_20 3 15 1.08
-python3 so_simple.py 500 rand_20 3 15 1.085
-python3 so_simple.py 501 rand_20 3 15 1.085
-python3 so_simple.py 502 rand_20 3 15 1.085
-python3 so_simple.py 503 rand_20 3 15 1.085
-python3 so_simple.py 504 rand_20 3 15 1.085
-python3 so_simple.py 505 rand_20 3 15 1.085
-python3 so_simple.py 506 rand_20 3 15 1.085
-python3 so_simple.py 507 rand_20 3 15 1.085
-python3 so_simple.py 508 rand_20 3 15 1.085
-python3 so_simple.py 509 rand_20 3 15 1.085
-python3 so_simple.py 500 rand_20 3 15 1.09
-python3 so_simple.py 501 rand_20 3 15 1.09
-python3 so_simple.py 502 rand_20 3 15 1.09
-python3 so_simple.py 503 rand_20 3 15 1.09
-python3 so_simple.py 504 rand_20 3 15 1.09
-python3 so_simple.py 505 rand_20 3 15 1.09
-python3 so_simple.py 506 rand_20 3 15 1.09
-python3 so_simple.py 507 rand_20 3 15 1.09
-python3 so_simple.py 508 rand_20 3 15 1.09
-python3 so_simple.py 509 rand_20 3 15 1.09
-python3 so_simple.py 500 rand_20 3 15 1.095
-python3 so_simple.py 501 rand_20 3 15 1.095
-python3 so_simple.py 502 rand_20 3 15 1.095
-python3 so_simple.py 503 rand_20 3 15 1.095
-python3 so_simple.py 504 rand_20 3 15 1.095
-python3 so_simple.py 505 rand_20 3 15 1.095
-python3 so_simple.py 506 rand_20 3 15 1.095
-python3 so_simple.py 507 rand_20 3 15 1.095
-python3 so_simple.py 508 rand_20 3 15 1.095
-python3 so_simple.py 509 rand_20 3 15 1.095
-python3 so_simple.py 500 rand_20 3 15 1.1
-python3 so_simple.py 501 rand_20 3 15 1.1
-python3 so_simple.py 502 rand_20 3 15 1.1
-python3 so_simple.py 503 rand_20 3 15 1.1
-python3 so_simple.py 504 rand_20 3 15 1.1
-python3 so_simple.py 505 rand_20 3 15 1.1
-python3 so_simple.py 506 rand_20 3 15 1.1
-python3 so_simple.py 507 rand_20 3 15 1.1
-python3 so_simple.py 508 rand_20 3 15 1.1
-python3 so_simple.py 509 rand_20 3 15 1.1
-python3 so_simple.py 500 rand_20 3 15 1.105
-python3 so_simple.py 501 rand_20 3 15 1.105
-python3 so_simple.py 502 rand_20 3 15 1.105
-python3 so_simple.py 503 rand_20 3 15 1.105
-python3 so_simple.py 504 rand_20 3 15 1.105
-python3 so_simple.py 505 rand_20 3 15 1.105
-python3 so_simple.py 506 rand_20 3 15 1.105
-python3 so_simple.py 507 rand_20 3 15 1.105
-python3 so_simple.py 508 rand_20 3 15 1.105
-python3 so_simple.py 509 rand_20 3 15 1.105
-python3 so_simple.py 500 rand_20 3 15 1.11
-python3 so_simple.py 501 rand_20 3 15 1.11
-python3 so_simple.py 502 rand_20 3 15 1.11
-python3 so_simple.py 503 rand_20 3 15 1.11
-python3 so_simple.py 504 rand_20 3 15 1.11
-python3 so_simple.py 505 rand_20 3 15 1.11
-python3 so_simple.py 506 rand_20 3 15 1.11
-python3 so_simple.py 507 rand_20 3 15 1.11
-python3 so_simple.py 508 rand_20 3 15 1.11
-python3 so_simple.py 509 rand_20 3 15 1.11
-python3 so_simple.py 500 rand_20 3 15 1.115
-python3 so_simple.py 501 rand_20 3 15 1.115
-python3 so_simple.py 502 rand_20 3 15 1.115
-python3 so_simple.py 503 rand_20 3 15 1.115
-python3 so_simple.py 504 rand_20 3 15 1.115
-python3 so_simple.py 505 rand_20 3 15 1.115
-python3 so_simple.py 506 rand_20 3 15 1.115
-python3 so_simple.py 507 rand_20 3 15 1.115
-python3 so_simple.py 508 rand_20 3 15 1.115
-python3 so_simple.py 509 rand_20 3 15 1.115
-python3 so_simple.py 500 rand_20 3 15 1.12
-python3 so_simple.py 501 rand_20 3 15 1.12
-python3 so_simple.py 502 rand_20 3 15 1.12
-python3 so_simple.py 503 rand_20 3 15 1.12
-python3 so_simple.py 504 rand_20 3 15 1.12
-python3 so_simple.py 505 rand_20 3 15 1.12
-python3 so_simple.py 506 rand_20 3 15 1.12
-python3 so_simple.py 507 rand_20 3 15 1.12
-python3 so_simple.py 508 rand_20 3 15 1.12
-python3 so_simple.py 509 rand_20 3 15 1.12
-python3 so_simple.py 500 rand_20 3 15 1.125
-python3 so_simple.py 501 rand_20 3 15 1.125
-python3 so_simple.py 502 rand_20 3 15 1.125
-python3 so_simple.py 503 rand_20 3 15 1.125
-python3 so_simple.py 504 rand_20 3 15 1.125
-python3 so_simple.py 505 rand_20 3 15 1.125
-python3 so_simple.py 506 rand_20 3 15 1.125
-python3 so_simple.py 507 rand_20 3 15 1.125
-python3 so_simple.py 508 rand_20 3 15 1.125
-python3 so_simple.py 509 rand_20 3 15 1.125
-python3 so_simple.py 500 rand_20 3 15 1.13
-python3 so_simple.py 501 rand_20 3 15 1.13
-python3 so_simple.py 502 rand_20 3 15 1.13
-python3 so_simple.py 503 rand_20 3 15 1.13
-python3 so_simple.py 504 rand_20 3 15 1.13
-python3 so_simple.py 505 rand_20 3 15 1.13
-python3 so_simple.py 506 rand_20 3 15 1.13
-python3 so_simple.py 507 rand_20 3 15 1.13
-python3 so_simple.py 508 rand_20 3 15 1.13
-python3 so_simple.py 509 rand_20 3 15 1.13
-python3 so_simple.py 500 rand_20 3 15 1.135
-python3 so_simple.py 501 rand_20 3 15 1.135
-python3 so_simple.py 502 rand_20 3 15 1.135
-python3 so_simple.py 503 rand_20 3 15 1.135
-python3 so_simple.py 504 rand_20 3 15 1.135
-python3 so_simple.py 505 rand_20 3 15 1.135
-python3 so_simple.py 506 rand_20 3 15 1.135
-python3 so_simple.py 507 rand_20 3 15 1.135
-python3 so_simple.py 508 rand_20 3 15 1.135
-python3 so_simple.py 509 rand_20 3 15 1.135
-python3 so_simple.py 500 rand_20 3 15 1.14
-python3 so_simple.py 501 rand_20 3 15 1.14
-python3 so_simple.py 502 rand_20 3 15 1.14
-python3 so_simple.py 503 rand_20 3 15 1.14
-python3 so_simple.py 504 rand_20 3 15 1.14
-python3 so_simple.py 505 rand_20 3 15 1.14
-python3 so_simple.py 506 rand_20 3 15 1.14
-python3 so_simple.py 507 rand_20 3 15 1.14
-python3 so_simple.py 508 rand_20 3 15 1.14
-python3 so_simple.py 509 rand_20 3 15 1.14
-python3 so_simple.py 500 rand_20 3 15 1.145
-python3 so_simple.py 501 rand_20 3 15 1.145
-python3 so_simple.py 502 rand_20 3 15 1.145
-python3 so_simple.py 503 rand_20 3 15 1.145
-python3 so_simple.py 504 rand_20 3 15 1.145
-python3 so_simple.py 505 rand_20 3 15 1.145
-python3 so_simple.py 506 rand_20 3 15 1.145
-python3 so_simple.py 507 rand_20 3 15 1.145
-python3 so_simple.py 508 rand_20 3 15 1.145
-python3 so_simple.py 509 rand_20 3 15 1.145
-python3 so_simple.py 500 rand_20 3 15 1.15
-python3 so_simple.py 501 rand_20 3 15 1.15
-python3 so_simple.py 502 rand_20 3 15 1.15
-python3 so_simple.py 503 rand_20 3 15 1.15
-python3 so_simple.py 504 rand_20 3 15 1.15
-python3 so_simple.py 505 rand_20 3 15 1.15
-python3 so_simple.py 506 rand_20 3 15 1.15
-python3 so_simple.py 507 rand_20 3 15 1.15
-python3 so_simple.py 508 rand_20 3 15 1.15
-python3 so_simple.py 509 rand_20 3 15 1.15
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0101tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0102tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0103tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0104tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0105tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0106tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0107tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0108tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0109tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0110tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0111tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0112tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0113tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0114tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0115tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0116tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0117tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0118tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0119tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0120tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0121tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0122tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0123tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0124tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0125tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0126tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0127tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0128tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0129tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0130tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0131tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0132tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0133tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0134tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0135tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0136tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0137tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0138tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0139tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0140tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0141tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0142tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0143tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0144tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0145tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0146tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0147tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0148tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0149tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
+mv trips.trips.xml 0150tr_net_001.trips.xml
