@@ -274,12 +274,13 @@ if __name__ == "__main__":
 
     # Sim Constants - ie to be run before the start of each set up
     # last_step = 0
-
-    gui_bool = True
+    
+    gui_bool = False
     alg_name = 'so_simple'
     out_directory = 'out/'+alg_name+'_out'
 
     trip_count, network, congestion_threshold, central_route,max_vspeed,increase_factor = read_args()
+    if congestion_threshold == 10 : gui_bool = True
     print("\nTrip count:", trip_count)
     print("Network:", network)
     print("Congestion threshold:", congestion_threshold)

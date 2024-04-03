@@ -1,5 +1,6 @@
 import re
 import matplotlib.pyplot as plt
+import argparse
 
 def parse_line(line):
     match = re.match(r'(\w+)--\[\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}.\d+\] , Network: .* Trip Size: (\d+), Average Time: (\d+\.\d+)', line)
@@ -12,11 +13,18 @@ def parse_line(line):
         return None, None, None
 
 def main():
+    # -------- read args
+    parser = argparse.ArgumentParser(description="Description of your script.")
+    parser.add_argument("arg1", help="set the trip count")
+    args = parser.parse_args()
+
+    fname = args.arg1
+
     trip_data = {'so_simple': {}, 'ue_simple': {}}
     total_avg_times = {'so_simple': [], 'ue_simple': []}
 
     # fname = 'soVue_r20.txt'
-    fname = 'net1_log.txt'
+    # fname = 'r20_compare/r20_p1_results.txt'
     with open(fname, 'r') as file:
         for line in file:
             algo, trip_size, avg_time = parse_line(line)
@@ -37,6 +45,8 @@ def main():
     for algo, avg_times in total_avg_times.items():
         avg_of_avg = sum(avg_times) / len(avg_times)
         print(f"Average of the average times for {algo}: {avg_of_avg}")
+    
+    plt.savefig(fname + '.png')  # Saving the plot as a PNG file
     plt.show()
 
 

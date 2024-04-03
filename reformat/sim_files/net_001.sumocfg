@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../out/ue_simple_out/net_001_output_files/cr_0101tr.out.xml" />
+        <vehroute-output value="../out/so_simple_out/net_001_output_files/cr_0101tr.out.xml" />
     </output>
 
 </configuration>

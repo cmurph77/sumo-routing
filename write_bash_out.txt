@@ -1,100 +1,80 @@
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0101tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0102tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0103tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0104tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0105tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0106tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0107tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0108tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0109tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0110tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0111tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0112tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0113tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0114tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0115tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0116tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0117tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0118tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0119tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0120tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0121tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0122tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0123tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0124tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0125tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0126tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0127tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0128tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0129tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0130tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0131tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0132tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0133tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0134tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0135tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0136tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0137tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0138tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0139tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0140tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0141tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0142tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0143tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0144tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0145tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0146tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0147tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0148tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0149tr_net_001.trips.xml
-python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/net_001.net.xml  -e 100 --random --period 0.1
-mv trips.trips.xml 0150tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 510tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 511tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 512tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 513tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 514tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 515tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 516tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 517tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 518tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 519tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 520tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 521tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 522tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 523tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 524tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 525tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 526tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 527tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 528tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 529tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 530tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 531tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 532tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 533tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 534tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 535tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 536tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 537tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 538tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 539tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 540tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 541tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 542tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 543tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 544tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 545tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 546tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 547tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 548tr_net_001.trips.xml
+python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5
+mv trips.trips.xml 549tr_net_001.trips.xml
