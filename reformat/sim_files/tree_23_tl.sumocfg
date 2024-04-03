@@ -15,7 +15,7 @@
 
 
    <output>
-        <vehroute-output value="../out/so_simple_out/tree_23_tl_output_files/cr_500tr.out.xml" />
+        <vehroute-output value="../out/so_dynamic_out/tree_23_tl_output_files/cr_500tr.out.xml" />
     </output>
 
 </configuration>

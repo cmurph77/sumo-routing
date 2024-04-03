@@ -1993,3 +1993,13 @@ so_simple--[2024-04-01 09:01:37.287836] , Network: rand_20, Trip Size: 506, Aver
 so_simple--[2024-04-01 09:02:15.615146] , Network: rand_20, Trip Size: 507, Average Time: 376.35, Increase factor: 1.15, Congestion T: 3, Maxspeed: 15.0, sim_time: 1145
 so_simple--[2024-04-01 09:16:46.624244] , Network: rand_20, Trip Size: 508, Average Time: 402.15, Increase factor: 1.15, Congestion T: 3, Maxspeed: 15.0, sim_time: 1110
 so_simple--[2024-04-01 09:17:27.526622] , Network: rand_20, Trip Size: 509, Average Time: 398.052, Increase factor: 1.15, Congestion T: 3, Maxspeed: 15.0, sim_time: 1206
+so_dynamic--[2024-04-03 11:19:58.025726] , Network: rand_20, Trip Size: 1000, Average Time: 265.174, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1493
+so_dynamic--[2024-04-03 11:46:24.408291] , Network: rand_20, Trip Size: 1000, Average Time: 265.174, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1493
+so_dynamic--[2024-04-03 13:09:17.004940] , Network: rand_20, Trip Size: 500, Average Time: 292.682, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 916
+so_dynamic--[2024-04-03 13:41:29.531865] , Network: rand_20, Trip Size: 1000, Average Time: 272.929, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1591
+so_dynamic--[2024-04-03 13:42:30.586344] , Network: rand_20, Trip Size: 1000, Average Time: 272.929, Increase factor: 0, Congestion T: 3, Maxspeed: 15.0, sim_time: 1591
+so_simple--[2024-04-03 13:47:44.272961] , Network: rand_20, Trip Size: 1000, Average Time: 265.174, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1493
+so_dynamic--[2024-04-03 14:11:52.661334] , Network: rand_20, Trip Size: 1000, Average Time: 272.929, Increase factor: 0, Congestion T: 3, Maxspeed: 15.0, sim_time: 1591
+so_dynamic--[2024-04-03 14:15:24.921161] , Network: tree_23_tl, Trip Size: 500, Average Time: 167.492, Increase factor: 0, Congestion T: 3, Maxspeed: 15.0, sim_time: 1698
+so_simple--[2024-04-03 14:18:13.388901] , Network: tree_23_tl, Trip Size: 500, Average Time: 173.864, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1697
+so_dynamic--[2024-04-03 14:54:07.325179] , Network: rand_20, Trip Size: 1000, Average Time: 230.887, Increase factor: 0, Congestion T: 3, Maxspeed: 15.0, sim_time: 1476
