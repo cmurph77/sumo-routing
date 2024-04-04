@@ -42,8 +42,7 @@ def main():
     plt.title(' ')
     plt.legend()
     plt.grid(True)
-    # plt.savefig('results_graph.png')   
-     # Calculate and print the average of the average times
+ 
     for algo, avg_times in total_avg_times.items():
         avg_of_avg = sum(avg_times) / len(avg_times)
         print(f"Average of the average times for {algo}: {avg_of_avg}")
