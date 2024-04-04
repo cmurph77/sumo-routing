@@ -34,19 +34,35 @@ def main():
                 trip_data[algo][trip_size] = trip_data[algo].get(trip_size, []) + [avg_time]
                 total_avg_times[algo].append(avg_time)
 
+    line_colors = ['blue', 'red', 'green']  # Change this to your desired sequence of colors
+    
+    
+    i = 1
     for algo, sizes in trip_data.items():
-        plt.plot(list(sizes.keys()), [sum(times)/len(times) for times in sizes.values()], label=algo)
+        if i == 2: plot_colour = 'green'
+        elif i == 1 : plot_colour = 'red'
+        i = i+1
+        plt.scatter(list(sizes.keys()), [sum(times)/len(times) for times in sizes.values()], label=algo,color=plot_colour )
 
     plt.xlabel('Trip Files')
     plt.ylabel('Average Time')
     plt.title(' ')
     plt.legend()
     plt.grid(True)
- 
+    i = 1
+    so_avg = 0
+    ue_avg = 0
     for algo, avg_times in total_avg_times.items():
         avg_of_avg = sum(avg_times) / len(avg_times)
+        if i == 1: ue_avg = avg_of_avg
+        elif i == 2 : so_avg = avg_of_avg
+        i = i +1;
         print(f"Average of the average times for {algo}: {avg_of_avg}")
+
     
+    plt.axhline(ue_avg, color='red')
+    plt.axhline(so_avg, color= 'green')
+
     plt.savefig(fname + '.png')  # Saving the plot as a PNG file
     plt.show()
 
