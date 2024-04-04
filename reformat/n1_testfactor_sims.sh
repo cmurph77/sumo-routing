@@ -1,4 +1,4 @@
-# python3 so_simple.py 0101 net_001 3 15 1
+python3 so_simple.py 0101 net_001 3 15 1
 python3 so_simple.py 0102 net_001 3 15 1
 python3 so_simple.py 0103 net_001 3 15 1
 python3 so_simple.py 0104 net_001 3 15 1

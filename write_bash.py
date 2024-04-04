@@ -54,7 +54,7 @@ def gen_trips():
             trip_filecount = 510
             for i in range(0,iterations):
                 file.write('python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5\n')
-                file.write('mv trips.trips.xml '+str(trip_filecount)+'tr_net_001.trips.xml\n')
+                file.write('mv trips.trips.xml '+str(trip_filecount)+'tr_rand_20.trips.xml\n')
                 trip_filecount = trip_filecount + 1
 
 if __name__ == "__main__":

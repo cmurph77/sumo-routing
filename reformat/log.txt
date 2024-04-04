@@ -2034,3 +2034,279 @@ so_simple--[2024-04-03 18:13:44.909490] , Network: rand_20, Trip Size: 1011, Ave
 ue_simple--[2024-04-03 18:14:32.775676] , Network: rand_20, Trip Size: 1011, Average Time: 366.592, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1793
 so_simple--[2024-04-03 18:15:24.442051] , Network: rand_20, Trip Size: 1012, Average Time: 250.062, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1604
 ue_simple--[2024-04-03 18:16:05.990374] , Network: rand_20, Trip Size: 1012, Average Time: 284.941, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1657
+so_simple--[2024-04-03 18:17:08.950542] , Network: rand_20, Trip Size: 1013, Average Time: 305.854, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1743
+ue_simple--[2024-04-03 18:17:49.650389] , Network: rand_20, Trip Size: 1013, Average Time: 304.837, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1635
+so_simple--[2024-04-03 18:18:43.603981] , Network: rand_20, Trip Size: 1014, Average Time: 283.813, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1572
+ue_simple--[2024-04-03 18:19:26.826542] , Network: rand_20, Trip Size: 1014, Average Time: 331.02, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1687
+so_simple--[2024-04-03 18:20:25.088700] , Network: rand_20, Trip Size: 1015, Average Time: 308.341, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1652
+ue_simple--[2024-04-03 18:21:09.024879] , Network: rand_20, Trip Size: 1015, Average Time: 310.132, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1685
+so_simple--[2024-04-03 18:22:03.720481] , Network: rand_20, Trip Size: 1016, Average Time: 269.37, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1663
+ue_simple--[2024-04-03 18:22:43.185132] , Network: rand_20, Trip Size: 1016, Average Time: 273.652, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1664
+so_simple--[2024-04-03 18:23:40.885841] , Network: rand_20, Trip Size: 1017, Average Time: 296.957, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1644
+ue_simple--[2024-04-03 18:24:23.342656] , Network: rand_20, Trip Size: 1017, Average Time: 299.323, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1721
+so_simple--[2024-04-03 18:25:15.400405] , Network: rand_20, Trip Size: 1018, Average Time: 262.661, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1574
+ue_simple--[2024-04-03 18:25:56.166410] , Network: rand_20, Trip Size: 1018, Average Time: 296.293, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1691
+so_simple--[2024-04-03 18:26:52.646984] , Network: rand_20, Trip Size: 1019, Average Time: 288.285, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1552
+ue_simple--[2024-04-03 18:27:34.507369] , Network: rand_20, Trip Size: 1019, Average Time: 310.879, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1646
+so_simple--[2024-04-03 18:28:30.546139] , Network: rand_20, Trip Size: 1020, Average Time: 285.651, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1598
+ue_simple--[2024-04-03 18:29:11.396323] , Network: rand_20, Trip Size: 1020, Average Time: 281.804, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1635
+so_simple--[2024-04-03 18:30:07.566601] , Network: rand_20, Trip Size: 1021, Average Time: 272.303, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1667
+ue_simple--[2024-04-03 18:30:53.344841] , Network: rand_20, Trip Size: 1021, Average Time: 339.634, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1786
+so_simple--[2024-04-03 18:31:49.431343] , Network: rand_20, Trip Size: 1022, Average Time: 282.354, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1633
+ue_simple--[2024-04-03 18:32:28.264114] , Network: rand_20, Trip Size: 1022, Average Time: 287.322, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1591
+so_simple--[2024-04-03 18:33:24.103754] , Network: rand_20, Trip Size: 1023, Average Time: 288.777, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1647
+ue_simple--[2024-04-03 18:34:05.901884] , Network: rand_20, Trip Size: 1023, Average Time: 308.153, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1667
+so_simple--[2024-04-03 18:35:00.979047] , Network: rand_20, Trip Size: 1024, Average Time: 281.197, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1555
+ue_simple--[2024-04-03 18:35:41.379829] , Network: rand_20, Trip Size: 1024, Average Time: 309.741, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1639
+so_simple--[2024-04-03 18:36:34.799780] , Network: rand_20, Trip Size: 1025, Average Time: 278.145, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1594
+ue_simple--[2024-04-03 18:37:18.549749] , Network: rand_20, Trip Size: 1025, Average Time: 331.191, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1782
+so_simple--[2024-04-03 18:38:12.705457] , Network: rand_20, Trip Size: 1026, Average Time: 271.361, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1591
+ue_simple--[2024-04-03 18:38:53.394427] , Network: rand_20, Trip Size: 1026, Average Time: 306.05, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1591
+so_simple--[2024-04-03 18:39:48.271160] , Network: rand_20, Trip Size: 1027, Average Time: 270.563, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1729
+ue_simple--[2024-04-03 18:40:31.039389] , Network: rand_20, Trip Size: 1027, Average Time: 319.318, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1680
+so_simple--[2024-04-03 18:41:26.621626] , Network: rand_20, Trip Size: 1028, Average Time: 288.603, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1595
+ue_simple--[2024-04-03 18:42:09.987522] , Network: rand_20, Trip Size: 1028, Average Time: 331.363, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1671
+so_simple--[2024-04-03 18:43:02.670500] , Network: rand_20, Trip Size: 1029, Average Time: 268.191, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1553
+ue_simple--[2024-04-03 18:43:44.556186] , Network: rand_20, Trip Size: 1029, Average Time: 311.499, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1680
+so_simple--[2024-04-03 18:44:33.628897] , Network: rand_20, Trip Size: 1030, Average Time: 247.456, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1550
+ue_simple--[2024-04-03 18:45:15.546668] , Network: rand_20, Trip Size: 1030, Average Time: 314.518, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1651
+so_simple--[2024-04-03 18:46:07.726898] , Network: rand_20, Trip Size: 1031, Average Time: 272.168, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1562
+ue_simple--[2024-04-03 18:46:48.387101] , Network: rand_20, Trip Size: 1031, Average Time: 307.865, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1642
+so_simple--[2024-04-03 18:47:38.761957] , Network: rand_20, Trip Size: 1032, Average Time: 255.539, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1503
+ue_simple--[2024-04-03 18:48:21.678691] , Network: rand_20, Trip Size: 1032, Average Time: 317.403, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1680
+so_simple--[2024-04-03 18:49:19.231412] , Network: rand_20, Trip Size: 1033, Average Time: 268.026, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1639
+ue_simple--[2024-04-03 18:50:02.912609] , Network: rand_20, Trip Size: 1033, Average Time: 312.58, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1775
+so_simple--[2024-04-03 18:50:56.844621] , Network: rand_20, Trip Size: 1034, Average Time: 273.812, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1560
+ue_simple--[2024-04-03 18:51:37.086925] , Network: rand_20, Trip Size: 1034, Average Time: 296.41, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1684
+so_simple--[2024-04-03 18:52:32.303014] , Network: rand_20, Trip Size: 1035, Average Time: 277.27, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1593
+ue_simple--[2024-04-03 18:53:13.847966] , Network: rand_20, Trip Size: 1035, Average Time: 304.073, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1681
+so_simple--[2024-04-03 18:54:09.304903] , Network: rand_20, Trip Size: 1036, Average Time: 286.235, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1587
+ue_simple--[2024-04-03 18:54:50.930566] , Network: rand_20, Trip Size: 1036, Average Time: 311.479, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1645
+so_simple--[2024-04-03 18:55:52.990747] , Network: rand_20, Trip Size: 1037, Average Time: 324.894, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1706
+ue_simple--[2024-04-03 18:56:37.812066] , Network: rand_20, Trip Size: 1037, Average Time: 353.426, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1643
+so_simple--[2024-04-03 18:57:35.861206] , Network: rand_20, Trip Size: 1038, Average Time: 290.192, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1588
+ue_simple--[2024-04-03 18:58:21.759843] , Network: rand_20, Trip Size: 1038, Average Time: 340.999, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1689
+so_simple--[2024-04-03 18:59:17.809682] , Network: rand_20, Trip Size: 1039, Average Time: 277.799, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1598
+ue_simple--[2024-04-03 19:00:02.130487] , Network: rand_20, Trip Size: 1039, Average Time: 323.828, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1638
+so_simple--[2024-04-03 19:00:56.527227] , Network: rand_20, Trip Size: 1040, Average Time: 269.515, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1598
+ue_simple--[2024-04-03 19:01:40.272557] , Network: rand_20, Trip Size: 1040, Average Time: 328.822, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1637
+so_simple--[2024-04-03 19:02:39.161042] , Network: rand_20, Trip Size: 1041, Average Time: 292.164, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1634
+ue_simple--[2024-04-03 19:03:23.923355] , Network: rand_20, Trip Size: 1041, Average Time: 320.703, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1553
+so_simple--[2024-04-03 19:04:20.363848] , Network: rand_20, Trip Size: 1042, Average Time: 267.712, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1643
+ue_simple--[2024-04-03 19:05:03.680258] , Network: rand_20, Trip Size: 1042, Average Time: 306.964, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1661
+so_simple--[2024-04-03 19:05:56.525207] , Network: rand_20, Trip Size: 1043, Average Time: 255.782, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1636
+ue_simple--[2024-04-03 19:06:46.708756] , Network: rand_20, Trip Size: 1043, Average Time: 395.212, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1865
+so_simple--[2024-04-03 19:07:42.844166] , Network: rand_20, Trip Size: 1044, Average Time: 285.908, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1609
+ue_simple--[2024-04-03 19:08:30.111905] , Network: rand_20, Trip Size: 1044, Average Time: 360.5, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1770
+so_simple--[2024-04-03 19:09:24.285166] , Network: rand_20, Trip Size: 1045, Average Time: 255.681, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1573
+ue_simple--[2024-04-03 19:10:08.183927] , Network: rand_20, Trip Size: 1045, Average Time: 313.116, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1658
+so_simple--[2024-04-03 19:11:03.036433] , Network: rand_20, Trip Size: 1046, Average Time: 270.558, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1590
+ue_simple--[2024-04-03 19:11:47.401119] , Network: rand_20, Trip Size: 1046, Average Time: 317.063, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1702
+so_simple--[2024-04-03 19:12:45.444887] , Network: rand_20, Trip Size: 1047, Average Time: 266.944, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1511
+ue_simple--[2024-04-03 19:13:32.438917] , Network: rand_20, Trip Size: 1047, Average Time: 346.257, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1748
+so_simple--[2024-04-03 19:14:33.338406] , Network: rand_20, Trip Size: 1048, Average Time: 307.109, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1682
+ue_simple--[2024-04-03 19:15:17.299871] , Network: rand_20, Trip Size: 1048, Average Time: 328.62, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1684
+so_simple--[2024-04-03 19:16:10.843705] , Network: rand_20, Trip Size: 1049, Average Time: 262.854, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1610
+ue_simple--[2024-04-03 19:16:55.405524] , Network: rand_20, Trip Size: 1049, Average Time: 327.945, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1743
+so_simple--[2024-04-03 19:17:51.233723] , Network: rand_20, Trip Size: 1050, Average Time: 284.309, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1633
+ue_simple--[2024-04-03 19:18:33.816807] , Network: rand_20, Trip Size: 1050, Average Time: 318.731, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1683
+
+
+so_simple--[2024-04-03 19:24:27.934105] , Network: rand_20, Trip Size: 2001, Average Time: 165.471, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2368
+ue_simple--[2024-04-03 19:25:11.718816] , Network: rand_20, Trip Size: 2001, Average Time: 169.593, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2307
+so_simple--[2024-04-03 19:26:05.721646] , Network: rand_20, Trip Size: 2002, Average Time: 169.812, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2323
+ue_simple--[2024-04-03 19:26:48.886625] , Network: rand_20, Trip Size: 2002, Average Time: 172.882, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2358
+so_simple--[2024-04-03 19:27:43.046143] , Network: rand_20, Trip Size: 2003, Average Time: 174.103, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2292
+ue_simple--[2024-04-03 19:28:26.458309] , Network: rand_20, Trip Size: 2003, Average Time: 185.587, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2310
+so_simple--[2024-04-03 19:29:21.250715] , Network: rand_20, Trip Size: 2004, Average Time: 169.929, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2379
+ue_simple--[2024-04-03 19:30:06.229100] , Network: rand_20, Trip Size: 2004, Average Time: 181.069, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2419
+so_simple--[2024-04-03 19:31:02.870059] , Network: rand_20, Trip Size: 2005, Average Time: 183.811, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2429
+ue_simple--[2024-04-03 19:31:49.240366] , Network: rand_20, Trip Size: 2005, Average Time: 190.596, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2404
+so_simple--[2024-04-03 19:32:45.620608] , Network: rand_20, Trip Size: 2006, Average Time: 185.155, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2401
+ue_simple--[2024-04-03 19:33:27.571741] , Network: rand_20, Trip Size: 2006, Average Time: 185.979, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2315
+so_simple--[2024-04-03 19:34:22.390072] , Network: rand_20, Trip Size: 2007, Average Time: 182.202, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2369
+ue_simple--[2024-04-03 19:35:10.396296] , Network: rand_20, Trip Size: 2007, Average Time: 183.507, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2396
+so_simple--[2024-04-03 19:36:07.366753] , Network: rand_20, Trip Size: 2008, Average Time: 187.312, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2292
+ue_simple--[2024-04-03 19:36:53.195617] , Network: rand_20, Trip Size: 2008, Average Time: 191.165, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2319
+so_simple--[2024-04-03 19:37:47.904557] , Network: rand_20, Trip Size: 2009, Average Time: 176.998, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 2313
+ue_simple--[2024-04-03 19:38:36.532066] , Network: rand_20, Trip Size: 2009, Average Time: 190.262, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 2420
+
+so_simple--[2024-04-03 19:41:16.070196] , Network: rand_20, Trip Size: 501, Average Time: 296.506, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 1021
+ue_simple--[2024-04-03 19:41:39.222419] , Network: rand_20, Trip Size: 501, Average Time: 315.424, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 872
+so_simple--[2024-04-03 19:42:12.250669] , Network: rand_20, Trip Size: 502, Average Time: 309.044, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 979
+ue_simple--[2024-04-03 19:42:36.556047] , Network: rand_20, Trip Size: 502, Average Time: 328.986, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 957
+so_simple--[2024-04-03 19:43:14.010626] , Network: rand_20, Trip Size: 503, Average Time: 316.826, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 931
+ue_simple--[2024-04-03 19:43:38.325624] , Network: rand_20, Trip Size: 503, Average Time: 327.136, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 947
+so_simple--[2024-04-03 19:44:08.548956] , Network: rand_20, Trip Size: 504, Average Time: 287.408, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 916
+ue_simple--[2024-04-03 19:44:32.530818] , Network: rand_20, Trip Size: 504, Average Time: 310.842, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 934
+so_simple--[2024-04-03 19:45:04.428700] , Network: rand_20, Trip Size: 505, Average Time: 328.288, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 924
+ue_simple--[2024-04-03 19:45:28.760821] , Network: rand_20, Trip Size: 505, Average Time: 358.714, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 960
+so_simple--[2024-04-03 19:45:59.048121] , Network: rand_20, Trip Size: 506, Average Time: 283.308, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 959
+ue_simple--[2024-04-03 19:46:23.912672] , Network: rand_20, Trip Size: 506, Average Time: 324.328, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1016
+so_simple--[2024-04-03 19:46:54.131490] , Network: rand_20, Trip Size: 507, Average Time: 294.154, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 889
+ue_simple--[2024-04-03 19:47:17.097555] , Network: rand_20, Trip Size: 507, Average Time: 293.898, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 875
+so_simple--[2024-04-03 19:47:48.872609] , Network: rand_20, Trip Size: 508, Average Time: 294.214, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 868
+ue_simple--[2024-04-03 19:48:24.090088] , Network: rand_20, Trip Size: 508, Average Time: 329.05, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1048
+so_simple--[2024-04-03 19:48:59.142019] , Network: rand_20, Trip Size: 509, Average Time: 272.86, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 983
+ue_simple--[2024-04-03 19:49:27.830440] , Network: rand_20, Trip Size: 509, Average Time: 295.64, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 887
+so_simple--[2024-04-03 19:49:59.084352] , Network: rand_20, Trip Size: 510, Average Time: 282.554, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 823
+ue_simple--[2024-04-03 19:50:22.601101] , Network: rand_20, Trip Size: 510, Average Time: 309.066, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 914
+so_simple--[2024-04-03 19:50:54.749784] , Network: rand_20, Trip Size: 511, Average Time: 297.672, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 915
+ue_simple--[2024-04-03 19:51:19.334647] , Network: rand_20, Trip Size: 511, Average Time: 290.208, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 967
+so_simple--[2024-04-03 19:51:52.589307] , Network: rand_20, Trip Size: 512, Average Time: 297.348, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 919
+ue_simple--[2024-04-03 19:52:17.918875] , Network: rand_20, Trip Size: 512, Average Time: 300.552, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 983
+so_simple--[2024-04-03 19:52:47.905848] , Network: rand_20, Trip Size: 513, Average Time: 260.824, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 843
+ue_simple--[2024-04-03 19:53:13.041862] , Network: rand_20, Trip Size: 513, Average Time: 288.558, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 960
+so_simple--[2024-04-03 19:53:48.378502] , Network: rand_20, Trip Size: 514, Average Time: 335.708, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 969
+ue_simple--[2024-04-03 19:54:16.572688] , Network: rand_20, Trip Size: 514, Average Time: 350.338, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1106
+so_simple--[2024-04-03 19:54:50.724950] , Network: rand_20, Trip Size: 515, Average Time: 303.284, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 917
+ue_simple--[2024-04-03 19:55:17.543634] , Network: rand_20, Trip Size: 515, Average Time: 345.06, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1012
+so_simple--[2024-04-03 19:55:53.825834] , Network: rand_20, Trip Size: 516, Average Time: 302.386, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 965
+ue_simple--[2024-04-03 19:56:21.516821] , Network: rand_20, Trip Size: 516, Average Time: 320.82, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 971
+so_simple--[2024-04-03 19:56:53.827872] , Network: rand_20, Trip Size: 517, Average Time: 290.114, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 941
+ue_simple--[2024-04-03 19:57:19.119985] , Network: rand_20, Trip Size: 517, Average Time: 302.254, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1055
+so_simple--[2024-04-03 19:57:48.883565] , Network: rand_20, Trip Size: 518, Average Time: 280.166, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 875
+ue_simple--[2024-04-03 19:58:14.348376] , Network: rand_20, Trip Size: 518, Average Time: 315.28, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1015
+so_simple--[2024-04-03 19:58:45.210150] , Network: rand_20, Trip Size: 519, Average Time: 289.88, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 869
+ue_simple--[2024-04-03 19:59:10.388474] , Network: rand_20, Trip Size: 519, Average Time: 331.12, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1023
+so_simple--[2024-04-03 19:59:40.425871] , Network: rand_20, Trip Size: 520, Average Time: 298.81, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 852
+ue_simple--[2024-04-03 20:00:09.337424] , Network: rand_20, Trip Size: 520, Average Time: 321.782, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1040
+so_simple--[2024-04-03 20:00:41.326669] , Network: rand_20, Trip Size: 521, Average Time: 287.496, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 844
+ue_simple--[2024-04-03 20:01:07.941943] , Network: rand_20, Trip Size: 521, Average Time: 329.844, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1016
+so_simple--[2024-04-03 20:01:41.566815] , Network: rand_20, Trip Size: 522, Average Time: 302.06, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 974
+ue_simple--[2024-04-03 20:02:07.472812] , Network: rand_20, Trip Size: 522, Average Time: 336.178, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 973
+so_simple--[2024-04-03 20:02:37.356845] , Network: rand_20, Trip Size: 523, Average Time: 271.574, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 879
+ue_simple--[2024-04-03 20:03:02.071084] , Network: rand_20, Trip Size: 523, Average Time: 291.656, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 965
+so_simple--[2024-04-03 20:03:39.646178] , Network: rand_20, Trip Size: 524, Average Time: 320.804, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 1145
+ue_simple--[2024-04-03 20:04:06.342124] , Network: rand_20, Trip Size: 524, Average Time: 339.752, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1027
+so_simple--[2024-04-03 20:04:39.464269] , Network: rand_20, Trip Size: 525, Average Time: 313.142, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 965
+ue_simple--[2024-04-03 20:05:04.834875] , Network: rand_20, Trip Size: 525, Average Time: 338.15, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 963
+so_simple--[2024-04-03 20:05:36.637919] , Network: rand_20, Trip Size: 526, Average Time: 292.318, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 915
+ue_simple--[2024-04-03 20:06:05.494353] , Network: rand_20, Trip Size: 526, Average Time: 328.624, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1060
+so_simple--[2024-04-03 20:06:37.389696] , Network: rand_20, Trip Size: 527, Average Time: 300.07, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 881
+ue_simple--[2024-04-03 20:07:03.022386] , Network: rand_20, Trip Size: 527, Average Time: 326.846, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 983
+so_simple--[2024-04-03 20:07:33.297727] , Network: rand_20, Trip Size: 528, Average Time: 278.396, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 833
+ue_simple--[2024-04-03 20:07:56.278722] , Network: rand_20, Trip Size: 528, Average Time: 286.426, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 872
+so_simple--[2024-04-03 20:08:29.473038] , Network: rand_20, Trip Size: 529, Average Time: 319.738, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 885
+ue_simple--[2024-04-03 20:08:55.014179] , Network: rand_20, Trip Size: 529, Average Time: 340.8, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 944
+so_simple--[2024-04-03 20:09:27.201771] , Network: rand_20, Trip Size: 530, Average Time: 293.146, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 929
+ue_simple--[2024-04-03 20:09:54.042458] , Network: rand_20, Trip Size: 530, Average Time: 340.974, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1059
+so_simple--[2024-04-03 20:10:26.767953] , Network: rand_20, Trip Size: 531, Average Time: 306.942, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 1032
+ue_simple--[2024-04-03 20:10:50.131814] , Network: rand_20, Trip Size: 531, Average Time: 328.446, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 951
+so_simple--[2024-04-03 20:11:20.673563] , Network: rand_20, Trip Size: 532, Average Time: 296.178, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 967
+ue_simple--[2024-04-03 20:11:43.675843] , Network: rand_20, Trip Size: 532, Average Time: 308.27, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 973
+so_simple--[2024-04-03 20:12:11.913327] , Network: rand_20, Trip Size: 533, Average Time: 273.332, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 883
+ue_simple--[2024-04-03 20:12:33.701321] , Network: rand_20, Trip Size: 533, Average Time: 305.3, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 881
+so_simple--[2024-04-03 20:13:03.359522] , Network: rand_20, Trip Size: 534, Average Time: 289.554, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 919
+ue_simple--[2024-04-03 20:13:26.666218] , Network: rand_20, Trip Size: 534, Average Time: 321.222, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 970
+so_simple--[2024-04-03 20:13:54.663516] , Network: rand_20, Trip Size: 535, Average Time: 278.816, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 850
+ue_simple--[2024-04-03 20:14:17.951045] , Network: rand_20, Trip Size: 535, Average Time: 316.358, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 973
+so_simple--[2024-04-03 20:14:49.459805] , Network: rand_20, Trip Size: 536, Average Time: 303.222, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 1007
+ue_simple--[2024-04-03 20:15:13.538938] , Network: rand_20, Trip Size: 536, Average Time: 323.072, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 923
+so_simple--[2024-04-03 20:15:45.063212] , Network: rand_20, Trip Size: 537, Average Time: 303.034, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 878
+ue_simple--[2024-04-03 20:16:08.703717] , Network: rand_20, Trip Size: 537, Average Time: 310.374, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 930
+so_simple--[2024-04-03 20:16:36.800495] , Network: rand_20, Trip Size: 538, Average Time: 282.292, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 835
+ue_simple--[2024-04-03 20:17:02.197371] , Network: rand_20, Trip Size: 538, Average Time: 316.742, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1100
+so_simple--[2024-04-03 20:17:32.176699] , Network: rand_20, Trip Size: 539, Average Time: 294.94, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 874
+ue_simple--[2024-04-03 20:17:55.930363] , Network: rand_20, Trip Size: 539, Average Time: 330.028, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 945
+so_simple--[2024-04-03 20:18:26.316230] , Network: rand_20, Trip Size: 540, Average Time: 303.74, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 871
+ue_simple--[2024-04-03 20:18:48.389592] , Network: rand_20, Trip Size: 540, Average Time: 305.39, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 886
+so_simple--[2024-04-03 20:19:19.009946] , Network: rand_20, Trip Size: 541, Average Time: 290.286, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 958
+ue_simple--[2024-04-03 20:19:43.281345] , Network: rand_20, Trip Size: 541, Average Time: 337.274, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 943
+so_simple--[2024-04-03 20:20:15.323418] , Network: rand_20, Trip Size: 542, Average Time: 307.924, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 968
+ue_simple--[2024-04-03 20:21:48.135638] , Network: rand_20, Trip Size: 542, Average Time: 325.714, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 888
+so_simple--[2024-04-03 20:22:19.264346] , Network: rand_20, Trip Size: 543, Average Time: 308.27, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 876
+ue_simple--[2024-04-03 20:26:00.818413] , Network: rand_20, Trip Size: 543, Average Time: 307.936, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 924
+so_simple--[2024-04-03 20:26:33.348955] , Network: rand_20, Trip Size: 544, Average Time: 286.366, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 914
+ue_simple--[2024-04-03 20:26:59.308772] , Network: rand_20, Trip Size: 544, Average Time: 322.974, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1011
+so_simple--[2024-04-03 20:27:31.584802] , Network: rand_20, Trip Size: 545, Average Time: 295.468, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 911
+ue_simple--[2024-04-03 20:27:55.412578] , Network: rand_20, Trip Size: 545, Average Time: 310.244, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 914
+so_simple--[2024-04-03 20:28:31.055494] , Network: rand_20, Trip Size: 546, Average Time: 330.604, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 1011
+ue_simple--[2024-04-03 20:28:57.835901] , Network: rand_20, Trip Size: 546, Average Time: 337.764, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 975
+so_simple--[2024-04-03 20:29:32.119984] , Network: rand_20, Trip Size: 547, Average Time: 312.786, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 924
+ue_simple--[2024-04-03 20:29:58.951404] , Network: rand_20, Trip Size: 547, Average Time: 358.89, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 969
+so_simple--[2024-04-03 20:30:32.750292] , Network: rand_20, Trip Size: 548, Average Time: 299.59, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 905
+ue_simple--[2024-04-03 20:31:00.514404] , Network: rand_20, Trip Size: 548, Average Time: 332.81, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 962
+so_simple--[2024-04-03 20:31:35.808813] , Network: rand_20, Trip Size: 549, Average Time: 299.55, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 915
+ue_simple--[2024-04-03 20:32:03.009768] , Network: rand_20, Trip Size: 549, Average Time: 319.688, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1023
+
+so_simple--[2024-04-03 20:34:22.176107] , Network: rand_20, Trip Size: 2010, Average Time: 365.752, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1051
+ue_simple--[2024-04-03 20:34:51.218656] , Network: rand_20, Trip Size: 2010, Average Time: 329.906, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 948
+so_simple--[2024-04-03 20:35:40.422819] , Network: rand_20, Trip Size: 2011, Average Time: 419.36, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1149
+ue_simple--[2024-04-03 20:36:11.189042] , Network: rand_20, Trip Size: 2011, Average Time: 368.696, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1143
+so_simple--[2024-04-03 20:36:53.681613] , Network: rand_20, Trip Size: 2012, Average Time: 358.532, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1094
+ue_simple--[2024-04-03 20:37:18.742692] , Network: rand_20, Trip Size: 2012, Average Time: 318.944, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 939
+so_simple--[2024-04-03 20:38:02.813833] , Network: rand_20, Trip Size: 2013, Average Time: 389.906, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1146
+ue_simple--[2024-04-03 20:38:28.629128] , Network: rand_20, Trip Size: 2013, Average Time: 309.926, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 930
+so_simple--[2024-04-03 20:39:15.289146] , Network: rand_20, Trip Size: 2014, Average Time: 409.78, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1141
+ue_simple--[2024-04-03 20:39:40.015555] , Network: rand_20, Trip Size: 2014, Average Time: 303.454, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 919
+so_simple--[2024-04-03 20:40:25.255867] , Network: rand_20, Trip Size: 2015, Average Time: 389.968, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1127
+ue_simple--[2024-04-03 20:40:51.911875] , Network: rand_20, Trip Size: 2015, Average Time: 321.708, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 973
+so_simple--[2024-04-03 20:41:35.451949] , Network: rand_20, Trip Size: 2016, Average Time: 387.174, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1053
+ue_simple--[2024-04-03 20:42:01.429592] , Network: rand_20, Trip Size: 2016, Average Time: 298.918, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1010
+so_simple--[2024-04-03 20:42:44.445653] , Network: rand_20, Trip Size: 2017, Average Time: 373.26, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1057
+ue_simple--[2024-04-03 20:43:09.853613] , Network: rand_20, Trip Size: 2017, Average Time: 300.58, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 969
+so_simple--[2024-04-03 20:43:52.022257] , Network: rand_20, Trip Size: 2018, Average Time: 345.174, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1012
+ue_simple--[2024-04-03 20:44:19.254076] , Network: rand_20, Trip Size: 2018, Average Time: 302.26, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 963
+so_simple--[2024-04-03 20:45:07.591621] , Network: rand_20, Trip Size: 2019, Average Time: 393.646, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1155
+ue_simple--[2024-04-03 20:45:36.058320] , Network: rand_20, Trip Size: 2019, Average Time: 341.054, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1060
+so_simple--[2024-04-03 20:46:24.927722] , Network: rand_20, Trip Size: 2020, Average Time: 416.67, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1191
+ue_simple--[2024-04-03 20:46:50.603137] , Network: rand_20, Trip Size: 2020, Average Time: 330.732, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 958
+so_simple--[2024-04-03 20:47:31.909730] , Network: rand_20, Trip Size: 2021, Average Time: 363.686, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1105
+ue_simple--[2024-04-03 20:47:56.817374] , Network: rand_20, Trip Size: 2021, Average Time: 321.646, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 961
+so_simple--[2024-04-03 20:48:37.930180] , Network: rand_20, Trip Size: 2022, Average Time: 367.72, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1112
+ue_simple--[2024-04-03 20:49:04.517874] , Network: rand_20, Trip Size: 2022, Average Time: 335.902, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1058
+so_simple--[2024-04-03 20:49:46.731950] , Network: rand_20, Trip Size: 2023, Average Time: 384.942, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1115
+ue_simple--[2024-04-03 20:50:11.989018] , Network: rand_20, Trip Size: 2023, Average Time: 328.738, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 950
+so_simple--[2024-04-03 20:50:51.982895] , Network: rand_20, Trip Size: 2024, Average Time: 342.738, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1059
+ue_simple--[2024-04-03 20:51:17.878295] , Network: rand_20, Trip Size: 2024, Average Time: 298.96, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 946
+so_simple--[2024-04-03 20:51:57.977062] , Network: rand_20, Trip Size: 2025, Average Time: 359.77, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1104
+ue_simple--[2024-04-03 20:52:26.927448] , Network: rand_20, Trip Size: 2025, Average Time: 323.704, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1125
+so_simple--[2024-04-03 20:53:06.252772] , Network: rand_20, Trip Size: 2026, Average Time: 355.874, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1029
+ue_simple--[2024-04-03 20:53:30.226552] , Network: rand_20, Trip Size: 2026, Average Time: 310.046, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 944
+so_simple--[2024-04-03 20:54:09.978053] , Network: rand_20, Trip Size: 2027, Average Time: 367.934, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1107
+ue_simple--[2024-04-03 20:54:34.537548] , Network: rand_20, Trip Size: 2027, Average Time: 329.396, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 961
+so_simple--[2024-04-03 20:55:18.139844] , Network: rand_20, Trip Size: 2028, Average Time: 395.76, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1136
+ue_simple--[2024-04-03 20:55:48.078074] , Network: rand_20, Trip Size: 2028, Average Time: 337.878, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 969
+so_simple--[2024-04-03 20:56:32.491547] , Network: rand_20, Trip Size: 2029, Average Time: 372.648, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1059
+ue_simple--[2024-04-03 20:56:59.744927] , Network: rand_20, Trip Size: 2029, Average Time: 323.394, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1007
+so_simple--[2024-04-03 20:57:42.402048] , Network: rand_20, Trip Size: 2030, Average Time: 377.276, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1051
+ue_simple--[2024-04-03 20:58:07.337224] , Network: rand_20, Trip Size: 2030, Average Time: 317.428, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1003
+so_simple--[2024-04-03 20:58:48.405550] , Network: rand_20, Trip Size: 2031, Average Time: 391.234, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1141
+ue_simple--[2024-04-03 20:59:10.317147] , Network: rand_20, Trip Size: 2031, Average Time: 313.504, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 884
+so_simple--[2024-04-03 20:59:46.901555] , Network: rand_20, Trip Size: 2032, Average Time: 365.508, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1006
+ue_simple--[2024-04-03 21:00:11.462883] , Network: rand_20, Trip Size: 2032, Average Time: 350.678, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 976
+so_simple--[2024-04-03 21:00:55.148737] , Network: rand_20, Trip Size: 2033, Average Time: 393.258, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1135
+ue_simple--[2024-04-03 21:01:20.912958] , Network: rand_20, Trip Size: 2033, Average Time: 327.984, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 964
+so_simple--[2024-04-03 21:02:03.127119] , Network: rand_20, Trip Size: 2034, Average Time: 382.764, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1143
+ue_simple--[2024-04-03 21:02:29.252666] , Network: rand_20, Trip Size: 2034, Average Time: 340.864, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1033
+so_simple--[2024-04-03 21:03:08.691354] , Network: rand_20, Trip Size: 2035, Average Time: 377.21, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1160
+ue_simple--[2024-04-03 21:03:29.426014] , Network: rand_20, Trip Size: 2035, Average Time: 281.794, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 853
+so_simple--[2024-04-03 21:04:10.997967] , Network: rand_20, Trip Size: 2036, Average Time: 412.552, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1137
+ue_simple--[2024-04-03 21:04:35.981658] , Network: rand_20, Trip Size: 2036, Average Time: 368.218, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 970
+so_simple--[2024-04-03 21:05:11.507351] , Network: rand_20, Trip Size: 2037, Average Time: 345.188, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1025
+ue_simple--[2024-04-03 21:05:38.017016] , Network: rand_20, Trip Size: 2037, Average Time: 369.462, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1105
+so_simple--[2024-04-03 21:06:18.858051] , Network: rand_20, Trip Size: 2038, Average Time: 403.926, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1139
+ue_simple--[2024-04-03 21:06:42.463277] , Network: rand_20, Trip Size: 2038, Average Time: 314.94, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1009
+so_simple--[2024-04-03 21:07:18.002837] , Network: rand_20, Trip Size: 2039, Average Time: 347.41, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1026
+ue_simple--[2024-04-03 21:07:40.987208] , Network: rand_20, Trip Size: 2039, Average Time: 305.324, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 962
+so_simple--[2024-04-03 21:08:21.620645] , Network: rand_20, Trip Size: 2040, Average Time: 379.606, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1190
+ue_simple--[2024-04-03 21:08:44.809575] , Network: rand_20, Trip Size: 2040, Average Time: 314.218, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 968
+so_simple--[2024-04-03 21:09:25.769549] , Network: rand_20, Trip Size: 2041, Average Time: 396.994, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1191
+ue_simple--[2024-04-03 21:09:48.489240] , Network: rand_20, Trip Size: 2041, Average Time: 304.758, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 973
+so_simple--[2024-04-03 21:10:23.711880] , Network: rand_20, Trip Size: 2042, Average Time: 355.734, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 950
+ue_simple--[2024-04-03 21:10:49.246491] , Network: rand_20, Trip Size: 2042, Average Time: 336.528, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1100
+so_simple--[2024-04-03 21:11:24.240729] , Network: rand_20, Trip Size: 2043, Average Time: 342.36, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1004
+ue_simple--[2024-04-03 21:11:46.164265] , Network: rand_20, Trip Size: 2043, Average Time: 319.958, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 862
+so_simple--[2024-04-03 21:12:25.572230] , Network: rand_20, Trip Size: 2044, Average Time: 388.006, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1122
+ue_simple--[2024-04-03 21:28:38.776280] , Network: rand_20, Trip Size: 2044, Average Time: 317.058, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 917
+so_simple--[2024-04-03 21:44:46.120736] , Network: rand_20, Trip Size: 2045, Average Time: 391.414, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1190
+ue_simple--[2024-04-03 21:45:11.440722] , Network: rand_20, Trip Size: 2045, Average Time: 342.66, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1054
+so_simple--[2024-04-03 21:45:50.453426] , Network: rand_20, Trip Size: 2046, Average Time: 382.584, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1117
+ue_simple--[2024-04-03 21:46:13.817419] , Network: rand_20, Trip Size: 2046, Average Time: 329.95, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 963
+so_simple--[2024-04-03 21:46:48.136034] , Network: rand_20, Trip Size: 2047, Average Time: 330.568, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 1034
+ue_simple--[2024-04-03 21:47:10.368804] , Network: rand_20, Trip Size: 2047, Average Time: 300.332, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 941
+so_simple--[2024-04-03 21:48:18.076979] , Network: rand_20, Trip Size: 2048, Average Time: 359.098, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 973
+ue_simple--[2024-04-03 21:48:44.334029] , Network: rand_20, Trip Size: 2048, Average Time: 329.436, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 977
+so_simple--[2024-04-03 21:49:23.592902] , Network: rand_20, Trip Size: 2049, Average Time: 352.662, Increase factor: 1.085, Congestion T: 3, Maxspeed: 15.0, sim_time: 963
+ue_simple--[2024-04-03 21:49:48.314144] , Network: rand_20, Trip Size: 2049, Average Time: 316.342, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 856
