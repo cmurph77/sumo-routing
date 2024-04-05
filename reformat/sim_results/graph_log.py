@@ -19,11 +19,12 @@ def main():
     args = parser.parse_args()
 
     fname = args.arg1
-    # trip_data = {'so_simple': {}, 'ue_simple': {}}
-    # total_avg_times = {'so_simple': [], 'ue_simple': []}
+    
+    trip_data = {'so_simple': {}, 'ue_simple': {}}
+    total_avg_times = {'so_simple': [], 'ue_simple': []}
 
-    trip_data = {'system_optimum': {}, 'user_equilibrium': {}}
-    total_avg_times = {'system_optimum': [], 'user_equilibrium': []}
+    # trip_data = {'system_optimum': {}, 'user_equilibrium': {}}
+    # total_avg_times = {'system_optimum': [], 'user_equilibrium': []}
 
     # fname = 'soVue_r20.txt'
     # fname = 'r20_compare/r20_p1_results.txt'

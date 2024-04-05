@@ -18,10 +18,10 @@ def sim_gen1():
         # Write "Hello, world!" to the file
         iterations = 50
         start_iter = 0
-        trip_filecount = 501
+        trip_filecount = 1000
         for i in range(0,iterations):
-            file.write('python3 so_simple.py '+str(trip_filecount)+' rand_20 3 15.00 1.025\n')
-            file.write('python3 ue_simple.py '+str(trip_filecount)+' rand_20 3 15.00 \n')
+            file.write('python3 so_simple.py '+str(trip_filecount)+' grid_10 3 15.00 *need-to-set\n')
+            file.write('python3 ue_simple.py '+str(trip_filecount)+' grid_10 3 15.00 \n')
             trip_filecount = trip_filecount + 1
 
 def sim_gen2():
@@ -49,14 +49,14 @@ def sim_gen3():
 def gen_trips():
     with open("write_bash_out.txt", "w") as file:
             # Write "Hello, world!" to the file
-            iterations = 40
+            iterations = 50
             start_iter = 0
-            trip_filecount = 510
+            trip_filecount = 1000
             for i in range(0,iterations):
-                file.write('python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n /Users/cianmurphy/code_directories/sumo-routing/reformat/sim_files/rand_20.net.xml  -e 250 --random --period 0.5\n')
-                file.write('mv trips.trips.xml '+str(trip_filecount)+'tr_rand_20.trips.xml\n')
+                file.write('python3 /opt/homebrew/share/sumo/tools/randomTrips.py -n ../../grid_10.net.xml -e 1000 --random --period 1\n')
+                file.write('mv trips.trips.xml '+str(trip_filecount)+'tr_grid_10.trips.xml\n')
                 trip_filecount = trip_filecount + 1
 
 if __name__ == "__main__":
     
-    sim_gen3()
+    gen_trips()
