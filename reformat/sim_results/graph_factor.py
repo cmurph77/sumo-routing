@@ -45,12 +45,13 @@ def analyze_csv(csv_file):
 
         # Displaying the graph
         plt.grid(True)
-        plt.savefig('r20_p05_factor.png')  # Saving the plot as a PNG file
+        # plt.savefig('r20_p05_factor.png')  # Saving the plot as a PNG file
+        plt.savefig( csv_file + '.png')
         plt.show()
 
             
             
 # Usage example
 if __name__ == "__main__":
-    csv_file_path = "r20_p05_factor.csv"  # Provide the path to your CSV file here
+    csv_file_path = "g10_factor_test/g10_p025_factor.csv"  # Provide the path to your CSV file here
     analyze_csv(csv_file_path)

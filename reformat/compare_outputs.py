@@ -8,10 +8,6 @@ import argparse
 # Strores the overal sim results for each trip size
 t1_average_tt = []
 t2_average_tt = []
-t3_average_tt = []
-t1_sim_time = 0
-t2_sim_time = 0
-t3_sim_time = 0
 same_route_counts = []
 same_tt_counts = []
 
@@ -27,19 +23,19 @@ def parse_data(data):
         parsed_data[key] = value
     return parsed_data
 
-def graph_results(data1, data2, data3, title, ylabel, labels, file1_name, file2_name, file3_name):
+def graph_results(data1, data2,title,ylabel,labels,file1_name,file2_name):
+    # labels = list(data1.keys())
     x = np.arange(len(labels))
-    width = 0.2
+    width = 0.35
 
     fig, ax = plt.subplots()
 
     values1 = [list(entry.values())[0] for entry in data1]
     values2 = [list(entry.values())[0] for entry in data2]
-    values3 = [list(entry.values())[0] for entry in data3]
 
-    rects1 = ax.bar(x - width, values1, width, label=file1_name)
-    rects2 = ax.bar(x, values2, width, label=file2_name)
-    rects3 = ax.bar(x + width, values3, width, label=file3_name)  # Adjust x-position here
+
+    rects1 = ax.bar(x - width/2, values1, width, label=file1_name)
+    rects2 = ax.bar(x + width/2, values2, width, label=file2_name)
 
     ax.set_xlabel('Trips')
     ax.set_ylabel(ylabel)
@@ -49,6 +45,7 @@ def graph_results(data1, data2, data3, title, ylabel, labels, file1_name, file2_
     ax.legend()
 
     plt.show()
+
 def parse_xml(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
@@ -57,13 +54,15 @@ def parse_xml(file_path):
 def extract_vehicle_data(vehicle):
     depart = float(vehicle.attrib['depart'])
     arrival = float(vehicle.attrib['arrival'])
+    id_num = float(vehicle.attrib['id'])
     travel_time = arrival - depart
     
     vehicle_data = {
         'depart': depart,
         'arrival': arrival,
         'travel_time': travel_time,
-       'route': [route.attrib['edges'] for route in vehicle.findall('.//route[@edges]')]
+       'route': [route.attrib['edges'] for route in vehicle.findall('.//route[@edges]')],
+       'id' : id_num
     }
     return vehicle_data
 
@@ -84,14 +83,13 @@ def extract_routes(xml):
         routes[vehicle_id] = extract_vehicle_data(vehicle)
     return routes
 
-def create_csv(trips1,trips2,trips3, output_filename,filename_1,filename_2,filename_3,trips):
+def create_csv(trips1,trips2,output_filename,filename_1,filename_2,trips):
     # Open a CSV file in write mode
     if print_results_to_conole: print("\nComparing " + filename_1 + " & " + filename_2 + " -> output file: " + output_filename)
     with open(output_filename, mode='w', newline='') as file:
         writer = csv.writer(file)
         trips1_name = filename_1
         trips2_name = filename_2
-        trips3_name = filename_3
 
         if len(trips1) != len(trips2):
             print(len(trips1))
@@ -119,7 +117,6 @@ def create_csv(trips1,trips2,trips3, output_filename,filename_1,filename_2,filen
         # store the total trip times
         trip1_tot_tt = 0;
         trip2_tot_tt = 0;
-        trip3_tot_tt = 0
         same_route_count = 0
         same_tt_count = 0
     
@@ -130,16 +127,12 @@ def create_csv(trips1,trips2,trips3, output_filename,filename_1,filename_2,filen
             # Load in data from the trips1 and 2
             trip1_rou = trips1[str(i)]['route']
             trip2_rou = trips2[str(i)]['route']
-            trip3_rou = trips3[str(i)]['route']
-
             trip1_tt = trips1[str(i)]['travel_time']
             trip2_tt = trips2[str(i)]['travel_time']
-            trip3_tt = trips3[str(i)]['travel_time']
 
             # Update the total trip times
             trip1_tot_tt = trip1_tot_tt + trip1_tt;
             trip2_tot_tt = trip2_tot_tt + trip2_tt;
-            trip3_tot_tt = trip3_tot_tt + trip3_tt;
 
             # Check is the trip time is the same
             if trip1_tt == trip2_tt:
@@ -177,19 +170,13 @@ def create_csv(trips1,trips2,trips3, output_filename,filename_1,filename_2,filen
         # Calculate Average Travel Times
         trip1_avg_tt = trip1_tot_tt/num_trips;
         t1_average_tt.append({trips:trip1_avg_tt})
-
         trip2_avg_tt = trip2_tot_tt/num_trips;
         t2_average_tt.append({trips:trip2_avg_tt})
-
-        trip3_avg_tt = trip3_tot_tt/num_trips;
-        t3_average_tt.append({trips:trip3_avg_tt})
-
         diff = trip1_avg_tt - trip2_avg_tt
         # speed_up =  (float(t2_average_tt) / float(t1_average_tt))* 100
         if print_results_to_conole:
             print("    " +filename_1 + ' Average Time: ' +  str(trip1_avg_tt))
             print("    " +filename_2 + ' Average Time: ' +  str(trip2_avg_tt))
-            print("    " +filename_3 + ' Average Time: ' +  str(trip3_avg_tt))
             print("    diff: " + str(diff))
             print("    Same Route Count: " +str(same_route_count) + "/ " + trips)
             print("    Same Time Count:  " + str(same_tt_count) + "/ " + trips)
@@ -198,23 +185,23 @@ def create_csv(trips1,trips2,trips3, output_filename,filename_1,filename_2,filen
 
             print("    CSV file " + output_filename+" has been created.\n")
 
-def compare_output_files(output_filename, xml1, xml2,xml3,filename_1,filename_2,filename_3,trips):
+def compare_output_files(output_filename, xml1, xml2,filename_1,filename_2,trips):
     trips1 = extract_routes(xml1)
     trips2 = extract_routes(xml2)
-    trips3 = extract_routes(xml3)
+    print(trips1)
     
     # sort the trips by id
     sorted_trips1 = dict(sorted(trips1.items()))
     sorted_trips2 = dict(sorted(trips2.items()))
-    sorted_trips3 = dict(sorted(trips3.items()))
 
     # for i in range (0,len(sorted_trips1)):
     #     print(str(i) + ": " + str(sorted_trips1[str(i)]))
 
     # print(sorted_trips2)
 
-    create_csv(sorted_trips1,sorted_trips2,sorted_trips3, output_filename,filename_1,filename_2,filename_3,trips)
- 
+    create_csv(sorted_trips1,sorted_trips2,output_filename,filename_1,filename_2,trips)
+
+    
 def create_overall_csv(out_filename, t1_average_tt, t2_average_tt,same_routes,same_times):
     x_axis_keys = [list(entry.keys())[0] for entry in t1_average_tt]
     t1_average_time_vals =  [list(entry.values())[0] for entry in t1_average_tt]
@@ -247,65 +234,55 @@ def create_overall_csv(out_filename, t1_average_tt, t2_average_tt,same_routes,sa
 
 if __name__ == "__main__":
 
-    # Read in Arguments
-    parser = argparse.ArgumentParser(description='Description of your script.')
+    # # Read in Arguments
+    # parser = argparse.ArgumentParser(description='Description of your script.')
 
-    # Add arguments
-    parser.add_argument('arg1', type=str, help='Description of argument 1')
-    parser.add_argument('arg2', type=str, help='Description of argument 1')
-    parser.add_argument('arg3', type=str, help='Description of argument 1')
-    parser.add_argument('arg4', type=str, help='Description of argument 1')
+    # # Add arguments
+    # parser.add_argument('arg1', type=str, help='Description of argument 1')
+    # parser.add_argument('arg2', type=str, help='Description of argument 1')
+    # parser.add_argument('arg3', type=str, help='Description of argument 1')
+    # parser.add_argument('arg4', type=str, help='Description of argument 1')
+    # parser.add_argument('arg5', type=str, help='Description of argument 1')
 
+    # # parser.add_argument('arg2', type=str, help='Description of argument 2')
 
-    # parser.add_argument('arg2', type=str, help='Description of argument 2')
+    # # Parse arguments
+    # args = parser.parse_args()
+    # network = args.arg1
+    # f1_exp = args.arg2
+    # f1 = args.arg3
+    # f2_exp = args.arg4
+    # f2 = args.arg5
 
-    # Parse arguments
-    args = parser.parse_args()
-    network = args.arg1
-    alg1 = args.arg2
-    alg2 = args.arg3
-    alg3 = args.arg4
-
-
-
-    # network = 'rand_20'
-    # alg1 = 'og_cr'
-    # alg2 = 'static_astar'
-    type = 'cr'
-
-
+    network = 'rand_20'
 
     if network == 'grid_10':     trips_array = [500,1000,1500,2000]
-    # if network == 'rand_20':     trips_array = [500,1000,1250]
-    if network == 'rand_20':     trips_array = [1000,1001,1002,1003,1004,1005]
-    if network == 'net_001':     trips_array = [1000,2000]
-    if network == 'tree_23':     trips_array = [500,1000,1500,2000]
-    if network == 'tree_23_tl':  trips_array = [1500,2000]
-    if network == 'tree_100':    trips_array = [500,1000,1500,2000,2500,3000,4000,5000,6000]
+    if network == 'rand_20':     trips_array = [501]
+    if network == 'net_001':     trips_array = [1000,2000,3000,4000]
+    if network == 'tree_23':     trips_array = [500,1000]
+    if network == 'tree_100':     trips_array = [500,1000,1500,2000,2500,3000,4000,5000,6000]
 
-    algs = ['og_cr','so_v3','so_v3','so_v4']
+
 
      # network = "rand_20"
     print(" \n\n---------- PRINTING RESULTS FOR NETWORK: " + network + "-------------")
 
     for trip_count in trips_array:
-        file1_name = alg1
-        file1 = "out/"+alg1+"_out/"+network+"_output_files/"+type+"_" + str(trip_count) + "tr.out.xml"
-        file2_name = alg2
-        file2 = "out/"+alg2+"_out/"+network+"_output_files/"+type+"_" + str(trip_count) + "tr.out.xml"
-        file3_name = alg3
-        file3 = "out/"+alg3+"_out/"+network+"_output_files/"+type+"_" + str(trip_count) + "tr.out.xml"
-        
-        print('file1: ' + file1)
-        print('file2: ' + file2)
+        file1_name = 'system_optmimum'
+        file1 = "out/so_simple_out/rand_20_output_files/cr_501tr.out.xml"
         xml1 = parse_xml(file1)
+        file2_name = 'user_euilibrium'
+        file2 = "out/ue_simple_out/rand_20_output_files/cr_501tr.out.xml"
+        # print(file2)
+
         xml2 = parse_xml(file2)
-        xml3 = parse_xml(file3)
+        output_file_loc = "ignore.csv"
+        compare_output_files(output_file_loc,xml1, xml2,file1_name,file2_name,str(trip_count))
 
-        output_file_loc = "out/"+alg1+"_out/"+network+"_output_files/" + str(trip_count) + "tr_crVa.csv"
-        compare_output_files(output_file_loc,xml1, xml2,xml3,file1_name,file2_name,file3_name,str(trip_count))
 
-    graph_results(t1_average_tt,t2_average_tt,t3_average_tt,"Average Travel Time on Netowrk: " + network, "Travel Time (seconds)",trips_array,file1_name,file2_name,file3_name)
+
+
+    # graph_results(t1_average_tt,t2_average_tt,"Average Travel Time on Netowrk: " + network, "Travel Time (seconds)",trips_array,file1_name,file2_name)
 
 
 

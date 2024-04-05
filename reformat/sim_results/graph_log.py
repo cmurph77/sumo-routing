@@ -39,8 +39,8 @@ def main():
     
     i = 1
     for algo, sizes in trip_data.items():
-        if i == 2: plot_colour = 'green'
-        elif i == 1 : plot_colour = 'red'
+        if i == 1: plot_colour = 'green'
+        elif i == 2 : plot_colour = 'red'
         i = i+1
         plt.scatter(list(sizes.keys()), [sum(times)/len(times) for times in sizes.values()], label=algo,color=plot_colour )
 
@@ -60,8 +60,8 @@ def main():
         print(f"Average of the average times for {algo}: {avg_of_avg}")
 
     
-    plt.axhline(ue_avg, color='red')
-    plt.axhline(so_avg, color= 'green')
+    plt.axhline(ue_avg, color='green')
+    plt.axhline(so_avg, color= 'red')
 
     plt.savefig(fname + '.png')  # Saving the plot as a PNG file
     plt.show()
