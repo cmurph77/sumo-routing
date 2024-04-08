@@ -34,7 +34,6 @@ def compare_travel_times(ue_tt,so_tt):
     so_slower_percent = (so_slower/len(so_tt)) * 100
     return so_slower_percent
 
-
 def extract_travel_times(trip_count, network):
     filename = "out/so_simple_out/"+network+"_output_files/cr_"+str(trip_count)+"tr.out.xml"
     so_tt = parse_axml(filename)
@@ -74,6 +73,9 @@ args = parser.parse_args()
 trip_count = args.arg1
 network = args.arg2
 
-cmp_all(network, 1001,1010)
+so_tt, ue_tt = extract_travel_times(trip_count, network)
+slower = compare_travel_times(so_tt, ue_tt)
+print(str(slower))
+# cmp_all(network, 1001,1010)
 
 # print(result)

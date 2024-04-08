@@ -1,21 +1,21 @@
-python3 so_simple.py 2001 rand_20 3 15.00 1.035
-python3 ue_simple.py 2001 rand_20 3 15.00 
-python3 so_simple.py 2002 rand_20 3 15.00 1.035
-python3 ue_simple.py 2002 rand_20 3 15.00 
-python3 so_simple.py 2003 rand_20 3 15.00 1.035
-python3 ue_simple.py 2003 rand_20 3 15.00 
-python3 so_simple.py 2004 rand_20 3 15.00 1.035
-python3 ue_simple.py 2004 rand_20 3 15.00 
-python3 so_simple.py 2005 rand_20 3 15.00 1.035
-python3 ue_simple.py 2005 rand_20 3 15.00 
-python3 so_simple.py 2006 rand_20 3 15.00 1.035
-python3 ue_simple.py 2006 rand_20 3 15.00 
-python3 so_simple.py 2007 rand_20 3 15.00 1.035
-python3 ue_simple.py 2007 rand_20 3 15.00 
-python3 so_simple.py 2008 rand_20 3 15.00 1.035
-python3 ue_simple.py 2008 rand_20 3 15.00 
-python3 so_simple.py 2009 rand_20 3 15.00 1.035
-python3 ue_simple.py 2009 rand_20 3 15.00 
+# python3 so_simple.py 2001 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2001 rand_20 3 15.00 
+# python3 so_simple.py 2002 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2002 rand_20 3 15.00 
+# python3 so_simple.py 2003 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2003 rand_20 3 15.00 
+# python3 so_simple.py 2004 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2004 rand_20 3 15.00 
+# python3 so_simple.py 2005 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2005 rand_20 3 15.00 
+# python3 so_simple.py 2006 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2006 rand_20 3 15.00 
+# python3 so_simple.py 2007 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2007 rand_20 3 15.00 
+# python3 so_simple.py 2008 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2008 rand_20 3 15.00 
+# python3 so_simple.py 2009 rand_20 3 15.00 1.035
+# python3 ue_simple.py 2009 rand_20 3 15.00 
 python3 so_simple.py 2010 rand_20 3 15.00 1.035
 python3 ue_simple.py 2010 rand_20 3 15.00 
 python3 so_simple.py 2011 rand_20 3 15.00 1.035
