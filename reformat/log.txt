@@ -2314,7 +2314,7 @@ ue_simple--[2024-04-03 21:49:48.314144]  , Network: rand_20, Trip Size: 2049, Av
 
 
 
-
+-- GRID 1- PERIOD 0.25 TESTING WITH IF = 1.01   ----
 so_simple--[2024-04-05 13:28:19.800717] , Network: grid_10, Trip Size: 260, Average Time: 417.031, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1160
 ue_simple--[2024-04-05 13:32:12.667073] , Network: grid_10, Trip Size: 260, Average Time: 438.28, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1190
 so_simple--[2024-04-05 13:36:19.234369] , Network: grid_10, Trip Size: 261, Average Time: 413.755, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1182
@@ -2335,3 +2335,254 @@ so_simple--[2024-04-05 14:34:31.512534] , Network: grid_10, Trip Size: 268, Aver
 ue_simple--[2024-04-05 14:37:45.374070] , Network: grid_10, Trip Size: 268, Average Time: 415.802, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1092
 so_simple--[2024-04-05 14:41:49.666193] , Network: grid_10, Trip Size: 269, Average Time: 432.875, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1238
 ue_simple--[2024-04-05 14:45:23.652535] , Network: grid_10, Trip Size: 269, Average Time: 434.895, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+so_simple--[2024-04-05 14:50:02.478252] , Network: grid_10, Trip Size: 270, Average Time: 410.692, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1182
+ue_simple--[2024-04-05 14:53:36.508044] , Network: grid_10, Trip Size: 270, Average Time: 433.016, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1181
+so_simple--[2024-04-05 14:57:30.791661] , Network: grid_10, Trip Size: 271, Average Time: 423.011, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1181
+ue_simple--[2024-04-05 15:00:52.897813] , Network: grid_10, Trip Size: 271, Average Time: 426.432, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1190
+so_simple--[2024-04-05 15:04:32.019127] , Network: grid_10, Trip Size: 272, Average Time: 407.435, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1152
+ue_simple--[2024-04-05 15:07:53.653591] , Network: grid_10, Trip Size: 272, Average Time: 413.147, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1180
+so_simple--[2024-04-05 15:11:45.629827] , Network: grid_10, Trip Size: 273, Average Time: 436.53, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+ue_simple--[2024-04-05 15:15:15.093292] , Network: grid_10, Trip Size: 273, Average Time: 465.244, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1238
+so_simple--[2024-04-05 15:25:10.691118] , Network: grid_10, Trip Size: 274, Average Time: 426.974, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1193
+ue_simple--[2024-04-05 15:43:46.630973] , Network: grid_10, Trip Size: 274, Average Time: 444.051, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1227
+so_simple--[2024-04-05 15:48:01.454026] , Network: grid_10, Trip Size: 275, Average Time: 430.684, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1189
+ue_simple--[2024-04-05 15:51:44.256921] , Network: grid_10, Trip Size: 275, Average Time: 446.239, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1271
+so_simple--[2024-04-05 15:55:37.545428] , Network: grid_10, Trip Size: 276, Average Time: 409.337, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1157
+ue_simple--[2024-04-05 15:59:10.534121] , Network: grid_10, Trip Size: 276, Average Time: 438.728, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1208
+so_simple--[2024-04-05 16:02:55.076530] , Network: grid_10, Trip Size: 277, Average Time: 412.105, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+ue_simple--[2024-04-05 16:06:13.951057] , Network: grid_10, Trip Size: 277, Average Time: 431.437, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1182
+so_simple--[2024-04-05 16:10:25.959048] , Network: grid_10, Trip Size: 278, Average Time: 427.609, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1199
+ue_simple--[2024-04-05 16:13:54.857897] , Network: grid_10, Trip Size: 278, Average Time: 432.481, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1194
+so_simple--[2024-04-05 16:17:53.896448] , Network: grid_10, Trip Size: 279, Average Time: 409.108, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1183
+ue_simple--[2024-04-05 16:21:28.272077] , Network: grid_10, Trip Size: 279, Average Time: 416.511, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+so_simple--[2024-04-05 16:25:37.804235] , Network: grid_10, Trip Size: 280, Average Time: 435.376, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1270
+ue_simple--[2024-04-05 16:29:17.113404] , Network: grid_10, Trip Size: 280, Average Time: 439.936, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1271
+so_simple--[2024-04-05 16:33:03.009827] , Network: grid_10, Trip Size: 281, Average Time: 411.892, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1138
+ue_simple--[2024-04-05 16:36:44.777737] , Network: grid_10, Trip Size: 281, Average Time: 422.284, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+so_simple--[2024-04-05 16:40:50.625585] , Network: grid_10, Trip Size: 282, Average Time: 409.771, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1150
+ue_simple--[2024-04-05 16:44:32.301801] , Network: grid_10, Trip Size: 282, Average Time: 440.724, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1242
+so_simple--[2024-04-05 16:48:47.971729] , Network: grid_10, Trip Size: 283, Average Time: 438.911, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1270
+ue_simple--[2024-04-05 16:52:12.860610] , Network: grid_10, Trip Size: 283, Average Time: 440.934, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1189
+so_simple--[2024-04-05 16:55:54.570525] , Network: grid_10, Trip Size: 284, Average Time: 412.99, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1189
+ue_simple--[2024-04-05 16:59:18.298503] , Network: grid_10, Trip Size: 284, Average Time: 428.571, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1182
+so_simple--[2024-04-05 17:03:16.792689] , Network: grid_10, Trip Size: 285, Average Time: 421.61, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1257
+ue_simple--[2024-04-05 17:06:43.655168] , Network: grid_10, Trip Size: 285, Average Time: 428.96, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1180
+so_simple--[2024-04-05 17:15:36.005878] , Network: grid_10, Trip Size: 286, Average Time: 435.753, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1137
+ue_simple--[2024-04-05 17:19:12.875797] , Network: grid_10, Trip Size: 286, Average Time: 425.414, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1225
+so_simple--[2024-04-05 17:22:50.632133] , Network: grid_10, Trip Size: 287, Average Time: 393.465, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1137
+ue_simple--[2024-04-05 17:26:09.355928] , Network: grid_10, Trip Size: 287, Average Time: 417.329, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+so_simple--[2024-04-05 17:29:54.483652] , Network: grid_10, Trip Size: 288, Average Time: 413.586, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1182
+ue_simple--[2024-04-05 17:33:20.494933] , Network: grid_10, Trip Size: 288, Average Time: 438.308, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1234
+so_simple--[2024-04-05 17:36:55.231057] , Network: grid_10, Trip Size: 289, Average Time: 420.181, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1136
+ue_simple--[2024-04-05 17:40:19.932267] , Network: grid_10, Trip Size: 289, Average Time: 450.041, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1192
+so_simple--[2024-04-05 17:44:25.375908] , Network: grid_10, Trip Size: 290, Average Time: 412.684, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+ue_simple--[2024-04-05 17:52:04.341751] , Network: grid_10, Trip Size: 290, Average Time: 428.384, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1270
+so_simple--[2024-04-05 17:59:01.752298] , Network: grid_10, Trip Size: 291, Average Time: 422.935, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1156
+ue_simple--[2024-04-05 18:11:47.209615] , Network: grid_10, Trip Size: 291, Average Time: 442.631, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1271
+so_simple--[2024-04-05 18:27:10.980115] , Network: grid_10, Trip Size: 292, Average Time: 427.495, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1194
+ue_simple--[2024-04-05 18:45:11.858233] , Network: grid_10, Trip Size: 292, Average Time: 459.267, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1260
+so_simple--[2024-04-05 18:57:29.292582] , Network: grid_10, Trip Size: 293, Average Time: 409.878, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1147
+ue_simple--[2024-04-05 19:01:48.783581] , Network: grid_10, Trip Size: 293, Average Time: 427.408, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1205
+so_simple--[2024-04-05 19:07:54.685479] , Network: grid_10, Trip Size: 294, Average Time: 412.57, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1190
+ue_simple--[2024-04-05 19:26:35.296843] , Network: grid_10, Trip Size: 294, Average Time: 438.048, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1198
+so_simple--[2024-04-05 19:43:12.030345] , Network: grid_10, Trip Size: 295, Average Time: 422.044, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+ue_simple--[2024-04-05 20:03:47.587782] , Network: grid_10, Trip Size: 295, Average Time: 431.803, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1190
+so_simple--[2024-04-05 20:18:54.256029] , Network: grid_10, Trip Size: 296, Average Time: 424.396, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+ue_simple--[2024-04-05 20:43:51.129132] , Network: grid_10, Trip Size: 296, Average Time: 454.261, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1282
+so_simple--[2024-04-05 20:52:55.133120] , Network: grid_10, Trip Size: 297, Average Time: 427.802, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1202
+ue_simple--[2024-04-05 21:14:50.304861] , Network: grid_10, Trip Size: 297, Average Time: 430.916, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1180
+so_simple--[2024-04-05 21:18:55.295039] , Network: grid_10, Trip Size: 298, Average Time: 416.944, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1192
+ue_simple--[2024-04-05 21:24:07.945346] , Network: grid_10, Trip Size: 298, Average Time: 440.859, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1181
+so_simple--[2024-04-05 21:30:30.641632] , Network: grid_10, Trip Siz:e 299, Average Time: 444.457, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1236
+ue_simple--[2024-04-05 21:35:22.103516] , Network: grid_10, Trip Size: 299, Average Time: 431.504, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226
+so_simple--[2024-04-05 21:41:05.162425] , Network: grid_10, Trip Size: 253, Average Time: 515.404, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1380
+so_simple--[2024-04-05 21:47:05.482190] , Network: grid_10, Trip Size: 254, Average Time: 536.101, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1415
+so_simple--[2024-04-05 22:01:22.751910] , Network: grid_10, Trip Size: 255, Average Time: 522.432, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1377
+so_simple--[2024-04-05 22:17:05.496763] , Network: grid_10, Trip Size: 256, Average Time: 541.291, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1513
+so_simple--[2024-04-05 22:25:05.514317] , Network: grid_10, Trip Size: 257, Average Time: 533.196, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1495
+so_simple--[2024-04-05 22:43:18.830773] , Network: grid_10, Trip Size: 258, Average Time: 539.441, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1515
+so_simple--[2024-04-05 22:57:04.749666] , Network: grid_10, Trip Size: 259, Average Time: 525.756, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1407
+so_simple--[2024-04-05 23:07:38.945656] , Network: grid_10, Trip Size: 250, Average Time: 545.445, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1552
+so_simple--[2024-04-05 23:12:22.412992] , Network: grid_10, Trip Size: 251, Average Time: 555.65, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1384
+so_simple--[2024-04-05 23:21:43.493063] , Network: grid_10, Trip Size: 252, Average Time: 528.729, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1405
+so_simple--[2024-04-05 23:46:11.430033] , Network: grid_10, Trip Size: 253, Average Time: 566.907, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1495
+so_simple--[2024-04-06 00:00:14.025788] , Network: grid_10, Trip Size: 254, Average Time: 585.103, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1542
+so_simple--[2024-04-06 00:05:03.280411] , Network: grid_10, Trip Size: 255, Average Time: 536.613, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1417
+so_simple--[2024-04-06 00:31:06.428891] , Network: grid_10, Trip Size: 256, Average Time: 528.452, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1476
+so_simple--[2024-04-06 00:45:33.447008] , Network: grid_10, Trip Size: 257, Average Time: 559.544, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1496
+so_simple--[2024-04-06 01:12:14.691256] , Network: grid_10, Trip Size: 258, Average Time: 588.794, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1657
+so_simple--[2024-04-06 01:40:49.987222] , Network: grid_10, Trip Size: 259, Average Time: 548.842, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1468
+so_simple--[2024-04-06 01:46:13.387856] , Network: grid_10, Trip Size: 250, Average Time: 573.899, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1497
+so_simple--[2024-04-06 01:51:36.966426] , Network: grid_10, Trip Size: 251, Average Time: 560.388, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1548
+so_simple--[2024-04-06 01:57:26.089555] , Network: grid_10, Trip Size: 252, Average Time: 610.003, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1632
+so_simple--[2024-04-06 02:02:54.987156] , Network: grid_10, Trip Size: 253, Average Time: 559.923, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1587
+so_simple--[2024-04-06 02:08:24.829618] , Network: grid_10, Trip Size: 254, Average Time: 600.503, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1505
+so_simple--[2024-04-06 02:13:43.235549] , Network: grid_10, Trip Size: 255, Average Time: 562.095, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1523
+so_simple--[2024-04-06 02:19:05.913633] , Network: grid_10, Trip Size: 256, Average Time: 566.811, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1541
+so_simple--[2024-04-06 02:24:17.045479] , Network: grid_10, Trip Size: 257, Average Time: 573.333, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1462
+so_simple--[2024-04-06 02:29:34.538556] , Network: grid_10, Trip Size: 258, Average Time: 570.319, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1495
+so_simple--[2024-04-06 02:34:52.464743] , Network: grid_10, Trip Size: 259, Average Time: 563.2, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1496
+so_simple--[2024-04-06 02:40:20.853480] , Network: grid_10, Trip Size: 250, Average Time: 579.094, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1523
+so_simple--[2024-04-06 02:46:26.147247] , Network: grid_10, Trip Size: 251, Average Time: 637.271, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1691
+so_simple--[2024-04-06 02:51:54.349375] , Network: grid_10, Trip Size: 252, Average Time: 588.512, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1514
+so_simple--[2024-04-06 02:57:16.680994] , Network: grid_10, Trip Size: 253, Average Time: 572.196, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1509
+so_simple--[2024-04-06 03:02:43.191859] , Network: grid_10, Trip Size: 254, Average Time: 605.904, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1541
+so_simple--[2024-04-06 03:08:00.971504] , Network: grid_10, Trip Size: 255, Average Time: 588.789, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1585
+so_simple--[2024-04-06 03:29:38.320805] , Network: grid_10, Trip Size: 256, Average Time: 573.307, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1450
+so_simple--[2024-04-06 03:47:07.869535] , Network: grid_10, Trip Size: 257, Average Time: 607.768, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1586
+so_simple--[2024-04-06 04:40:21.222550] , Network: grid_10, Trip Size: 258, Average Time: 615.734, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1585
+so_simple--[2024-04-06 05:08:58.264506] , Network: grid_10, Trip Size: 259, Average Time: 613.207, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1632
+so_simple--[2024-04-06 05:56:11.425157] , Network: grid_10, Trip Size: 250, Average Time: 617.571, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1640
+so_simple--[2024-04-06 06:33:25.869042] , Network: grid_10, Trip Size: 251, Average Time: 593.129, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1541
+so_simple--[2024-04-06 07:15:42.976440] , Network: grid_10, Trip Size: 252, Average Time: 615.438, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1540
+so_simple--[2024-04-06 07:33:41.801667] , Network: grid_10, Trip Size: 253, Average Time: 611.584, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1632
+so_simple--[2024-04-06 07:42:09.611354] , Network: grid_10, Trip Size: 254, Average Time: 613.497, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1542
+so_simple--[2024-04-06 07:48:54.638794] , Network: grid_10, Trip Size: 255, Average Time: 602.889, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1600
+so_simple--[2024-04-06 07:54:43.457131] , Network: grid_10, Trip Size: 256, Average Time: 616.846, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1597
+so_simple--[2024-04-06 08:01:23.456851] , Network: grid_10, Trip Size: 257, Average Time: 628.866, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1597
+so_simple--[2024-04-06 08:07:10.920054] , Network: grid_10, Trip Size: 258, Average Time: 619.489, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1598
+so_simple--[2024-04-06 08:12:57.955331] , Network: grid_10, Trip Size: 259, Average Time: 620.224, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1632
+so_simple--[2024-04-06 08:18:32.206149] , Network: grid_10, Trip Size: 250, Average Time: 639.454, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1597
+so_simple--[2024-04-06 08:24:43.520138] , Network: grid_10, Trip Size: 251, Average Time: 641.642, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1720
+so_simple--[2024-04-06 08:30:32.070291] , Network: grid_10, Trip Size: 252, Average Time: 643.762, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1640
+so_simple--[2024-04-06 08:36:10.039094] , Network: grid_10, Trip Size: 253, Average Time: 623.944, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1640
+so_simple--[2024-04-06 08:42:54.717192] , Network: grid_10, Trip Size: 254, Average Time: 645.533, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1631
+so_simple--[2024-04-06 08:51:04.749840] , Network: grid_10, Trip Size: 255, Average Time: 612.871, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1677
+so_simple--[2024-04-06 09:15:14.693969] , Network: grid_10, Trip Size: 256, Average Time: 655.616, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1693
+so_simple--[2024-04-06 09:47:02.822062] , Network: grid_10, Trip Size: 257, Average Time: 659.249, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1693
+so_simple--[2024-04-06 09:54:49.880939] , Network: grid_10, Trip Size: 258, Average Time: 621.197, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1513
+so_simple--[2024-04-06 10:00:11.128263] , Network: grid_10, Trip Size: 259, Average Time: 604.59, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1585
+so_simple--[2024-04-06 10:05:47.240695] , Network: grid_10, Trip Size: 250, Average Time: 623.411, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1675
+so_simple--[2024-04-06 10:11:31.251863] , Network: grid_10, Trip Size: 251, Average Time: 669.516, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1630
+so_simple--[2024-04-06 10:17:12.329076] , Network: grid_10, Trip Size: 252, Average Time: 642.239, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1677
+so_simple--[2024-04-06 10:22:50.948760] , Network: grid_10, Trip Size: 253, Average Time: 650.375, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1631
+so_simple--[2024-04-06 10:28:40.340542] , Network: grid_10, Trip Size: 254, Average Time: 665.249, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1689
+so_simple--[2024-04-06 10:34:28.074035] , Network: grid_10, Trip Size: 255, Average Time: 644.607, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1728
+so_simple--[2024-04-06 10:40:03.370398] , Network: grid_10, Trip Size: 256, Average Time: 626.814, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1644
+so_simple--[2024-04-06 10:45:32.388000] , Network: grid_10, Trip Size: 257, Average Time: 637.046, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1552
+so_simple--[2024-04-06 10:51:36.070645] , Network: grid_10, Trip Size: 258, Average Time: 672.983, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1800
+so_simple--[2024-04-06 11:01:15.824738] , Network: grid_10, Trip Size: 259, Average Time: 631.656, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1587
+so_simple--[2024-04-06 11:10:25.765026] , Network: grid_10, Trip Size: 250, Average Time: 684.889, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1683
+so_simple--[2024-04-06 11:22:09.075656] , Network: grid_10, Trip Size: 251, Average Time: 686.119, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1722
+so_simple--[2024-04-06 11:28:19.613003] , Network: grid_10, Trip Size: 252, Average Time: 678.247, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1721
+so_simple--[2024-04-06 11:34:15.908551] , Network: grid_10, Trip Size: 253, Average Time: 637.694, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1695
+so_simple--[2024-04-06 11:40:27.558636] , Network: grid_10, Trip Size: 254, Average Time: 671.772, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1732
+so_simple--[2024-04-06 11:46:48.318329] , Network: grid_10, Trip Size: 255, Average Time: 676.849, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1805
+so_simple--[2024-04-06 11:52:54.996480] , Network: grid_10, Trip Size: 256, Average Time: 667.261, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1698
+so_simple--[2024-04-06 11:59:06.452717] , Network: grid_10, Trip Size: 257, Average Time: 666.093, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1738
+so_simple--[2024-04-06 12:05:17.757242] , Network: grid_10, Trip Size: 258, Average Time: 668.629, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1737
+so_simple--[2024-04-06 12:11:18.166754] , Network: grid_10, Trip Size: 259, Average Time: 645.913, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1700
+so_simple--[2024-04-06 12:15:34.031262] , Network: grid_10, Trip Size: 1009, Average Time: 330.871, Increase factor: 1.02, Congestion T: 3, Maxspeed: 15.0, sim_time: 1630
+so_simple--[2024-04-06 12:19:49.285881] , Network: grid_10, Trip Size: 1000, Average Time: 342.643, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1588
+so_simple--[2024-04-06 12:24:22.716029] , Network: grid_10, Trip Size: 1001, Average Time: 332.527, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1600
+so_simple--[2024-04-06 12:28:31.386782] , Network: grid_10, Trip Size: 1002, Average Time: 344.616, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1686
+so_simple--[2024-04-06 12:32:34.257557] , Network: grid_10, Trip Size: 1003, Average Time: 344.127, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1631
+so_simple--[2024-04-06 12:36:29.820956] , Network: grid_10, Trip Size: 1004, Average Time: 330.088, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1588
+so_simple--[2024-04-06 12:40:39.827973] , Network: grid_10, Trip Size: 1005, Average Time: 336.034, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1691
+so_simple--[2024-04-06 12:44:40.268540] , Network: grid_10, Trip Size: 1006, Average Time: 337.098, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1596
+so_simple--[2024-04-06 12:48:35.363202] , Network: grid_10, Trip Size: 1007, Average Time: 320.914, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1586
+so_simple--[2024-04-06 12:52:40.766236] , Network: grid_10, Trip Size: 1008, Average Time: 330.805, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1687
+so_simple--[2024-04-06 12:56:31.344376] , Network: grid_10, Trip Size: 1009, Average Time: 326.811, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1541
+so_simple--[2024-04-06 13:00:24.798373] , Network: grid_10, Trip Size: 1000, Average Time: 319.708, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1586
+so_simple--[2024-04-06 13:04:29.578172] , Network: grid_10, Trip Size: 1001, Average Time: 324.066, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1677
+so_simple--[2024-04-06 13:08:35.395025] , Network: grid_10, Trip Size: 1002, Average Time: 342.492, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1632
+so_simple--[2024-04-06 13:12:40.468747] , Network: grid_10, Trip Size: 1003, Average Time: 341.543, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1632
+so_simple--[2024-04-06 13:17:02.257891] , Network: grid_10, Trip Size: 1004, Average Time: 327.214, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1828
+so_simple--[2024-04-06 13:25:51.073426] , Network: grid_10, Trip Size: 1005, Average Time: 347.777, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1631
+so_simple--[2024-04-06 13:34:38.831042] , Network: grid_10, Trip Size: 1006, Average Time: 339.136, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1638
+so_simple--[2024-04-06 13:40:14.264797] , Network: grid_10, Trip Size: 1007, Average Time: 344.081, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1631
+so_simple--[2024-04-06 13:55:33.689458] , Network: grid_10, Trip Size: 1008, Average Time: 349.532, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1676
+so_simple--[2024-04-06 14:06:03.267986] , Network: grid_10, Trip Size: 1009, Average Time: 327.551, Increase factor: 1.03, Congestion T: 3, Maxspeed: 15.0, sim_time: 1640
+so_simple--[2024-04-06 14:10:15.054551] , Network: grid_10, Trip Size: 1000, Average Time: 332.064, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1698
+so_simple--[2024-04-06 14:16:50.286107] , Network: grid_10, Trip Size: 1001, Average Time: 335.725, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1631
+so_simple--[2024-04-06 14:25:51.484753] , Network: grid_10, Trip Size: 1002, Average Time: 343.257, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1632
+so_simple--[2024-04-06 14:32:20.770057] , Network: grid_10, Trip Size: 1003, Average Time: 344.34, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1594
+so_simple--[2024-04-06 14:41:05.091355] , Network: grid_10, Trip Size: 1004, Average Time: 339.792, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1709
+so_simple--[2024-04-06 14:48:44.555797] , Network: grid_10, Trip Size: 1005, Average Time: 352.041, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1630
+so_simple--[2024-04-06 14:53:01.918482] , Network: grid_10, Trip Size: 1006, Average Time: 330.079, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1676
+so_simple--[2024-04-06 15:13:47.428347] , Network: grid_10, Trip Size: 1007, Average Time: 332.707, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1631
+so_simple--[2024-04-06 15:20:02.844673] , Network: grid_10, Trip Size: 1008, Average Time: 341.661, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1679
+so_simple--[2024-04-06 15:28:36.658103] , Network: grid_10, Trip Size: 1009, Average Time: 355.715, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1766
+so_simple--[2024-04-06 15:37:18.323777] , Network: grid_10, Trip Size: 1000, Average Time: 348.01, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1684
+so_simple--[2024-04-06 15:43:37.649170] , Network: grid_10, Trip Size: 1001, Average Time: 343.934, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1587
+so_simple--[2024-04-06 15:57:26.353644] , Network: grid_10, Trip Size: 1002, Average Time: 348.315, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1676
+so_simple--[2024-04-06 16:02:56.720104] , Network: grid_10, Trip Size: 1003, Average Time: 352.086, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1649
+so_simple--[2024-04-06 16:08:40.247672] , Network: grid_10, Trip Size: 1004, Average Time: 349.364, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1618
+so_simple--[2024-04-06 16:16:25.222493] , Network: grid_10, Trip Size: 1005, Average Time: 333.402, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1618
+so_simple--[2024-04-06 16:25:29.745681] , Network: grid_10, Trip Size: 1006, Average Time: 365.474, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1720
+so_simple--[2024-04-06 16:34:31.388682] , Network: grid_10, Trip Size: 1007, Average Time: 351.57, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1677
+so_simple--[2024-04-06 16:56:18.600404] , Network: grid_10, Trip Size: 1008, Average Time: 350.17, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1677
+so_simple--[2024-04-06 17:05:57.758923] , Network: grid_10, Trip Size: 1009, Average Time: 360.884, Increase factor: 1.04, Congestion T: 3, Maxspeed: 15.0, sim_time: 1722
+so_simple--[2024-04-06 17:13:10.597020] , Network: grid_10, Trip Size: 1000, Average Time: 355.265, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1696
+so_simple--[2024-04-06 17:22:12.869236] , Network: grid_10, Trip Size: 1001, Average Time: 370.73, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1733
+so_simple--[2024-04-06 17:27:36.016703] , Network: grid_10, Trip Size: 1002, Average Time: 356.08, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1706
+so_simple--[2024-04-06 17:40:19.103874] , Network: grid_10, Trip Size: 1003, Average Time: 355.8, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1720
+so_simple--[2024-04-06 17:49:22.848050] , Network: grid_10, Trip Size: 1004, Average Time: 377.137, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1794
+so_simple--[2024-04-06 18:11:09.262734] , Network: grid_10, Trip Size: 1005, Average Time: 366.988, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1691
+so_simple--[2024-04-06 18:20:09.062409] , Network: grid_10, Trip Size: 1006, Average Time: 340.775, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1686
+so_simple--[2024-04-06 18:27:52.046608] , Network: grid_10, Trip Size: 1007, Average Time: 355.899, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1730
+so_simple--[2024-04-06 18:35:46.927187] , Network: grid_10, Trip Size: 1008, Average Time: 344.17, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1678
+so_simple--[2024-04-06 18:41:55.031848] , Network: grid_10, Trip Size: 1009, Average Time: 358.966, Increase factor: 1.045, Congestion T: 3, Maxspeed: 15.0, sim_time: 1596
+so_simple--[2024-04-06 18:54:20.805253] , Network: grid_10, Trip Size: 1000, Average Time: 353.844, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1695
+so_simple--[2024-04-06 19:16:04.064626] , Network: grid_10, Trip Size: 1001, Average Time: 381.231, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1740
+so_simple--[2024-04-06 19:42:09.314593] , Network: grid_10, Trip Size: 1002, Average Time: 380.16, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1767
+so_simple--[2024-04-06 19:48:37.330360] , Network: grid_10, Trip Size: 1003, Average Time: 384.876, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1821
+so_simple--[2024-04-06 20:09:55.258030] , Network: grid_10, Trip Size: 1004, Average Time: 372.59, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1787
+so_simple--[2024-04-06 20:17:27.362638] , Network: grid_10, Trip Size: 1005, Average Time: 369.256, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1732
+so_simple--[2024-04-06 20:21:58.683400] , Network: grid_10, Trip Size: 1006, Average Time: 365.144, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1765
+so_simple--[2024-04-06 20:28:54.289931] , Network: grid_10, Trip Size: 1007, Average Time: 348.634, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1721
+so_simple--[2024-04-06 21:08:56.177126] , Network: grid_10, Trip Size: 1008, Average Time: 392.059, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1741
+so_simple--[2024-04-06 21:30:41.475905] , Network: grid_10, Trip Size: 1009, Average Time: 355.975, Increase factor: 1.05, Congestion T: 3, Maxspeed: 15.0, sim_time: 1776
+so_simple--[2024-04-06 21:52:13.967237] , Network: grid_10, Trip Size: 1000, Average Time: 378.145, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1876
+so_simple--[2024-04-06 22:29:02.330395] , Network: grid_10, Trip Size: 1001, Average Time: 386.369, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1676
+so_simple--[2024-04-06 22:49:09.477341] , Network: grid_10, Trip Size: 1002, Average Time: 399.193, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1731
+so_simple--[2024-04-06 23:25:47.805429] , Network: grid_10, Trip Size: 1003, Average Time: 379.741, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1783
+so_simple--[2024-04-06 23:43:13.636898] , Network: grid_10, Trip Size: 1004, Average Time: 385.494, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1721
+so_simple--[2024-04-07 00:07:17.643891] , Network: grid_10, Trip Size: 1005, Average Time: 397.836, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1810
+so_simple--[2024-04-07 00:40:49.081484] , Network: grid_10, Trip Size: 1006, Average Time: 385.148, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1734
+so_simple--[2024-04-07 00:57:46.691512] , Network: grid_10, Trip Size: 1007, Average Time: 361.062, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1641
+so_simple--[2024-04-07 01:33:07.611692] , Network: grid_10, Trip Size: 1008, Average Time: 379.209, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1780
+so_simple--[2024-04-07 01:45:20.088618] , Network: grid_10, Trip Size: 1009, Average Time: 380.342, Increase factor: 1.055, Congestion T: 3, Maxspeed: 15.0, sim_time: 1737
+so_simple--[2024-04-07 01:50:14.164626] , Network: grid_10, Trip Size: 1000, Average Time: 394.292, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1791
+so_simple--[2024-04-07 01:55:01.479740] , Network: grid_10, Trip Size: 1001, Average Time: 379.95, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1766
+so_simple--[2024-04-07 02:00:04.122327] , Network: grid_10, Trip Size: 1002, Average Time: 406.667, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1812
+so_simple--[2024-04-07 02:04:51.554451] , Network: grid_10, Trip Size: 1003, Average Time: 382.137, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1766
+so_simple--[2024-04-07 02:10:00.178405] , Network: grid_10, Trip Size: 1004, Average Time: 414.962, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1855
+so_simple--[2024-04-07 02:15:14.971927] , Network: grid_10, Trip Size: 1005, Average Time: 417.097, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1901
+so_simple--[2024-04-07 02:20:22.973874] , Network: grid_10, Trip Size: 1006, Average Time: 406.352, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1856
+so_simple--[2024-04-07 02:25:17.653098] , Network: grid_10, Trip Size: 1007, Average Time: 381.613, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1813
+so_simple--[2024-04-07 02:30:14.782578] , Network: grid_10, Trip Size: 1008, Average Time: 402.006, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1787
+so_simple--[2024-04-07 02:35:08.781547] , Network: grid_10, Trip Size: 1009, Average Time: 389.639, Increase factor: 1.06, Congestion T: 3, Maxspeed: 15.0, sim_time: 1781
+so_simple--[2024-04-07 02:40:13.963994] , Network: grid_10, Trip Size: 1000, Average Time: 402.327, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1855
+so_simple--[2024-04-07 02:46:45.220193] , Network: grid_10, Trip Size: 1001, Average Time: 403.416, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1773
+so_simple--[2024-04-07 02:56:42.260461] , Network: grid_10, Trip Size: 1002, Average Time: 442.319, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1882
+so_simple--[2024-04-07 03:02:49.535246] , Network: grid_10, Trip Size: 1003, Average Time: 414.379, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1766
+so_simple--[2024-04-07 03:54:15.469462] , Network: grid_10, Trip Size: 1004, Average Time: 426.598, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1856
+so_simple--[2024-04-07 05:03:44.704041] , Network: grid_10, Trip Size: 1005, Average Time: 403.335, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1766
+so_simple--[2024-04-07 05:23:37.864304] , Network: grid_10, Trip Size: 1006, Average Time: 413.469, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1913
+so_simple--[2024-04-07 05:28:35.283724] , Network: grid_10, Trip Size: 1007, Average Time: 398.825, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1917
+so_simple--[2024-04-07 05:33:32.879081] , Network: grid_10, Trip Size: 1008, Average Time: 412.533, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1884
+so_simple--[2024-04-07 05:38:20.165923] , Network: grid_10, Trip Size: 1009, Average Time: 407.637, Increase factor: 1.065, Congestion T: 3, Maxspeed: 15.0, sim_time: 1811
+so_simple--[2024-04-07 05:43:14.126609] , Network: grid_10, Trip Size: 1000, Average Time: 415.263, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1857
+so_simple--[2024-04-07 05:47:52.827943] , Network: grid_10, Trip Size: 1001, Average Time: 407.561, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1732
+so_simple--[2024-04-07 05:52:45.350931] , Network: grid_10, Trip Size: 1002, Average Time: 424.071, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1812
+so_simple--[2024-04-07 05:57:48.865453] , Network: grid_10, Trip Size: 1003, Average Time: 428.421, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1908
+so_simple--[2024-04-07 06:03:00.787082] , Network: grid_10, Trip Size: 1004, Average Time: 461.585, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1901
+so_simple--[2024-04-07 06:07:57.369346] , Network: grid_10, Trip Size: 1005, Average Time: 425.873, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1857
+so_simple--[2024-04-07 06:12:57.789597] , Network: grid_10, Trip Size: 1006, Average Time: 428.478, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1856
+so_simple--[2024-04-07 06:17:47.743469] , Network: grid_10, Trip Size: 1007, Average Time: 415.869, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1822
+so_simple--[2024-04-07 07:07:06.254066] , Network: grid_10, Trip Size: 1008, Average Time: 420.258, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1824
+so_simple--[2024-04-07 07:12:21.330912] , Network: grid_10, Trip Size: 1009, Average Time: 447.451, Increase factor: 1.07, Congestion T: 3, Maxspeed: 15.0, sim_time: 1901
+so_simple--[2024-04-07 07:49:22.120267] , Network: grid_10, Trip Size: 1000, Average Time: 434.72, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1901
+so_simple--[2024-04-07 07:54:16.150779] , Network: grid_10, Trip Size: 1001, Average Time: 442.591, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1809
+so_simple--[2024-04-07 07:59:23.294296] , Network: grid_10, Trip Size: 1002, Average Time: 459.271, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1877
+so_simple--[2024-04-07 08:04:31.089955] , Network: grid_10, Trip Size: 1003, Average Time: 439.599, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1946
+so_simple--[2024-04-07 08:09:33.675888] , Network: grid_10, Trip Size: 1004, Average Time: 452.172, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1868
+so_simple--[2024-04-07 08:14:38.873374] , Network: grid_10, Trip Size: 1005, Average Time: 454.202, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1856
+so_simple--[2024-04-07 08:19:38.242081] , Network: grid_10, Trip Size: 1006, Average Time: 442.293, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1856
+so_simple--[2024-04-07 08:24:22.302281] , Network: grid_10, Trip Size: 1007, Average Time: 411.537, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1791
+so_simple--[2024-04-07 08:29:19.861875] , Network: grid_10, Trip Size: 1008, Average Time: 436.802, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1857
+so_simple--[2024-04-07 08:34:32.677001] , Network: grid_10, Trip Size: 1009, Average Time: 472.829, Increase factor: 1.075, Congestion T: 3, Maxspeed: 15.0, sim_time: 1901
+
+so_simple--[2024-04-08 13:20:44.776008] , Network: rand_20, Trip Size: 2001, Average Time: 635.241, Increase factor: 1.035, Congestion T: 3, Maxspeed: 15.0, sim_time: 1819
+ue_simple--[2024-04-08 13:21:56.222463] , Network: rand_20, Trip Size: 2001, Average Time: 678.015, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1860

@@ -76,18 +76,18 @@
 # python3 so_simple.py 505 grid_10 3 15 1.035
 # python3 so_simple.py 506 grid_10 3 15 1.035
 # python3 so_simple.py 507 grid_10 3 15 1.035
-python3 so_simple.py 508 grid_10 3 15 1.035
-python3 so_simple.py 509 grid_10 3 15 1.035
-python3 so_simple.py 500 grid_10 3 15 1.04
-python3 so_simple.py 501 grid_10 3 15 1.04
-python3 so_simple.py 502 grid_10 3 15 1.04
-python3 so_simple.py 503 grid_10 3 15 1.04
-python3 so_simple.py 504 grid_10 3 15 1.04
-python3 so_simple.py 505 grid_10 3 15 1.04
-python3 so_simple.py 506 grid_10 3 15 1.04
-python3 so_simple.py 507 grid_10 3 15 1.04
-python3 so_simple.py 508 grid_10 3 15 1.04
-python3 so_simple.py 509 grid_10 3 15 1.04
+# python3 so_simple.py 508 grid_10 3 15 1.035
+# python3 so_simple.py 509 grid_10 3 15 1.035
+# python3 so_simple.py 500 grid_10 3 15 1.04
+# python3 so_simple.py 501 grid_10 3 15 1.04
+# python3 so_simple.py 502 grid_10 3 15 1.04
+# python3 so_simple.py 503 grid_10 3 15 1.04
+# python3 so_simple.py 504 grid_10 3 15 1.04
+# python3 so_simple.py 505 grid_10 3 15 1.04
+# python3 so_simple.py 506 grid_10 3 15 1.04
+# python3 so_simple.py 507 grid_10 3 15 1.04
+# python3 so_simple.py 508 grid_10 3 15 1.04
+# python3 so_simple.py 509 grid_10 3 15 1.04
 python3 so_simple.py 500 grid_10 3 15 1.045
 python3 so_simple.py 501 grid_10 3 15 1.045
 python3 so_simple.py 502 grid_10 3 15 1.045
@@ -158,53 +158,53 @@ python3 so_simple.py 506 grid_10 3 15 1.075
 python3 so_simple.py 507 grid_10 3 15 1.075
 python3 so_simple.py 508 grid_10 3 15 1.075
 python3 so_simple.py 509 grid_10 3 15 1.075
-python3 so_simple.py 500 grid_10 3 15 1.08
-python3 so_simple.py 501 grid_10 3 15 1.08
-python3 so_simple.py 502 grid_10 3 15 1.08
-python3 so_simple.py 503 grid_10 3 15 1.08
-python3 so_simple.py 504 grid_10 3 15 1.08
-python3 so_simple.py 505 grid_10 3 15 1.08
-python3 so_simple.py 506 grid_10 3 15 1.08
-python3 so_simple.py 507 grid_10 3 15 1.08
-python3 so_simple.py 508 grid_10 3 15 1.08
-python3 so_simple.py 509 grid_10 3 15 1.08
-python3 so_simple.py 500 grid_10 3 15 1.085
-python3 so_simple.py 501 grid_10 3 15 1.085
-python3 so_simple.py 502 grid_10 3 15 1.085
-python3 so_simple.py 503 grid_10 3 15 1.085
-python3 so_simple.py 504 grid_10 3 15 1.085
-python3 so_simple.py 505 grid_10 3 15 1.085
-python3 so_simple.py 506 grid_10 3 15 1.085
-python3 so_simple.py 507 grid_10 3 15 1.085
-python3 so_simple.py 508 grid_10 3 15 1.085
-python3 so_simple.py 509 grid_10 3 15 1.085
-python3 so_simple.py 500 grid_10 3 15 1.09
-python3 so_simple.py 501 grid_10 3 15 1.09
-python3 so_simple.py 502 grid_10 3 15 1.09
-python3 so_simple.py 503 grid_10 3 15 1.09
-python3 so_simple.py 504 grid_10 3 15 1.09
-python3 so_simple.py 505 grid_10 3 15 1.09
-python3 so_simple.py 506 grid_10 3 15 1.09
-python3 so_simple.py 507 grid_10 3 15 1.09
-python3 so_simple.py 508 grid_10 3 15 1.09
-python3 so_simple.py 509 grid_10 3 15 1.09
-python3 so_simple.py 500 grid_10 3 15 1.095
-python3 so_simple.py 501 grid_10 3 15 1.095
-python3 so_simple.py 502 grid_10 3 15 1.095
-python3 so_simple.py 503 grid_10 3 15 1.095
-python3 so_simple.py 504 grid_10 3 15 1.095
-python3 so_simple.py 505 grid_10 3 15 1.095
-python3 so_simple.py 506 grid_10 3 15 1.095
-python3 so_simple.py 507 grid_10 3 15 1.095
-python3 so_simple.py 508 grid_10 3 15 1.095
-python3 so_simple.py 509 grid_10 3 15 1.095
-python3 so_simple.py 500 grid_10 3 15 1.1
-python3 so_simple.py 501 grid_10 3 15 1.1
-python3 so_simple.py 502 grid_10 3 15 1.1
-python3 so_simple.py 503 grid_10 3 15 1.1
-python3 so_simple.py 504 grid_10 3 15 1.1
-python3 so_simple.py 505 grid_10 3 15 1.1
-python3 so_simple.py 506 grid_10 3 15 1.1
-python3 so_simple.py 507 grid_10 3 15 1.1
-python3 so_simple.py 508 grid_10 3 15 1.1
-python3 so_simple.py 509 grid_10 3 15 1.1
+# python3 so_simple.py 500 grid_10 3 15 1.08
+# python3 so_simple.py 501 grid_10 3 15 1.08
+# python3 so_simple.py 502 grid_10 3 15 1.08
+# python3 so_simple.py 503 grid_10 3 15 1.08
+# python3 so_simple.py 504 grid_10 3 15 1.08
+# python3 so_simple.py 505 grid_10 3 15 1.08
+# python3 so_simple.py 506 grid_10 3 15 1.08
+# python3 so_simple.py 507 grid_10 3 15 1.08
+# python3 so_simple.py 508 grid_10 3 15 1.08
+# python3 so_simple.py 509 grid_10 3 15 1.08
+# python3 so_simple.py 500 grid_10 3 15 1.085
+# python3 so_simple.py 501 grid_10 3 15 1.085
+# python3 so_simple.py 502 grid_10 3 15 1.085
+# python3 so_simple.py 503 grid_10 3 15 1.085
+# python3 so_simple.py 504 grid_10 3 15 1.085
+# python3 so_simple.py 505 grid_10 3 15 1.085
+# python3 so_simple.py 506 grid_10 3 15 1.085
+# python3 so_simple.py 507 grid_10 3 15 1.085
+# python3 so_simple.py 508 grid_10 3 15 1.085
+# python3 so_simple.py 509 grid_10 3 15 1.085
+# python3 so_simple.py 500 grid_10 3 15 1.09
+# python3 so_simple.py 501 grid_10 3 15 1.09
+# python3 so_simple.py 502 grid_10 3 15 1.09
+# python3 so_simple.py 503 grid_10 3 15 1.09
+# python3 so_simple.py 504 grid_10 3 15 1.09
+# python3 so_simple.py 505 grid_10 3 15 1.09
+# python3 so_simple.py 506 grid_10 3 15 1.09
+# python3 so_simple.py 507 grid_10 3 15 1.09
+# python3 so_simple.py 508 grid_10 3 15 1.09
+# python3 so_simple.py 509 grid_10 3 15 1.09
+# python3 so_simple.py 500 grid_10 3 15 1.095
+# python3 so_simple.py 501 grid_10 3 15 1.095
+# python3 so_simple.py 502 grid_10 3 15 1.095
+# python3 so_simple.py 503 grid_10 3 15 1.095
+# python3 so_simple.py 504 grid_10 3 15 1.095
+# python3 so_simple.py 505 grid_10 3 15 1.095
+# python3 so_simple.py 506 grid_10 3 15 1.095
+# python3 so_simple.py 507 grid_10 3 15 1.095
+# python3 so_simple.py 508 grid_10 3 15 1.095
+# python3 so_simple.py 509 grid_10 3 15 1.095
+# python3 so_simple.py 500 grid_10 3 15 1.1
+# python3 so_simple.py 501 grid_10 3 15 1.1
+# python3 so_simple.py 502 grid_10 3 15 1.1
+# python3 so_simple.py 503 grid_10 3 15 1.1
+# python3 so_simple.py 504 grid_10 3 15 1.1
+# python3 so_simple.py 505 grid_10 3 15 1.1
+# python3 so_simple.py 506 grid_10 3 15 1.1
+# python3 so_simple.py 507 grid_10 3 15 1.1
+# python3 so_simple.py 508 grid_10 3 15 1.1
+# python3 so_simple.py 509 grid_10 3 15 1.1

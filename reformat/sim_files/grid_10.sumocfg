@@ -2,7 +2,7 @@
 
     <input>
         <net-file value="grid_10.net.xml" />
-        <route-files value="trip_files/trip_files_grid_10/270tr_grid_10.trips.xml" />
+        <route-files value="trip_files/trip_files_grid_10/509tr_grid_10.trips.xml" />
 
     </input>
 
@@ -12,7 +12,7 @@
 
 
    <output>
-        <vehroute-output value="../out/so_simple_out/grid_10_output_files/cr_270tr.out.xml" />
+        <vehroute-output value="../out/so_simple_out/grid_10_output_files/cr_509tr.out.xml" />
     </output>
 
 </configuration>

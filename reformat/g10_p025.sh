@@ -38,38 +38,38 @@
 # python3 ue_simple.py 268 grid_10 3 15.00 
 # python3 so_simple.py 269 grid_10 3 15.00 1.01
 # python3 ue_simple.py 269 grid_10 3 15.00 
-python3 so_simple.py 270 grid_10 3 15.00 1.01
-python3 ue_simple.py 270 grid_10 3 15.00 
-python3 so_simple.py 271 grid_10 3 15.00 1.01
-python3 ue_simple.py 271 grid_10 3 15.00 
-python3 so_simple.py 272 grid_10 3 15.00 1.01
-python3 ue_simple.py 272 grid_10 3 15.00 
-python3 so_simple.py 273 grid_10 3 15.00 1.01
-python3 ue_simple.py 273 grid_10 3 15.00 
-python3 so_simple.py 274 grid_10 3 15.00 1.01
-python3 ue_simple.py 274 grid_10 3 15.00 
-python3 so_simple.py 275 grid_10 3 15.00 1.01
-python3 ue_simple.py 275 grid_10 3 15.00 
-python3 so_simple.py 276 grid_10 3 15.00 1.01
-python3 ue_simple.py 276 grid_10 3 15.00 
-python3 so_simple.py 277 grid_10 3 15.00 1.01
-python3 ue_simple.py 277 grid_10 3 15.00 
-python3 so_simple.py 278 grid_10 3 15.00 1.01
-python3 ue_simple.py 278 grid_10 3 15.00 
-python3 so_simple.py 279 grid_10 3 15.00 1.01
-python3 ue_simple.py 279 grid_10 3 15.00 
-python3 so_simple.py 280 grid_10 3 15.00 1.01
-python3 ue_simple.py 280 grid_10 3 15.00 
-python3 so_simple.py 281 grid_10 3 15.00 1.01
-python3 ue_simple.py 281 grid_10 3 15.00 
-python3 so_simple.py 282 grid_10 3 15.00 1.01
-python3 ue_simple.py 282 grid_10 3 15.00 
-python3 so_simple.py 283 grid_10 3 15.00 1.01
-python3 ue_simple.py 283 grid_10 3 15.00 
-python3 so_simple.py 284 grid_10 3 15.00 1.01
-python3 ue_simple.py 284 grid_10 3 15.00 
-python3 so_simple.py 285 grid_10 3 15.00 1.01
-python3 ue_simple.py 285 grid_10 3 15.00 
+# python3 so_simple.py 270 grid_10 3 15.00 1.01
+# python3 ue_simple.py 270 grid_10 3 15.00 
+# python3 so_simple.py 271 grid_10 3 15.00 1.01
+# python3 ue_simple.py 271 grid_10 3 15.00 
+# python3 so_simple.py 272 grid_10 3 15.00 1.01
+# python3 ue_simple.py 272 grid_10 3 15.00 
+# python3 so_simple.py 273 grid_10 3 15.00 1.01
+# python3 ue_simple.py 273 grid_10 3 15.00 
+# python3 so_simple.py 274 grid_10 3 15.00 1.01
+# python3 ue_simple.py 274 grid_10 3 15.00 
+# python3 so_simple.py 275 grid_10 3 15.00 1.01
+# python3 ue_simple.py 275 grid_10 3 15.00 
+# python3 so_simple.py 276 grid_10 3 15.00 1.01
+# python3 ue_simple.py 276 grid_10 3 15.00 
+# python3 so_simple.py 277 grid_10 3 15.00 1.01
+# python3 ue_simple.py 277 grid_10 3 15.00 
+# python3 so_simple.py 278 grid_10 3 15.00 1.01
+# python3 ue_simple.py 278 grid_10 3 15.00 
+# python3 so_simple.py 279 grid_10 3 15.00 1.01
+# python3 ue_simple.py 279 grid_10 3 15.00 
+# python3 so_simple.py 280 grid_10 3 15.00 1.01
+# python3 ue_simple.py 280 grid_10 3 15.00 
+# python3 so_simple.py 281 grid_10 3 15.00 1.01
+# python3 ue_simple.py 281 grid_10 3 15.00 
+# python3 so_simple.py 282 grid_10 3 15.00 1.01
+# python3 ue_simple.py 282 grid_10 3 15.00 
+# python3 so_simple.py 283 grid_10 3 15.00 1.01
+# python3 ue_simple.py 283 grid_10 3 15.00 
+# python3 so_simple.py 284 grid_10 3 15.00 1.01
+# python3 ue_simple.py 284 grid_10 3 15.00 
+# python3 so_simple.py 285 grid_10 3 15.00 1.01
+# python3 ue_simple.py 285 grid_10 3 15.00 
 python3 so_simple.py 286 grid_10 3 15.00 1.01
 python3 ue_simple.py 286 grid_10 3 15.00 
 python3 so_simple.py 287 grid_10 3 15.00 1.01

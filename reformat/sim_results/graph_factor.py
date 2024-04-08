@@ -7,7 +7,7 @@ def analyze_csv(csv_file):
         header = next(reader)  # Assuming the first row is the header
         sum_of_averages = {}
         factor = 1
-        for i in range(1,22):
+        for i in range(1,17):
             sum_of_averages[str(round(factor,3))] = 0
             factor = factor + 0.005
             i = i+1
@@ -53,5 +53,5 @@ def analyze_csv(csv_file):
             
 # Usage example
 if __name__ == "__main__":
-    csv_file_path = "g10_factor_test/g10_p025_factor.csv"  # Provide the path to your CSV file here
+    csv_file_path = "g10_factor_test/g10_p1_factor.csv"  # Provide the path to your CSV file here
     analyze_csv(csv_file_path)
