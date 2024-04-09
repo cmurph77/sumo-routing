@@ -1,0 +1,6 @@
+[2024-04-08 21:53:10.982934] , Network: grid_10, Trip Size: 260, SO Slower: 47.5% , Avg Diff:164.109
+[2024-04-08 21:53:11.973918] , Network: grid_10, Trip Size: 261, SO Slower: 45.1% , Avg Diff:171.678
+[2024-04-08 21:54:18.203302] , Network: rand_20, Trip Size: 501, SO Slower: 40.0% , Avg Diff:109.01
+[2024-04-08 21:54:18.310185] , Network: rand_20, Trip Size: 502, SO Slower: 40.0% , Avg Diff:124.045
+[2024-04-08 21:54:18.434658] , Network: rand_20, Trip Size: 503, SO Slower: 44.0% , Avg Diff:118.173
+[2024-04-08 21:54:18.511779] , Network: rand_20, Trip Size: 504, SO Slower: 41.2% , Avg Diff:103.888
