@@ -13,14 +13,16 @@ import datetime
 
 last_step = 0
 
-def log_results(filename, network, algorithm, trip_size, ct,avg_tt,increase_factor):
+def log_results(filename, network, algorithm, trip_size, ct,avg_tt,increase_factor, max_density, network_total_dist):
     """Append a new line to a text file."""
     current_time = datetime.datetime.now()
     current_time = '[' + str(current_time) + '] , '
-    line = str(current_time) + "Network: " + network + ", Trip Size: " + str(trip_size)+ ", Average Time: " + str(avg_tt)  + ", Increase factor: "  +str(increase_factor)+ ", Congestion T: " + str(ct) +', Maxspeed: ' + str(max_vspeed) + ', sim_time: ' + str(last_step)
+    line = str(current_time) + "Network: " + network + ", Trip Size: " + str(trip_size)+ ", Average Time: " + str(avg_tt)  + ", Increase factor: "  +str(increase_factor)+ ", max_density: " + str(max_density) +', Maxspeed: ' + str(max_vspeed) + ', sim_time: ' + str(last_step)
     with open(filename, 'a') as file:
         file.write(line + '\n')
-    with open('log.txt', 'a') as file:
+    with open('density_log.txt', 'a') as file:
+        file.write(alg_name + "--" +line + '\n')
+    with open('overall_density_log.txt', 'a') as file:
         file.write(alg_name + "--" +line + '\n')
 
 
@@ -176,6 +178,8 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
     live_congestion = {}
     # increase_factor = 1.02
     network_total_dist = get_network_length(network_edges)
+    max_density = 0
+    print('net_total_dist: ' + str(network_total_dist))
     # network_density = network_total_dist
     # print('\n\n net_total_dist: ' + str(network_total_dist))
     # edge_legnths = get_edge_length_dict(network_edges)
@@ -197,13 +201,17 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         if veh_count > 0 : 
             veh_length = traci.vehicle.getLength(current_active_vehicles[0])
             density = (veh_count*veh_length)/network_total_dist
+
+        if density > max_density: max_density = density
         
         with open('density_log.txt', 'a') as file:
             file.write(alg_name + '--  step: ' + str(step) + ", density: " +str(density) +'\n')
 
         increase_factor = density_function(density,exponent)
-        print('density: ' + str(density))
-        print("increae factor: " + str(increase_factor))
+        # print('density: ' + str(density))
+        # print('net_total_dist: ' + str(network_total_dist))
+
+        # print("increae factor: " + str(increase_factor))
 
         # step 1: get the travel time on each edge
         edge_efforts = {}
@@ -239,7 +247,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         
 
 
-    return congestion_matrix, last_step
+    return congestion_matrix, last_step, max_density, network_total_dist
 
 
 def run_sim(congestion_threshold,increase_factor,exponent):
@@ -253,7 +261,7 @@ def run_sim(congestion_threshold,increase_factor,exponent):
     network_distances = get_distances_in_net(path_to_sim_files + net_file)
 
     # Run the Simulation
-    congestion_matrix,last_step = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,increase_factor,exponent)
+    congestion_matrix,last_step, max_density, network_total_dist = simulation(congestion_threshold, central_route, network_edges,baseline_edges_traveltime,increase_factor,exponent)
 
     # Print out results
     # output_congestion_matrix(congestion_matrix, congestion_matrix_output_file)
@@ -261,7 +269,7 @@ def run_sim(congestion_threshold,increase_factor,exponent):
 
     # Close TraCI connection - End Simulation
     traci.close()
-    return last_step
+    return last_step, max_density, network_total_dist
 
 def set_config_file(network,path_to_sim_files,algorithm):
     # Sim input files Files
@@ -297,7 +305,7 @@ def read_args():
     congestion_threshold = 3
     central_route = True
     max_vspeed = float(args.arg5)
-    increase_factor = 0
+    increase_factor = 1
     
     gui = args.arg4
     if gui == 'Y' : gui_bool = True
@@ -337,12 +345,12 @@ if __name__ == "__main__":
     rel_path_output_file = out_directory+"/"+network+"_output_files/" + algorithm + "_" + str(trip_count) + "tr.out.xml"
 
     print("congifg file:" + config_file)
-    last_step = run_sim(congestion_threshold,increase_factor,exponent)
+    last_step,max_density, network_total_dist = run_sim(congestion_threshold,increase_factor,exponent)
     print("printing last ste from main() " + str(last_step))
 
 
     avg_time = average_time.get_avg(rel_path_output_file)
     log_file = out_directory+"/"+alg_name+'_sim_log.txt'
-    log_results(log_file,network,algorithm,trip_count, congestion_threshold,avg_time,increase_factor)
+    log_results(log_file,network,algorithm,trip_count, congestion_threshold,avg_time,increase_factor, max_density, network_total_dist)
 
 

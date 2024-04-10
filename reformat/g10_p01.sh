@@ -1,33 +1,33 @@
-python3 so_simple.py 100 grid_10 3 15.00 1.01
-python3 ue_simple.py 100 grid_10 3 15.00 
-python3 so_simple.py 101 grid_10 3 15.00 1.01
-python3 ue_simple.py 101 grid_10 3 15.00 
-python3 so_simple.py 102 grid_10 3 15.00 1.01
-python3 ue_simple.py 102 grid_10 3 15.00 
-python3 so_simple.py 103 grid_10 3 15.00 1.01
-python3 ue_simple.py 103 grid_10 3 15.00 
-python3 so_simple.py 104 grid_10 3 15.00 1.01
-python3 ue_simple.py 104 grid_10 3 15.00 
-python3 so_simple.py 105 grid_10 3 15.00 1.01
-python3 ue_simple.py 105 grid_10 3 15.00 
-python3 so_simple.py 106 grid_10 3 15.00 1.01
-python3 ue_simple.py 106 grid_10 3 15.00 
-python3 so_simple.py 107 grid_10 3 15.00 1.01
-python3 ue_simple.py 107 grid_10 3 15.00 
-python3 so_simple.py 108 grid_10 3 15.00 1.01
-python3 ue_simple.py 108 grid_10 3 15.00 
-python3 so_simple.py 109 grid_10 3 15.00 1.01
-python3 ue_simple.py 109 grid_10 3 15.00 
-python3 so_simple.py 110 grid_10 3 15.00 1.01
-python3 ue_simple.py 110 grid_10 3 15.00 
-python3 so_simple.py 111 grid_10 3 15.00 1.01
-python3 ue_simple.py 111 grid_10 3 15.00 
-python3 so_simple.py 112 grid_10 3 15.00 1.01
-python3 ue_simple.py 112 grid_10 3 15.00 
-python3 so_simple.py 113 grid_10 3 15.00 1.01
-python3 ue_simple.py 113 grid_10 3 15.00 
-python3 so_simple.py 114 grid_10 3 15.00 1.01
-python3 ue_simple.py 114 grid_10 3 15.00 
+# python3 so_simple.py 100 grid_10 3 15.00 1.01
+# python3 ue_simple.py 100 grid_10 3 15.00 
+# python3 so_simple.py 101 grid_10 3 15.00 1.01
+# python3 ue_simple.py 101 grid_10 3 15.00 
+# python3 so_simple.py 102 grid_10 3 15.00 1.01
+# python3 ue_simple.py 102 grid_10 3 15.00 
+# python3 so_simple.py 103 grid_10 3 15.00 1.01
+# python3 ue_simple.py 103 grid_10 3 15.00 
+# python3 so_simple.py 104 grid_10 3 15.00 1.01
+# python3 ue_simple.py 104 grid_10 3 15.00 
+# python3 so_simple.py 105 grid_10 3 15.00 1.01
+# python3 ue_simple.py 105 grid_10 3 15.00 
+# python3 so_simple.py 106 grid_10 3 15.00 1.01
+# python3 ue_simple.py 106 grid_10 3 15.00 
+# python3 so_simple.py 107 grid_10 3 15.00 1.01
+# python3 ue_simple.py 107 grid_10 3 15.00 
+# python3 so_simple.py 108 grid_10 3 15.00 1.01
+# python3 ue_simple.py 108 grid_10 3 15.00 
+# python3 so_simple.py 109 grid_10 3 15.00 1.01
+# python3 ue_simple.py 109 grid_10 3 15.00 
+# python3 so_simple.py 110 grid_10 3 15.00 1.01
+# python3 ue_simple.py 110 grid_10 3 15.00 
+# python3 so_simple.py 111 grid_10 3 15.00 1.01
+# python3 ue_simple.py 111 grid_10 3 15.00 
+# python3 so_simple.py 112 grid_10 3 15.00 1.01
+# python3 ue_simple.py 112 grid_10 3 15.00 
+# python3 so_simple.py 113 grid_10 3 15.00 1.01
+# python3 ue_simple.py 113 grid_10 3 15.00 
+# python3 so_simple.py 114 grid_10 3 15.00 1.01
+# python3 ue_simple.py 114 grid_10 3 15.00 
 python3 so_simple.py 115 grid_10 3 15.00 1.01
 python3 ue_simple.py 115 grid_10 3 15.00 
 python3 so_simple.py 116 grid_10 3 15.00 1.01

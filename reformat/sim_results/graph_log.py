@@ -13,6 +13,8 @@ def parse_line(line):
         return None, None, None
 
 def main():
+    plt.figure(figsize=(8, 6))
+
     # -------- read args
     parser = argparse.ArgumentParser(description="Description of your script.")
     parser.add_argument("arg1", help="set the trip count")
@@ -36,16 +38,24 @@ def main():
                 total_avg_times[algo].append(avg_time)
 
     line_colors = ['blue', 'red', 'green']  # Change this to your desired sequence of colors
-    
+
+    demand_labels = []
+    for i in range(1,51):
+        demand_labels.append(str(i))
+    print(demand_labels)
     
     i = 1
     for algo, sizes in trip_data.items():
         if i == 1: plot_colour = 'green'
         elif i == 2 : plot_colour = 'red'
         i = i+1
-        plt.scatter(list(sizes.keys()), [sum(times)/len(times) for times in sizes.values()], label=algo,color=plot_colour )
+        plt.scatter(demand_labels, [sum(times)/len(times) for times in sizes.values()], label=algo, color=plot_colour )
+        # plt.scatter(list(sizes.keys()), [sum(times)/len(times) for times in sizes.values()], label=algo, color=plot_colour )
 
-    plt.xlabel('Trip Files')
+
+    print(len(list(sizes.keys())))
+    print(len(demand_labels))
+    plt.xlabel('All Trips')
     plt.ylabel('Average Time')
     plt.title(' ')
     plt.legend()
@@ -53,7 +63,9 @@ def main():
     i = 1
     so_avg = 0
     ue_avg = 0
+
     for algo, avg_times in total_avg_times.items():
+        print(len(avg_times))
         avg_of_avg = sum(avg_times) / len(avg_times)
         if i == 1: ue_avg = avg_of_avg
         elif i == 2 : so_avg = avg_of_avg
@@ -63,7 +75,7 @@ def main():
     
     plt.axhline(ue_avg, color='green')
     plt.axhline(so_avg, color= 'red')
-
+    plt.figure(figsize=(8, 6))
     plt.savefig(fname + '.png')  # Saving the plot as a PNG file
     plt.show()
 
