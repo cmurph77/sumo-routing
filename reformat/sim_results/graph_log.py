@@ -13,7 +13,7 @@ def parse_line(line):
         return None, None, None
 
 def main():
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(16, 6))
 
     # -------- read args
     parser = argparse.ArgumentParser(description="Description of your script.")
@@ -40,22 +40,27 @@ def main():
     line_colors = ['blue', 'red', 'green']  # Change this to your desired sequence of colors
 
     demand_labels = []
-    for i in range(1,51):
+    for i in range(1, 51):
         demand_labels.append(str(i))
-    print(demand_labels)
+    # print(demand_labels)
     
     i = 1
     for algo, sizes in trip_data.items():
-        if i == 1: plot_colour = 'green'
-        elif i == 2 : plot_colour = 'red'
-        i = i+1
+        
+        if i == 1: 
+            plot_colour = 'green'
+            print(sizes)
+            print
+        elif i == 2 : 
+            plot_colour = 'red'
+        i = i + 1
         plt.scatter(demand_labels, [sum(times)/len(times) for times in sizes.values()], label=algo, color=plot_colour )
         # plt.scatter(list(sizes.keys()), [sum(times)/len(times) for times in sizes.values()], label=algo, color=plot_colour )
 
 
-    print(len(list(sizes.keys())))
-    print(len(demand_labels))
-    plt.xlabel('All Trips')
+    # print(len(list(sizes.keys())))
+    # print(len(demand_labels))
+    plt.xlabel('Demands 1 to 50')
     plt.ylabel('Average Time')
     plt.title(' ')
     plt.legend()
@@ -65,21 +70,22 @@ def main():
     ue_avg = 0
 
     for algo, avg_times in total_avg_times.items():
-        print(len(avg_times))
+        # print(len(avg_times))
         avg_of_avg = sum(avg_times) / len(avg_times)
         if i == 1: ue_avg = avg_of_avg
         elif i == 2 : so_avg = avg_of_avg
-        i = i +1;
+        i = i + 1;
         print(f"Average of the average times for {algo}: {avg_of_avg}")
 
     
     plt.axhline(ue_avg, color='green')
     plt.axhline(so_avg, color= 'red')
-    plt.figure(figsize=(8, 6))
+    
+    # Hide x-axis labels
+    # plt.xticks([])
+    
     plt.savefig(fname + '.png')  # Saving the plot as a PNG file
     plt.show()
-
-
 
 if __name__ == "__main__":
     main()

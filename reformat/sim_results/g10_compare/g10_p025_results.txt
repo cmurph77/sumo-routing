@@ -96,5 +96,5 @@ system_optimum--[2024-04-05 20:52:55.133120] , Network: grid_10, Trip Size: 297,
 user_equilibrium--[2024-04-05 21:14:50.304861] , Network: grid_10, Trip Size: 297, Average Time: 430.916, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1180
 system_optimum--[2024-04-05 21:18:55.295039] , Network: grid_10, Trip Size: 298, Average Time: 416.944, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1192
 user_equilibrium--[2024-04-05 21:24:07.945346] , Network: grid_10, Trip Size: 298, Average Time: 440.859, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1181
-system_optimum--[2024-04-05 21:30:30.641632] , Network: grid_10, Trip Siz:e 299, Average Time: 444.457, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1236
+system_optimum--[2024-04-05 21:30:30.641632] , Network: grid_10, Trip Size: 299, Average Time: 444.457, Increase factor: 1.01, Congestion T: 3, Maxspeed: 15.0, sim_time: 1236
 user_equilibrium--[2024-04-05 21:35:22.103516] , Network: grid_10, Trip Size: 299, Average Time: 431.504, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 1226

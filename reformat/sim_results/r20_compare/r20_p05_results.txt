@@ -1,3 +1,5 @@
+system_optimum--[2024-04-03 19:49:59.084352] , Network: rand_20, Trip Size: 500, Average Time: 282.554, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 823
+user_equilibrium--[2024-04-03 19:50:22.601101] , Network: rand_20, Trip Size: 500, Average Time: 309.066, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 914
 system_optimum--[2024-04-03 19:41:16.070196] , Network: rand_20, Trip Size: 501, Average Time: 296.506, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 1021
 user_equilibrium--[2024-04-03 19:41:39.222419] , Network: rand_20, Trip Size: 501, Average Time: 315.424, Algo: cr, Congestion T: 3, Maxspeed: 15.0, sim_time: 872
 system_optimum--[2024-04-03 19:42:12.250669] , Network: rand_20, Trip Size: 502, Average Time: 309.044, Increase factor: 1.025, Congestion T: 3, Maxspeed: 15.0, sim_time: 979
