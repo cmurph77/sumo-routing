@@ -1,6 +1,27 @@
-so_dynamic--[2024-04-09 20:22:11.218153] , Network: grid_10, Trip Size: 102, Average Time: 246.43656343656343, Increase factor: 1, max_density: 0.10704741920442068, Maxspeed: 15.0, sim_time: 694
-so_dynamic--[2024-04-09 20:24:44.725687] , Network: grid_10, Trip Size: 252, Average Time: 224.219, Increase factor: 1, max_density: 0.08384447074859337, Maxspeed: 15.0, sim_time: 796
-so_dynamic--[2024-04-09 20:27:31.236380] , Network: grid_10, Trip Size: 502, Average Time: 188.895, Increase factor: 1, max_density: 0.0442761576814096, Maxspeed: 15.0, sim_time: 957
-so_dynamic--[2024-04-09 20:28:06.215394] , Network: rand_20, Trip Size: 502, Average Time: 298.554, Increase factor: 1, max_density: 0.17729314431082252, Maxspeed: 15.0, sim_time: 1001
-so_dynamic--[2024-04-09 20:29:05.170253] , Network: rand_20, Trip Size: 1002, Average Time: 254.051, Increase factor: 1, max_density: 0.14347701324336318, Maxspeed: 15.0, sim_time: 1726
-so_dynamic--[2024-04-09 20:29:57.230134] , Network: rand_20, Trip Size: 2002, Average Time: 127.097, Increase factor: 1, max_density: 0.036714656587527275, Maxspeed: 15.0, sim_time: 2224
+so_dynamic--[2024-04-09 20:22:11.218153] , Network: grid_10, Trip Size: 102, Average Time: 246.43656343656343, Increase factor:  1.01, max_density: 0.10704741920442068, Maxspeed: 15.0, sim_time: 694
+so_dynamic--[2024-04-09 20:24:44.725687] , Network: grid_10, Trip Size: 252, Average Time: 224.219, Increase factor:  1.01, max_density: 0.08384447074859337, Maxspeed: 15.0, sim_time: 796
+so_dynamic--[2024-04-09 20:27:31.236380] , Network: grid_10, Trip Size: 502, Average Time: 188.895, Increase factor:  1.01, max_density: 0.0442761576814096, Maxspeed: 15.0, sim_time: 957
+so_dynamic--[2024-04-09 20:28:06.215394] , Network: rand_20, Trip Size: 502, Average Time: 298.554, Increase factor:  1.01, max_density: 0.17729314431082252, Maxspeed: 15.0, sim_time: 1001
+so_dynamic--[2024-04-09 20:29:05.170253] , Network: rand_20, Trip Size: 1002, Average Time: 254.051, Increase factor:  1.01, max_density: 0.14347701324336318, Maxspeed: 15.0, sim_time: 1726
+so_dynamic--[2024-04-09 20:29:57.230134] , Network: rand_20, Trip Size: 2002, Average Time: 127.097, Increase factor:  1.01, max_density: 0.036714656587527275, Maxspeed: 15.0, sim_time: 2224
+- 02 -
+so_dynamic--[2024-04-11 14:41:21.075241] , Network: grid_10, Trip Size: 102, Average Time: 450.5974025974026, Increase factor:  1.01, max_density: 967, Maxspeed: 15.0, sim_time: 1198
+so_dynamic--[2024-04-11 14:45:14.066849] , Network: grid_10, Trip Size: 252, Average Time: 428.123, Increase factor:  1.01, max_density: 858, Maxspeed: 15.0, sim_time: 1215
+so_dynamic--[2024-04-11 14:48:49.569762] , Network: grid_10, Trip Size: 502, Average Time: 356.139, Increase factor:  1.01, max_density: 644, Maxspeed: 15.0, sim_time: 1227
+so_dynamic--[2024-04-11 14:49:21.208466] , Network: rand_20, Trip Size: 502, Average Time: 313.548, Increase factor:  1.01, max_density: 388, Maxspeed: 15.0, sim_time: 908
+so_dynamic--[2024-04-11 14:50:14.970823] , Network: rand_20, Trip Size: 1002, Average Time: 286.582, Increase factor:  1.01, max_density: 324, Maxspeed: 15.0, sim_time: 1604
+so_dynamic--[2024-04-11 14:51:06.502735] , Network: rand_20, Trip Size: 2002, Average Time: 188.604, Increase factor:  1.01, max_density: 107, Maxspeed: 15.0, sim_time: 2369
+
+so_dynamic--[2024-04-11 14:56:11.188761] , Network: grid_10, Trip Size: 104, Average Time: 429.3086913086913, Increase factor:  1.01, max_density: 960, Maxspeed: 15.0, sim_time: 1181
+so_dynamic--[2024-04-11 14:59:51.991341] , Network: grid_10, Trip Size: 254, Average Time: 411.563, Increase factor:  1.01, max_density: 860, Maxspeed: 15.0, sim_time: 1194
+so_dynamic--[2024-04-11 15:03:43.582155] , Network: grid_10, Trip Size: 504, Average Time: 389.663, Increase factor:  1.01, max_density: 673, Maxspeed: 15.0, sim_time: 1271
+so_dynamic--[2024-04-11 15:04:14.334604] , Network: rand_20, Trip Size: 504, Average Time: 296.036, Increase factor:  1.01, max_density: 381, Maxspeed: 15.0, sim_time: 952
+so_dynamic--[2024-04-11 15:05:09.911816] , Network: rand_20, Trip Size: 1004, Average Time: 294.293, Increase factor:  1.01, max_density: 325, Maxspeed: 15.0, sim_time: 1587
+so_dynamic--[2024-04-11 15:06:00.715274] , Network: rand_20, Trip Size: 2004, Average Time: 184.37, Increase factor:  1.01, max_density: 110, Maxspeed: 15.0, sim_time: 2282
+
+so_dynamic--[2024-04-11 15:30:27.841178] , Network: grid_10, Trip Size: 104, Average Time: 429.3086913086913, Increase factor: 1.01, max_density: 960, Maxspeed: 15.0, sim_time: 1181
+so_dynamic--[2024-04-11 15:34:12.524044] , Network: grid_10, Trip Size: 254, Average Time: 411.563, Increase factor: 1.01, max_density: 860, Maxspeed: 15.0, sim_time: 1194
+so_dynamic--[2024-04-11 15:38:04.752269] , Network: grid_10, Trip Size: 504, Average Time: 389.663, Increase factor: 1.01, max_density: 673, Maxspeed: 15.0, sim_time: 1271
+so_dynamic--[2024-04-11 15:38:38.466027] , Network: rand_20, Trip Size: 504, Average Time: 296.036, Increase factor: 1.01, max_density: 381, Maxspeed: 15.0, sim_time: 952
+so_dynamic--[2024-04-11 15:39:35.756027] , Network: rand_20, Trip Size: 1004, Average Time: 294.293, Increase factor: 1.01, max_density: 325, Maxspeed: 15.0, sim_time: 1587
+so_dynamic--[2024-04-11 15:40:27.646783] , Network: rand_20, Trip Size: 2004, Average Time: 184.37, Increase factor: 1.01, max_density: 110, Maxspeed: 15.0, sim_time: 2282

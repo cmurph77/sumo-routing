@@ -175,6 +175,7 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         for vehicle_id in current_active_vehicles:
                 traci.vehicle.setMaxSpeed(vehicle_id,max_vspeed)
                 traci.vehicle.rerouteEffort(vehicle_id)
+                # traci.vehicle.rerouteTraveltime(vehicle_id)
 
 
 

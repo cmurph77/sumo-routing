@@ -49,10 +49,12 @@ def main():
         
         if i == 1: 
             plot_colour = 'green'
+            algo = 'Proposed Algorithm'
             print(sizes)
             print
         elif i == 2 : 
             plot_colour = 'red'
+            algo = 'User Equilbrium'
         i = i + 1
         plt.scatter(demand_labels, [sum(times)/len(times) for times in sizes.values()], label=algo, color=plot_colour )
         # plt.scatter(list(sizes.keys()), [sum(times)/len(times) for times in sizes.values()], label=algo, color=plot_colour )

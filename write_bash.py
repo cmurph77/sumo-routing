@@ -31,8 +31,8 @@ def sim_gen2():
         start_iter = 0
         factor = 1
         for i in range(0,iterations):
-            file.write('python3 so_simple.py 500 rand_20 3 15 ' + str(round(factor,3))+ '\n')
-            factor = factor + 0.005
+            file.write('python3 so_dynamic.py 500 rand_20 ' + str(round(factor,3))+ ' 15.00 1.025\n')
+            factor = factor - 0.05
 
 def sim_gen3():
     with open("write_bash_out.txt", "w") as file:
@@ -44,7 +44,7 @@ def sim_gen3():
                 for trip_count in range(1000,1010):
                     file.write('python3 so_simple.py '+str(trip_count)+' grid_10 3 15 ' + str(round(factor,3))+ '\n')
                     trip_count = trip_count + 1
-                factor = factor + 0.005
+                factor = factor - 0.05
 
 def gen_trips():
     with open("write_bash_out.txt", "w") as file:
@@ -59,4 +59,4 @@ def gen_trips():
 
 if __name__ == "__main__":
     
-    gen_trips()
+    sim_gen2()

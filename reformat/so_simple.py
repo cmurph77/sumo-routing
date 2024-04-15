@@ -183,12 +183,6 @@ def simulation(congestion_threshold, central_route, network_edges,baseline_edges
         for edge_id in network_edges:
             # edge_travel_time = traci.edge.getTraveltime(edge_id)
             traci.edge.setEffort(edge_id, edge_efforts[str(edge_id)])
-
-        
-
-        # print('step: ' + str(step))
-
-        # print(edge_efforts)
             
 
         # ----- Analyse Each Vehicle  ------------------------------------------------

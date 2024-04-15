@@ -18,4 +18,4 @@ python3 so_dynamic.py 500 rand_20 0.2 15.00 1.025
 python3 so_dynamic.py 500 rand_20 0.15 15.00 1.025
 python3 so_dynamic.py 500 rand_20 0.1 15.00 1.025
 python3 so_dynamic.py 500 rand_20 0.05 15.00 1.025
-python3 so_dynamic.py 500 rand_20 -0.0 15.00 1.025
+python3 so_dynamic.py 500 rand_20 0.0 15.00 1.025
